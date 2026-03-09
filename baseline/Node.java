@@ -11,6 +11,9 @@ public class Node {
 	private final List<Counter> counters;
 	private final List<Socket> connections = new ArrayList<>();
 	private final List<Thread> workerThreads = new ArrayList<>();
+	private final Random random = new Random(4225); // SEED = 4225 for reproducibility
+	private final AtomicLong totalEvents = new AtomicLong(0);
+	private final long startTime;
 
 	private ServerSocket serverSocket;
 
@@ -29,6 +32,7 @@ public class Node {
 		this.port = PORT_MAP.get(nodeId);
 		this.clock = new LamportClock(nodeId);
 		this.counters = new ArrayList<>();
+		this.startTime = System.currentTimeMillis();
 
 		// Initialize counters for each thread
 		for (int i = 0; i < numThreads; i++) {
@@ -65,18 +69,29 @@ public class Node {
 		for (int i = 0; i < numThreads; i++) {
 			final int threadId = i;
 			Thread thread = new Thread(() -> {
-				// Simple logging to verify thread is running
-				System.out.println("Thread-" + threadId + " within node" + nodeId + " started");
+				// Generate random number of events to process
+				int numEvents = 5 + random.nextInt(10);
 
-				while (true) {
+				for (int event = 0; event < numEvents; event++) {
+					// Process local event
+					processLocalEvent(threadId, counter);
+
+					// Randomly decide to send message to remote node
+					if (random.nextBoolean()) {
+						sendMessageToRandomNode(threadId);
+					}
+
+					// Small delay to simulate processing time
 					try {
-						Thread.sleep(1000);
-						// Just log periodically to show it's alive
-						System.out.println("Thread-" + threadId + " within node" + nodeId + " is alive");
+						Thread.sleep(random.nextInt(100));
 					} catch (InterruptedException e) {
+						Thread.currentThread().interrupt();
 						break;
 					}
 				}
+
+				System.out.println("Thread-" + threadId + " within node" + nodeId + " completed " + numEvents + " events");
+					}
 			});
 
 			thread.setName("Node" + nodeId + "-worker-" + i);
@@ -84,16 +99,73 @@ public class Node {
 			thread.start();
 		}
 
-		System.out.println("Node " + nodeId + " all worker threads started");
+		// Wait for all worker threads to complete
+		for (Thread thread : workerThreads) {
+			try {
+				thread.join();
+			} catch (InterruptedException e) {
+				Thread.currentThread().interrupt();
+			}
+		}
+
+		// Print final statistics
+		long executionTime = Syste.currentTimeMillis() - startTime;
+		System.out.println("Execution time = " + executionTime + " ms");
+		System.out.println("Final Lamport time: " + clock.getTime());
+	}
+
+	private void processLocalEvent(int threadId, Counter counter) {
+		// Increment local counter
+		counter.increment();
+
+		// Update Lamport clock for local event
+		clock.tick();
+
+		System.out.println("Thread within node" + nodeId + " executing local event");
+
+		totalEvents.incrementAndGet();
+	}
+
+	private void sendMessageToRandomNode(int threadId) {
+		// Choose random node (1-5 excluding self)
+		int targetNodeId;
+		do {
+			targetNodeId = 1 + random.nextInt(5);
+		} while (targetNodeId == nodeId);
+
+		int targetPort = PORT_MAP.get(targteNdoeId);
+
+		// Get current timestamp for message
+		int timestamp = clock.getTime();
+
+		// Send message in a separate thread to not block
+		new Thread(() -> {
+			try (Socket socket = new Socket("localhost", targetPort);
+					PrintWriter out = new PrintWriter(socket.getOutputStream(), true)) {
+						// Message format: "timestamp:nodeId"
+						out.println(timestamp + ":" + nodeId);
+						System.out.println("Thread-" + threadId + " withing node" + nodeId + " sent event (t=" + timestamp + ") to Node" + targetNodeId);
+					} catch (IOException e) {
+						System.err.println("Node " + nodeId + " failed to send to Node " + targetNodeId + ": " + e.getMessage());
+					}
+		}).start();
 	}
 
 	private void acceptConnections() {
-		while (true) {
-			try {
-				Socket clientSocket = serverSocket.accept();
-				System.out.println("Node " + nodeId + " accepted connection from " + clientSocket.getInetAddress() + ":" + clientSocket.getPort());
-			} catch (Exception e) {
-				System.err.println("Node " + nodeId + " accept error: " + e.getMessage());
+		// This runs in its own thread to accept incoming connections
+		new Thread(() -> {
+			while (true) {
+				try {
+					Socket clientSocket = serverSocket.accept();
+					synchronized(connections) {
+						connections.add(clientSocket);
+					}
+
+					// Handle client messages in new thread
+					Thread handlerThread = new Thread(() -> handleClientMessages(clientSocket));
+					handlerThread.start();
+				} catch (Exception e) {
+					System.err.println("Node " + nodeId + " accept error: " + e.getMessage());
 			}
 		}
 	}
@@ -143,12 +215,25 @@ public class Node {
 	private void handleClientMessages(Socket socket) {
 		try (BufferedReader reader = new BufferedReader(
 					new InputStreamReader(socket.getInputStream()))) {
+
 			String message;
 			while ((message = reader.readLine()) != null) {
-				System.out.println("Node " + nodeId + " received: " + message);
+				// Parse message: "timestamp:senderId"
+				String[] parts = message.split(":");
+				int receivedTime = Integer.parseInt(parts[0]);
+				int senderId = Integer.parseInt(parts[1]);
 
-				// TODO: Parse and process messages
+				// Update Lamport clock with received time
+				clock.update(receivedTime);
 
+				// Find which thread will process this
+				int threadId = (int)(totalEvents.get() % numThreads);
+				Counter counter = counters.get(threadId);
+				counter.increment();
+
+				System.out.println("Thread-" + threadId + " executing received event " + "(t = " + recievedTime + ") from Node" + senderId);
+
+				totalEvents.incrementAndGet();
 			}
 		} catch (IOException e) {
 			System.err.println("Node " + nodeId + " error reading from socket: " + e.getMessage());
