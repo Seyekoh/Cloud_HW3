@@ -1,0 +1,72 @@
+Node 3 initialized on port 4227
+Node 3 listening on port 4227
+Node 3 starting 2 worker threads
+Node 3 all worker threads started
+Thread-1 within node3 started
+Thread-0 within node3 started
+Node 3 attempting to connect to Node 1 on port 4225 (attempt 1)
+Node 3 connected to Node 1
+Node 3 attempting to connect to Node 2 on port 4226 (attempt 1)
+Node 3 connected to Node 2
+Node 3 attempting to connect to Node 4 on port 4228 (attempt 1)
+Node 3 connection to Node 4 failed (attempt 1)
+Thread-1 within node3 is alive
+Thread-0 within node3 is alive
+Node 3 attempting to connect to Node 4 on port 4228 (attempt 2)
+Node 3 connected to Node 4
+Node 3 attempting to connect to Node 5 on port 4229 (attempt 1)
+Node 3 connected to Node 5
+Node 3 accepted connection from /127.0.0.1:58708
+Node 3 accepted connection from /127.0.0.1:58100
+Node 3 accepted connection from /127.0.0.1:58108
+Node 3 accepted connection from /127.0.0.1:58120
+Thread-0 within node3 is alive
+Thread-1 within node3 is alive
+Thread-0 within node3 is alive
+Thread-1 within node3 is alive
+Thread-0 within node3 is alive
+Thread-1 within node3 is alive
+Thread-1 within node3 is alive
+Thread-0 within node3 is alive
+Thread-1 within node3 is alive
+Thread-0 within node3 is alive
+Thread-1 within node3 is alive
+Thread-0 within node3 is alive
+Thread-1 within node3 is alive
+Thread-0 within node3 is alive
+Thread-1 within node3 is alive
+Thread-0 within node3 is alive
+Thread-1 within node3 is alive
+Thread-0 within node3 is alive
+Thread-1 within node3 is alive
+Thread-0 within node3 is alive
+Thread-0 within node3 is alive
+Thread-1 within node3 is alive
+Thread-0 within node3 is alive
+Thread-1 within node3 is alive
+Thread-1 within node3 is alive
+Thread-0 within node3 is alive
+Thread-1 within node3 is alive
+Thread-0 within node3 is alive
+Thread-1 within node3 is alive
+Thread-0 within node3 is alive
+Thread-0 within node3 is alive
+Thread-1 within node3 is alive
+Thread-0 within node3 is alive
+Thread-1 within node3 is alive
+Thread-0 within node3 is alive
+Thread-1 within node3 is alive
+Thread-1 within node3 is alive
+Thread-0 within node3 is alive
+Thread-1 within node3 is alive
+Thread-0 within node3 is alive
+Thread-0 within node3 is alive
+Thread-1 within node3 is alive
+Thread-0 within node3 is alive
+Thread-1 within node3 is alive
+Thread-0 within node3 is alive
+Thread-1 within node3 is alive
+Thread-0 within node3 is alive
+Thread-1 within node3 is alive
+Thread-1 within node3 is alive
+Thread-0 within node3 is alive

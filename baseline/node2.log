@@ -1,0 +1,76 @@
+Node 2 initialized on port 4226
+Node 2 listening on port 4226
+Node 2 starting 2 worker threads
+Thread-0 within node2 started
+Thread-1 within node2 started
+Node 2 all worker threads started
+Node 2 attempting to connect to Node 1 on port 4225 (attempt 1)
+Node 2 connected to Node 1
+Node 2 attempting to connect to Node 3 on port 4227 (attempt 1)
+Node 2 connection to Node 3 failed (attempt 1)
+Thread-1 within node2 is alive
+Thread-0 within node2 is alive
+Node 2 attempting to connect to Node 3 on port 4227 (attempt 2)
+Node 2 connected to Node 3
+Node 2 attempting to connect to Node 4 on port 4228 (attempt 1)
+Node 2 connected to Node 4
+Node 2 attempting to connect to Node 5 on port 4229 (attempt 1)
+Node 2 connection to Node 5 failed (attempt 1)
+Thread-0 within node2 is alive
+Thread-1 within node2 is alive
+Node 2 attempting to connect to Node 5 on port 4229 (attempt 2)
+Node 2 connected to Node 5
+Node 2 accepted connection from /127.0.0.1:51548
+Node 2 accepted connection from /127.0.0.1:51558
+Node 2 accepted connection from /127.0.0.1:50650
+Node 2 accepted connection from /127.0.0.1:50658
+Thread-1 within node2 is alive
+Thread-0 within node2 is alive
+Thread-0 within node2 is alive
+Thread-1 within node2 is alive
+Thread-0 within node2 is alive
+Thread-1 within node2 is alive
+Thread-1 within node2 is alive
+Thread-0 within node2 is alive
+Thread-0 within node2 is alive
+Thread-1 within node2 is alive
+Thread-1 within node2 is alive
+Thread-0 within node2 is alive
+Thread-0 within node2 is alive
+Thread-1 within node2 is alive
+Thread-1 within node2 is alive
+Thread-0 within node2 is alive
+Thread-0 within node2 is alive
+Thread-1 within node2 is alive
+Thread-1 within node2 is alive
+Thread-0 within node2 is alive
+Thread-1 within node2 is alive
+Thread-0 within node2 is alive
+Thread-1 within node2 is alive
+Thread-0 within node2 is alive
+Thread-1 within node2 is alive
+Thread-0 within node2 is alive
+Thread-0 within node2 is alive
+Thread-1 within node2 is alive
+Thread-1 within node2 is alive
+Thread-0 within node2 is alive
+Thread-0 within node2 is alive
+Thread-1 within node2 is alive
+Thread-1 within node2 is alive
+Thread-0 within node2 is alive
+Thread-1 within node2 is alive
+Thread-0 within node2 is alive
+Thread-1 within node2 is alive
+Thread-0 within node2 is alive
+Thread-1 within node2 is alive
+Thread-0 within node2 is alive
+Thread-0 within node2 is alive
+Thread-1 within node2 is alive
+Thread-0 within node2 is alive
+Thread-1 within node2 is alive
+Thread-1 within node2 is alive
+Thread-0 within node2 is alive
+Thread-1 within node2 is alive
+Thread-0 within node2 is alive
+Thread-0 within node2 is alive
+Thread-1 within node2 is alive

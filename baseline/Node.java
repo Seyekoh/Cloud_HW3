@@ -47,6 +47,9 @@ public class Node {
 			// Create and start worker threads
 			startWorkerThreads();
 
+			// Connect to other nodes
+			connectToOtherNodes();
+
 			// Accept connections from other nodes
 			acceptConnections();
 
@@ -105,7 +108,7 @@ public class Node {
 
 			for (int retry = 1; retry <= maxRetries; retry++) {
 				try {
-					System.put.println("Node " + nodeId + " attempting to connect to Node " + otherId + " on port " + otherPort + " (attempt " + retry + ")");
+					System.out.println("Node " + nodeId + " attempting to connect to Node " + otherId + " on port " + otherPort + " (attempt " + retry + ")");
 
 					Socket socket = new Socket("localhost", otherPort);
 					synchronized(connections) {
@@ -118,7 +121,7 @@ public class Node {
 					handlerThread.start();
 
 					break; // Success - exit retry loop
-				} catch (ConnecException e) {
+				} catch (ConnectException e) {
 					System.err.println("Node " + nodeId + " connection to Node " + otherId + " failed (attempt " + retry + ")");
 
 					if (retry < maxRetries) {
@@ -137,9 +140,9 @@ public class Node {
 		}
 	}
 
-	private void handleCLientMessages(Socket socket) {
+	private void handleClientMessages(Socket socket) {
 		try (BufferedReader reader = new BufferedReader(
-					new InputStreameReader(socket.getInputStream()))) {
+					new InputStreamReader(socket.getInputStream()))) {
 			String message;
 			while ((message = reader.readLine()) != null) {
 				System.out.println("Node " + nodeId + " received: " + message);
@@ -148,7 +151,7 @@ public class Node {
 
 			}
 		} catch (IOException e) {
-			System.err.println("Node " + nodeId + " error reading from socket: " e.getMessage());
+			System.err.println("Node " + nodeId + " error reading from socket: " + e.getMessage());
 		} finally {
 			try {
 				socket.close();
@@ -161,8 +164,8 @@ public class Node {
 	public static void main(String[] args) {
 		if (args.length != 1) {
 			System.err.println("Usage: java Node <nodeId>");
-			System.err.println("nodeId must be 1, 3, 4, or 5");
-			Systm.exit(1);
+			System.err.println("nodeId must be 1, 2, 3, 4, or 5");
+			System.exit(1);
 		}
 
 		int nodeId = Integer.parseInt(args[0]);

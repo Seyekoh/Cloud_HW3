@@ -1,0 +1,72 @@
+Node 4 initialized on port 4228
+Node 4 listening on port 4228
+Node 4 starting 2 worker threads
+Node 4 all worker threads started
+Thread-0 within node4 started
+Thread-1 within node4 started
+Node 4 attempting to connect to Node 1 on port 4225 (attempt 1)
+Node 4 connected to Node 1
+Node 4 attempting to connect to Node 2 on port 4226 (attempt 1)
+Node 4 connected to Node 2
+Node 4 attempting to connect to Node 3 on port 4227 (attempt 1)
+Node 4 connected to Node 3
+Node 4 attempting to connect to Node 5 on port 4229 (attempt 1)
+Node 4 connection to Node 5 failed (attempt 1)
+Thread-1 within node4 is alive
+Thread-0 within node4 is alive
+Node 4 attempting to connect to Node 5 on port 4229 (attempt 2)
+Node 4 connected to Node 5
+Node 4 accepted connection from /127.0.0.1:60628
+Node 4 accepted connection from /127.0.0.1:60640
+Node 4 accepted connection from /127.0.0.1:60652
+Node 4 accepted connection from /127.0.0.1:60662
+Thread-1 within node4 is alive
+Thread-0 within node4 is alive
+Thread-1 within node4 is alive
+Thread-0 within node4 is alive
+Thread-1 within node4 is alive
+Thread-0 within node4 is alive
+Thread-1 within node4 is alive
+Thread-0 within node4 is alive
+Thread-0 within node4 is alive
+Thread-1 within node4 is alive
+Thread-0 within node4 is alive
+Thread-1 within node4 is alive
+Thread-0 within node4 is alive
+Thread-1 within node4 is alive
+Thread-1 within node4 is alive
+Thread-0 within node4 is alive
+Thread-1 within node4 is alive
+Thread-0 within node4 is alive
+Thread-1 within node4 is alive
+Thread-0 within node4 is alive
+Thread-0 within node4 is alive
+Thread-1 within node4 is alive
+Thread-1 within node4 is alive
+Thread-0 within node4 is alive
+Thread-0 within node4 is alive
+Thread-1 within node4 is alive
+Thread-0 within node4 is alive
+Thread-1 within node4 is alive
+Thread-0 within node4 is alive
+Thread-1 within node4 is alive
+Thread-1 within node4 is alive
+Thread-0 within node4 is alive
+Thread-0 within node4 is alive
+Thread-1 within node4 is alive
+Thread-0 within node4 is alive
+Thread-1 within node4 is alive
+Thread-0 within node4 is alive
+Thread-1 within node4 is alive
+Thread-1 within node4 is alive
+Thread-0 within node4 is alive
+Thread-0 within node4 is alive
+Thread-1 within node4 is alive
+Thread-0 within node4 is alive
+Thread-1 within node4 is alive
+Thread-1 within node4 is alive
+Thread-0 within node4 is alive
+Thread-0 within node4 is alive
+Thread-1 within node4 is alive
+Thread-0 within node4 is alive
+Thread-1 within node4 is alive

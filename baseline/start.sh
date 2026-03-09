@@ -17,10 +17,10 @@ for id in {1..5}; do
 done
 
 echo "All nodes startd. Waiting for execution..."
-echo "Press Ctrl+C to stop all nodes"
 echo ""
-echo "To monitor logs in real-time, run:"
-echo "tail -f node*.log"
+echo "To monitor in real-time, navigate to current dir in new shell then enter:
+	tail -f node*.log"
+echo "Run ./stop.sh to stop all nodes"
 
 # Wait for all background processes
 wait
