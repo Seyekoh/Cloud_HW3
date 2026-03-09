@@ -6,26 +6,26 @@ import java.util.concurrent.atomic.AtomicLong;
 import java.util.concurrent.atomic.AtomicInteger;
 
 public class Node {
-	private final int nodeId;
-	private final int port;
-	private final int numThreads = 4;
-	private final LamportClock clock;
-	private final List<Counter> counters;
-	private final List<Socket> connections = new ArrayList<>();
-	private final List<Thread> workerThreads = new ArrayList<>();
-	private final Random random = new Random(4225); // SEED = 4225 for reproducibility
-	private final AtomicLong totalEvents = new AtomicLong(0);
-	private final AtomicInteger messagesSent = new AtomicInteger(0);
-	private final AtomicInteger messagesReceived = new AtomicInteger(0);
-	private final long startTime;
-	private final CountDownLatch workersDoneLatch;
+	protected final int nodeId;
+	protected final int port;
+	protected final int numThreads = 4;
+	protected final LamportClock clock;
+	protected final List<Counter> counters;
+	protected final List<Socket> connections = new ArrayList<>();
+	protected final List<Thread> workerThreads = new ArrayList<>();
+	protected final Random random = new Random(4225); // SEED = 4225 for reproducibility
+	protected final AtomicLong totalEvents = new AtomicLong(0);
+	protected final AtomicInteger messagesSent = new AtomicInteger(0);
+	protected final AtomicInteger messagesReceived = new AtomicInteger(0);
+	protected final long startTime;
+	protected final CountDownLatch workersDoneLatch;
 
-	private volatile boolean running = true;
+	protected volatile boolean running = true;
 
-	private ServerSocket serverSocket;
+	protected ServerSocket serverSocket;
 
 	// Port mapping based on nodeId
-	private static final Map<Integer, Integer> PORT_MAP = new HashMap<>();
+	protected static final Map<Integer, Integer> PORT_MAP = new HashMap<>();
 	static {
 		PORT_MAP.put(1, 4225);
 		PORT_MAP.put(2, 4226);
@@ -96,7 +96,7 @@ public class Node {
 		}
 	}
 
-	private void startWorkerThreads() {
+	protected void startWorkerThreads() {
 		System.out.println("Node " + nodeId + " starting " + numThreads + " worker threads with 100 events each");
 
 		for (int i = 0; i < numThreads; i++) {
@@ -135,7 +135,7 @@ public class Node {
 		}
 	}
 
-	private void processLocalEvent(int threadId, Counter counter) {
+	protected void processLocalEvent(int threadId, Counter counter) {
 		// Increment local counter
 		counter.increment();
 
@@ -147,7 +147,7 @@ public class Node {
 		totalEvents.incrementAndGet();
 	}
 
-	private void sendMessageToRandomNode(int threadId) {
+	protected void sendMessageToRandomNode(int threadId) {
 		// Choose random node (1-5 excluding self)
 		int targetNodeId;
 		do {
@@ -181,7 +181,7 @@ public class Node {
 		}).start();
 	}
 
-	private void startAcceptingConnections() {
+	protected void startAcceptingConnections() {
 		// This runs in its own thread to accept incoming connections
 		new Thread(() -> {
 			while (running) {
@@ -203,7 +203,7 @@ public class Node {
 		}).start();
 	}
 
-	private void connectToOtherNodes() {
+	protected void connectToOtherNodes() {
 		for (int otherId = 1; otherId <= 5; otherId++) {
 			if (otherId == nodeId) continue;	// Don't connect to yourself
 
@@ -242,7 +242,7 @@ public class Node {
 		}
 	}
 
-	private void handleClientMessages(Socket socket) {
+	protected void handleClientMessages(Socket socket) {
 		try (BufferedReader reader = new BufferedReader(
 					new InputStreamReader(socket.getInputStream()))) {
 
