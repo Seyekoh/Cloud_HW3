@@ -1,0 +1,801 @@
+Node 2 initialized on port 4226
+Node 2 using Virtual Threads
+Node 2 listening on port 4226 [Virtual]
+Node 2 connected to Node 1 [Virtual]
+Node 2 connected to Node 4 [Virtual]
+Node 2 connected to Node 3 [Virtual]
+Thread-0 executing received event (t = 14) from Node1
+Thread-1 executing received event (t = 24) from Node1
+Thread-2 executing received event (t = 36) from Node1
+Node 2 starting 4 virtual worker threads with 100 events each
+Thread within node2 executing local event
+Thread within node2 executing local event
+Thread within node2 executing local event
+Thread within node2 executing local event
+Thread-2 within node2 sent event (t=46) to Node5 [Virtual]
+Thread-0 within node2 sent event (t=46) to Node3 [Virtual]
+Thread-3 within node2 sent event (t=46) to Node4 [Virtual]
+Node 2 connected to Node 5 [Virtual]
+Thread within node2 executing local event
+Thread-3 within node2 sent event (t=48) to Node5 [Virtual]
+Thread within node2 executing local event
+Thread-2 within node2 sent event (t=50) to Node5 [Virtual]
+Thread within node2 executing local event
+Thread within node2 executing local event
+Thread within node2 executing local event
+Thread-1 within node2 sent event (t=54) to Node4 [Virtual]
+Thread within node2 executing local event
+Thread within node2 executing local event
+Thread-3 within node2 sent event (t=60) to Node4 [Virtual]
+Thread within node2 executing local event
+Thread-2 within node2 sent event (t=62) to Node1 [Virtual]
+Thread within node2 executing local event
+Thread within node2 executing local event
+Thread-3 within node2 sent event (t=66) to Node5 [Virtual]
+Thread-0 within node2 sent event (t=66) to Node3 [Virtual]
+Thread within node2 executing local event
+Thread-3 within node2 sent event (t=68) to Node4 [Virtual]
+Thread within node2 executing local event
+Thread-1 within node2 sent event (t=70) to Node5 [Virtual]
+Thread within node2 executing local event
+Thread-1 within node2 sent event (t=72) to Node1 [Virtual]
+Thread within node2 executing local event
+Thread within node2 executing local event
+Thread-2 within node2 sent event (t=76) to Node1 [Virtual]
+Thread-2 executing received event (t = 79) from Node1
+Thread within node2 executing local event
+Thread within node2 executing local event
+Thread-1 within node2 sent event (t=85) to Node4 [Virtual]
+Thread within node2 executing local event
+Thread-2 within node2 sent event (t=87) to Node5 [Virtual]
+Thread within node2 executing local event
+Thread-3 within node2 sent event (t=89) to Node5 [Virtual]
+Thread within node2 executing local event
+Thread within node2 executing local event
+Thread-2 within node2 sent event (t=93) to Node5 [Virtual]
+Thread within node2 executing local event
+Thread-1 within node2 sent event (t=95) to Node5 [Virtual]
+Thread within node2 executing local event
+Thread-0 within node2 sent event (t=97) to Node5 [Virtual]
+Thread within node2 executing local event
+Thread within node2 executing local event
+Thread within node2 executing local event
+Thread within node2 executing local event
+Thread-3 executing received event (t = 87) from Node1
+Thread within node2 executing local event
+Thread within node2 executing local event
+Thread within node2 executing local event
+Thread-2 within node2 sent event (t=113) to Node3 [Virtual]
+Thread within node2 executing local event
+Thread within node2 executing local event
+Thread within node2 executing local event
+Thread within node2 executing local event
+Thread within node2 executing local event
+Thread within node2 executing local event
+Thread within node2 executing local event
+Thread-1 within node2 sent event (t=127) to Node4 [Virtual]
+Thread-2 executing received event (t = 100) from Node1
+Thread within node2 executing local event
+Thread within node2 executing local event
+Thread within node2 executing local event
+Thread-1 within node2 sent event (t=135) to Node4 [Virtual]
+Thread within node2 executing local event
+Thread within node2 executing local event
+Thread-3 within node2 sent event (t=139) to Node1 [Virtual]
+Thread within node2 executing local event
+Thread within node2 executing local event
+Thread-1 within node2 sent event (t=143) to Node3 [Virtual]
+Thread within node2 executing local event
+Thread-3 executing received event (t = 153) from Node3
+Thread within node2 executing local event
+Thread-1 executing received event (t = 159) from Node3
+Thread within node2 executing local event
+Thread-3 within node2 sent event (t=163) to Node3 [Virtual]
+Thread-3 executing received event (t = 162) from Node3
+Thread-0 executing received event (t = 169) from Node3
+Thread within node2 executing local event
+Thread within node2 executing local event
+Thread within node2 executing local event
+Thread-0 within node2 sent event (t=177) to Node4 [Virtual]
+Thread within node2 executing local event
+Thread within node2 executing local event
+Thread within node2 executing local event
+Thread-3 executing received event (t = 187) from Node3
+Thread within node2 executing local event
+Thread within node2 executing local event
+Thread within node2 executing local event
+Thread within node2 executing local event
+Thread-0 executing received event (t = 193) from Node3
+Thread-2 within node2 sent event (t=195) to Node5 [Virtual]
+Thread-1 within node2 sent event (t=197) to Node3 [Virtual]
+Thread within node2 executing local event
+Thread-1 within node2 sent event (t=201) to Node4 [Virtual]
+Thread-2 executing received event (t = 187) from Node1
+Thread within node2 executing local event
+Thread within node2 executing local event
+Thread-3 within node2 sent event (t=207) to Node3 [Virtual]
+Thread within node2 executing local event
+Thread-1 within node2 sent event (t=209) to Node3 [Virtual]
+Thread within node2 executing local event
+Thread-2 within node2 sent event (t=211) to Node5 [Virtual]
+Thread within node2 executing local event
+Thread within node2 executing local event
+Thread-1 executing received event (t = 193) from Node1
+Thread within node2 executing local event
+Thread-1 within node2 sent event (t=219) to Node4 [Virtual]
+Thread-3 executing received event (t = 194) from Node1
+Thread within node2 executing local event
+Thread-0 within node2 sent event (t=223) to Node4 [Virtual]
+Thread within node2 executing local event
+Thread-3 within node2 sent event (t=225) to Node1 [Virtual]
+Thread within node2 executing local event
+Thread within node2 executing local event
+Thread within node2 executing local event
+Thread-2 within node2 sent event (t=231) to Node3 [Virtual]
+Thread within node2 executing local event
+Thread within node2 executing local event
+Thread within node2 executing local event
+Thread-1 within node2 sent event (t=237) to Node1 [Virtual]
+Thread within node2 executing local event
+Thread-2 within node2 sent event (t=239) to Node4 [Virtual]
+Thread within node2 executing local event
+Thread-1 within node2 sent event (t=241) to Node5 [Virtual]
+Thread within node2 executing local event
+Thread within node2 executing local event
+Thread within node2 executing local event
+Thread within node2 executing local event
+Thread-2 executing received event (t = 308) from Node4
+Thread within node2 executing local event
+Thread-1 within node2 sent event (t=312) to Node5 [Virtual]
+Thread within node2 executing local event
+Thread-3 within node2 sent event (t=314) to Node3 [Virtual]
+Thread within node2 executing local event
+Thread-0 within node2 sent event (t=316) to Node5 [Virtual]
+Thread within node2 executing local event
+Thread-3 within node2 sent event (t=318) to Node1 [Virtual]
+Thread within node2 executing local event
+Thread-2 within node2 sent event (t=320) to Node1 [Virtual]
+Thread within node2 executing local event
+Thread-1 executing received event (t = 326) from Node3
+Thread within node2 executing local event
+Thread-1 within node2 sent event (t=330) to Node5 [Virtual]
+Thread-3 executing received event (t = 348) from Node4
+Thread within node2 executing local event
+Thread within node2 executing local event
+Thread-3 within node2 sent event (t=354) to Node4 [Virtual]
+Thread within node2 executing local event
+Thread-2 within node2 sent event (t=356) to Node1 [Virtual]
+Thread-3 executing received event (t = 371) from Node3
+Thread within node2 executing local event
+Thread-1 within node2 sent event (t=375) to Node1 [Virtual]
+Thread-1 executing received event (t = 377) from Node1
+Thread within node2 executing local event
+Thread within node2 executing local event
+Thread within node2 executing local event
+Thread-0 within node2 sent event (t=385) to Node3 [Virtual]
+Thread within node2 executing local event
+Thread within node2 executing local event
+Thread within node2 executing local event
+Thread-0 executing received event (t = 394) from Node3
+Thread within node2 executing local event
+Thread-0 within node2 sent event (t=398) to Node1 [Virtual]
+Thread within node2 executing local event
+Thread within node2 executing local event
+Thread-3 within node2 sent event (t=402) to Node4 [Virtual]
+Thread within node2 executing local event
+Thread-3 within node2 sent event (t=404) to Node1 [Virtual]
+Thread within node2 executing local event
+Thread-1 executing received event (t = 420) from Node3
+Thread-1 within node2 sent event (t=422) to Node3 [Virtual]
+Thread within node2 executing local event
+Thread within node2 executing local event
+Thread-0 within node2 sent event (t=424) to Node1 [Virtual]
+Thread within node2 executing local event
+Thread-2 within node2 sent event (t=428) to Node5 [Virtual]
+Thread-2 executing received event (t = 429) from Node1
+Thread within node2 executing local event
+Thread-0 within node2 sent event (t=433) to Node3 [Virtual]
+Thread within node2 executing local event
+Thread-3 within node2 sent event (t=435) to Node5 [Virtual]
+Thread within node2 executing local event
+Thread-1 within node2 sent event (t=437) to Node3 [Virtual]
+Thread-2 executing received event (t = 457) from Node1
+Thread within node2 executing local event
+Thread within node2 executing local event
+Thread-2 within node2 sent event (t=463) to Node5 [Virtual]
+Thread within node2 executing local event
+Thread within node2 executing local event
+Thread within node2 executing local event
+Thread-1 within node2 sent event (t=469) to Node4 [Virtual]
+Thread-0 executing received event (t = 465) from Node1
+Thread within node2 executing local event
+Thread-3 within node2 sent event (t=473) to Node3 [Virtual]
+Thread within node2 executing local event
+Thread within node2 executing local event
+Thread within node2 executing local event
+Thread within node2 executing local event
+Thread-2 executing received event (t = 506) from Node3
+Thread within node2 executing local event
+Thread-0 executing received event (t = 536) from Node3
+Thread within node2 executing local event
+Thread-2 within node2 sent event (t=540) to Node5 [Virtual]
+Thread within node2 executing local event
+Thread within node2 executing local event
+Thread-0 executing received event (t = 551) from Node3
+Thread-1 executing received event (t = 554) from Node3
+Thread within node2 executing local event
+Thread-3 within node2 sent event (t=558) to Node4 [Virtual]
+Thread within node2 executing local event
+Thread-1 within node2 sent event (t=560) to Node4 [Virtual]
+Thread within node2 executing local event
+Thread-0 within node2 sent event (t=562) to Node4 [Virtual]
+Thread within node2 executing local event
+Thread-2 within node2 sent event (t=564) to Node3 [Virtual]
+Thread-2 executing received event (t = 570) from Node3
+Thread within node2 executing local event
+Thread within node2 executing local event
+Thread-1 executing received event (t = 608) from Node5
+Thread within node2 executing local event
+Thread-3 executing received event (t = 652) from Node4
+Thread within node2 executing local event
+Thread-3 within node2 sent event (t=656) to Node3 [Virtual]
+Thread within node2 executing local event
+Thread-0 within node2 sent event (t=658) to Node5 [Virtual]
+Thread within node2 executing local event
+Thread within node2 executing local event
+Thread-2 within node2 sent event (t=662) to Node3 [Virtual]
+Thread within node2 executing local event
+Thread-1 within node2 sent event (t=664) to Node5 [Virtual]
+Thread within node2 executing local event
+Thread-0 within node2 sent event (t=666) to Node3 [Virtual]
+Thread-2 executing received event (t = 718) from Node1
+Thread-3 executing received event (t = 706) from Node4
+Thread within node2 executing local event
+Thread-0 within node2 sent event (t=724) to Node1 [Virtual]
+Thread within node2 executing local event
+Thread-3 within node2 sent event (t=726) to Node5 [Virtual]
+Thread within node2 executing local event
+Thread within node2 executing local event
+Thread-0 within node2 sent event (t=728) to Node4 [Virtual]
+Thread within node2 executing local event
+Thread-1 within node2 sent event (t=732) to Node3 [Virtual]
+Thread-1 executing received event (t = 736) from Node5
+Thread within node2 executing local event
+Thread-2 within node2 sent event (t=740) to Node5 [Virtual]
+Thread within node2 executing local event
+Thread-1 within node2 sent event (t=742) to Node5 [Virtual]
+Thread within node2 executing local event
+Thread-3 within node2 sent event (t=744) to Node5 [Virtual]
+Thread-1 executing received event (t = 770) from Node3
+Thread within node2 executing local event
+Thread-2 within node2 sent event (t=774) to Node5 [Virtual]
+Thread within node2 executing local event
+Thread within node2 executing local event
+Thread within node2 executing local event
+Thread-1 within node2 sent event (t=780) to Node5 [Virtual]
+Thread within node2 executing local event
+Thread-3 executing received event (t = 791) from Node3
+Thread-0 executing received event (t = 806) from Node5
+Thread within node2 executing local event
+Thread-1 within node2 sent event (t=810) to Node5 [Virtual]
+Thread within node2 executing local event
+Thread-0 within node2 sent event (t=812) to Node1 [Virtual]
+Thread-3 executing received event (t = 830) from Node4
+Thread within node2 executing local event
+Thread-3 within node2 sent event (t=832) to Node3 [Virtual]
+Thread-1 executing received event (t = 815) from Node1
+Thread-2 executing received event (t = 842) from Node5
+Thread-3 executing received event (t = 859) from Node4
+Thread-0 executing received event (t = 840) from Node1
+Thread within node2 executing local event
+Thread-2 within node2 sent event (t=865) to Node5 [Virtual]
+Thread-2 executing received event (t = 843) from Node1
+Thread within node2 executing local event
+Thread-0 within node2 sent event (t=869) to Node5 [Virtual]
+Thread-0 executing received event (t = 881) from Node3
+Thread-1 executing received event (t = 844) from Node1
+Thread within node2 executing local event
+Thread-1 within node2 sent event (t=887) to Node5 [Virtual]
+Thread within node2 executing local event
+Thread-0 executing received event (t = 884) from Node3
+Thread-1 executing received event (t = 893) from Node3
+Thread within node2 executing local event
+Thread within node2 executing local event
+Thread-2 within node2 sent event (t=899) to Node4 [Virtual]
+Thread within node2 executing local event
+Thread within node2 executing local event
+Thread within node2 executing local event
+Thread-3 executing received event (t = 941) from Node4
+Thread-0 executing received event (t = 945) from Node4
+Thread within node2 executing local event
+Thread-1 within node2 sent event (t=949) to Node5 [Virtual]
+Thread within node2 executing local event
+Thread within node2 executing local event
+Thread within node2 executing local event
+Thread within node2 executing local event
+Thread within node2 executing local event
+Thread within node2 executing local event
+Thread within node2 executing local event
+Thread-2 within node2 sent event (t=963) to Node1 [Virtual]
+Thread-1 executing received event (t = 1007) from Node3
+Thread within node2 executing local event
+Thread-3 executing received event (t = 1048) from Node3
+Thread within node2 executing local event
+Thread within node2 executing local event
+Thread-0 within node2 sent event (t=1054) to Node5 [Virtual]
+Thread-2 executing received event (t = 1076) from Node1
+Thread within node2 executing local event
+Thread-2 within node2 sent event (t=1080) to Node3 [Virtual]
+Thread within node2 executing local event
+Thread within node2 executing local event
+Thread-3 within node2 sent event (t=1084) to Node3 [Virtual]
+Thread-2 executing received event (t = 1112) from Node1
+Thread-3 executing received event (t = 1120) from Node4
+Thread within node2 executing local event
+Thread-1 within node2 sent event (t=1124) to Node4 [Virtual]
+Thread-1 executing received event (t = 1118) from Node5
+Thread within node2 executing local event
+Thread-2 within node2 sent event (t=1128) to Node1 [Virtual]
+Thread within node2 executing local event
+Thread within node2 executing local event
+Thread within node2 executing local event
+Thread-1 within node2 sent event (t=1134) to Node5 [Virtual]
+Thread-0 within node2 sent event (t=1134) to Node1 [Virtual]
+Thread-2 executing received event (t = 1162) from Node5
+Thread within node2 executing local event
+Thread-0 within node2 sent event (t=1166) to Node5 [Virtual]
+Thread within node2 executing local event
+Thread within node2 executing local event
+Thread within node2 executing local event
+Thread within node2 executing local event
+Thread-0 within node2 sent event (t=1172) to Node4 [Virtual]
+Thread-0 executing received event (t = 1197) from Node4
+Thread-1 executing received event (t = 1205) from Node4
+Thread within node2 executing local event
+Thread-2 within node2 sent event (t=1209) to Node4 [Virtual]
+Thread within node2 executing local event
+Thread-2 within node2 sent event (t=1211) to Node4 [Virtual]
+Thread within node2 executing local event
+Thread-0 within node2 sent event (t=1213) to Node3 [Virtual]
+Thread-1 executing received event (t = 1212) from Node5
+Thread within node2 executing local event
+Thread-1 within node2 sent event (t=1217) to Node1 [Virtual]
+Thread within node2 executing local event
+Thread-1 within node2 sent event (t=1219) to Node1 [Virtual]
+Thread within node2 executing local event
+Thread-0 within node2 sent event (t=1221) to Node3 [Virtual]
+Thread within node2 executing local event
+Thread-2 executing received event (t = 1264) from Node4
+Thread within node2 executing local event
+Thread within node2 executing local event
+Thread-2 within node2 sent event (t=1270) to Node5 [Virtual]
+Thread-1 executing received event (t = 1268) from Node4
+Thread-2 executing received event (t = 1284) from Node4
+Thread within node2 executing local event
+Thread-2 within node2 sent event (t=1288) to Node1 [Virtual]
+Thread within node2 executing local event
+Thread within node2 executing local event
+Thread-1 within node2 sent event (t=1290) to Node3 [Virtual]
+Thread-0 within node2 sent event (t=1292) to Node1 [Virtual]
+Thread within node2 executing local event
+Thread-3 within node2 sent event (t=1294) to Node5 [Virtual]
+Thread-3 executing received event (t = 1294) from Node1
+Thread-0 executing received event (t = 1295) from Node1
+Thread within node2 executing local event
+Thread-0 within node2 sent event (t=1300) to Node5 [Virtual]
+Thread within node2 executing local event
+Thread-3 within node2 sent event (t=1302) to Node5 [Virtual]
+Thread-3 executing received event (t = 1330) from Node4
+Thread within node2 executing local event
+Thread within node2 executing local event
+Thread-3 within node2 sent event (t=1336) to Node3 [Virtual]
+Thread within node2 executing local event
+Thread within node2 executing local event
+Thread-0 within node2 sent event (t=1340) to Node1 [Virtual]
+Thread within node2 executing local event
+Thread within node2 executing local event
+Thread-1 within node2 sent event (t=1344) to Node1 [Virtual]
+Thread within node2 executing local event
+Thread-3 executing received event (t = 1395) from Node5
+Thread-0 executing received event (t = 1357) from Node3
+Thread-1 executing received event (t = 1358) from Node4
+Thread within node2 executing local event
+Thread-3 executing received event (t = 1372) from Node3
+Thread-0 executing received event (t = 1375) from Node3
+Thread within node2 executing local event
+Thread within node2 executing local event
+Thread-1 within node2 sent event (t=1411) to Node3 [Virtual]
+Thread within node2 executing local event
+Thread within node2 executing local event
+Thread-3 within node2 sent event (t=1415) to Node5 [Virtual]
+Thread-1 executing received event (t = 1441) from Node3
+Thread within node2 executing local event
+Thread-2 within node2 sent event (t=1445) to Node4 [Virtual]
+Thread-3 executing received event (t = 1444) from Node3
+Thread-0 executing received event (t = 1445) from Node5
+Thread-1 executing received event (t = 1450) from Node5
+Thread within node2 executing local event
+Thread-2 within node2 sent event (t=1454) to Node5 [Virtual]
+Thread within node2 executing local event
+Thread within node2 executing local event
+Thread within node2 executing local event
+Thread-2 executing received event (t = 1473) from Node1
+Thread within node2 executing local event
+Thread within node2 executing local event
+Thread-1 within node2 sent event (t=1479) to Node4 [Virtual]
+Thread within node2 executing local event
+Thread-1 within node2 sent event (t=1481) to Node1 [Virtual]
+Thread within node2 executing local event
+Thread-1 within node2 sent event (t=1483) to Node5 [Virtual]
+Thread-3 executing received event (t = 1484) from Node3
+Thread-0 executing received event (t = 1511) from Node5
+Thread within node2 executing local event
+Thread within node2 executing local event
+Thread within node2 executing local event
+Thread-0 within node2 sent event (t=1517) to Node1 [Virtual]
+Thread-3 within node2 sent event (t=1519) to Node5 [Virtual]
+Thread-0 executing received event (t = 1540) from Node3
+Thread within node2 executing local event
+Thread-2 executing received event (t = 1544) from Node4
+Thread-3 executing received event (t = 1568) from Node5
+Thread within node2 executing local event
+Thread-3 within node2 sent event (t=1572) to Node5 [Virtual]
+Thread within node2 executing local event
+Thread within node2 executing local event
+Thread within node2 executing local event
+Thread-1 within node2 sent event (t=1576) to Node1 [Virtual]
+Thread-2 within node2 sent event (t=1578) to Node5 [Virtual]
+Thread within node2 executing local event
+Thread-3 within node2 sent event (t=1580) to Node5 [Virtual]
+Thread within node2 executing local event
+Thread-3 within node2 sent event (t=1582) to Node3 [Virtual]
+Thread-2 executing received event (t = 1620) from Node1
+Thread-3 executing received event (t = 1637) from Node5
+Thread within node2 executing local event
+Thread-0 within node2 sent event (t=1641) to Node1 [Virtual]
+Thread within node2 executing local event
+Thread-0 within node2 sent event (t=1643) to Node3 [Virtual]
+Thread within node2 executing local event
+Thread-1 within node2 sent event (t=1645) to Node3 [Virtual]
+Thread within node2 executing local event
+Thread-0 executing received event (t = 1668) from Node5
+Thread within node2 executing local event
+Thread within node2 executing local event
+Thread-0 within node2 sent event (t=1674) to Node1 [Virtual]
+Thread within node2 executing local event
+Thread within node2 executing local event
+Thread within node2 executing local event
+Thread-2 executing received event (t = 1725) from Node4
+Thread-3 executing received event (t = 1711) from Node1
+Thread within node2 executing local event
+Thread-0 within node2 sent event (t=1731) to Node5 [Virtual]
+Thread within node2 executing local event
+Thread-2 executing received event (t = 1757) from Node4
+Thread-3 executing received event (t = 1761) from Node4
+Thread within node2 executing local event
+Thread within node2 executing local event
+Thread within node2 executing local event
+Thread-0 within node2 sent event (t=1769) to Node1 [Virtual]
+Thread within node2 executing local event
+Thread within node2 executing local event
+Thread within node2 executing local event
+Thread-1 within node2 sent event (t=1775) to Node1 [Virtual]
+Thread within node2 executing local event
+Thread-1 within node2 sent event (t=1777) to Node3 [Virtual]
+Thread-3 executing received event (t = 1820) from Node3
+Thread-0 executing received event (t = 1823) from Node3
+Thread within node2 executing local event
+Thread-2 within node2 sent event (t=1827) to Node4 [Virtual]
+Thread-2 executing received event (t = 1852) from Node3
+Thread within node2 executing local event
+Thread within node2 executing local event
+Thread-1 executing received event (t = 1870) from Node5
+Thread-2 executing received event (t = 1875) from Node5
+Thread-3 executing received event (t = 1864) from Node3
+Thread within node2 executing local event
+Thread-1 executing received event (t = 1885) from Node5
+Thread within node2 executing local event
+Thread within node2 executing local event
+Thread-1 within node2 sent event (t=1891) to Node3 [Virtual]
+Thread-0 executing received event (t = 1910) from Node5
+Thread-1 executing received event (t = 1897) from Node3
+Thread within node2 executing local event
+Thread-0 within node2 sent event (t=1916) to Node5 [Virtual]
+Thread within node2 executing local event
+Thread-2 within node2 sent event (t=1918) to Node1 [Virtual]
+Thread within node2 executing local event
+Thread-0 within node2 sent event (t=1920) to Node1 [Virtual]
+Thread within node2 executing local event
+Thread-0 within node2 sent event (t=1922) to Node4 [Virtual]
+Thread-2 executing received event (t = 1909) from Node3
+Thread within node2 executing local event
+Thread within node2 executing local event
+Thread within node2 executing local event
+Thread-1 within node2 sent event (t=1930) to Node3 [Virtual]
+Thread-2 executing received event (t = 1972) from Node1
+Thread-3 executing received event (t = 1992) from Node3
+Thread within node2 executing local event
+Thread-0 within node2 sent event (t=1996) to Node4 [Virtual]
+Thread-1 executing received event (t = 2000) from Node5
+Thread within node2 executing local event
+Thread-3 executing received event (t = 1993) from Node1
+Thread-0 executing received event (t = 2001) from Node3
+Thread within node2 executing local event
+Thread within node2 executing local event
+Thread within node2 executing local event
+Thread within node2 executing local event
+Thread-1 executing received event (t = 2020) from Node5
+Thread within node2 executing local event
+Thread within node2 executing local event
+Thread-3 within node2 sent event (t=2026) to Node4 [Virtual]
+Thread within node2 executing local event
+Thread within node2 executing local event
+Thread-2 executing received event (t = 2052) from Node4
+Thread-3 executing received event (t = 2046) from Node5
+Thread within node2 executing local event
+Thread-0 within node2 sent event (t=2058) to Node4 [Virtual]
+Thread within node2 executing local event
+Thread-1 within node2 sent event (t=2060) to Node1 [Virtual]
+Thread within node2 executing local event
+Thread-1 within node2 sent event (t=2062) to Node4 [Virtual]
+Thread within node2 executing local event
+Thread-0 executing received event (t = 2112) from Node4
+Thread within node2 executing local event
+Thread-2 within node2 sent event (t=2116) to Node4 [Virtual]
+Thread within node2 executing local event
+Thread-3 within node2 sent event (t=2118) to Node5 [Virtual]
+Thread within node2 executing local event
+Thread-0 within node2 sent event (t=2120) to Node5 [Virtual]
+Thread-0 executing received event (t = 2132) from Node4
+Thread within node2 executing local event
+Thread within node2 executing local event
+Thread-1 within node2 sent event (t=2138) to Node3 [Virtual]
+Thread within node2 executing local event
+Thread-0 executing received event (t = 2163) from Node5
+Thread-1 executing received event (t = 2161) from Node3
+Thread within node2 executing local event
+Thread-1 within node2 sent event (t=2169) to Node5 [Virtual]
+Thread within node2 executing local event
+Thread within node2 executing local event
+Thread-0 within node2 sent event (t=2173) to Node5 [Virtual]
+Thread within node2 executing local event
+Thread-2 within node2 sent event (t=2175) to Node5 [Virtual]
+Thread within node2 executing local event
+Thread within node2 executing local event
+Thread-0 executing received event (t = 2222) from Node4
+Thread-0 within node2 sent event (t=2179) to Node1 [Virtual]
+Thread-1 executing received event (t = 2217) from Node5
+Thread-2 executing received event (t = 2224) from Node3
+Thread within node2 executing local event
+Thread within node2 executing local event
+Thread-2 within node2 sent event (t=2232) to Node4 [Virtual]
+Thread within node2 executing local event
+Thread within node2 executing local event
+Thread within node2 executing local event
+Thread-1 within node2 sent event (t=2238) to Node4 [Virtual]
+Thread within node2 executing local event
+Thread within node2 executing local event
+Thread-1 within node2 sent event (t=2242) to Node5 [Virtual]
+Thread within node2 executing local event
+Thread-3 executing received event (t = 2258) from Node3
+Thread within node2 executing local event
+Thread-3 within node2 sent event (t=2262) to Node1 [Virtual]
+Thread within node2 executing local event
+Thread-2 executing received event (t = 2304) from Node3
+Thread within node2 executing local event
+Thread-0 within node2 sent event (t=2308) to Node4 [Virtual]
+Thread within node2 executing local event
+Thread within node2 executing local event
+Thread-2 executing received event (t = 2318) from Node5
+Thread within node2 executing local event
+Thread within node2 executing local event
+Thread-1 executing received event (t = 2322) from Node1
+Thread-2 executing received event (t = 2332) from Node5
+Thread-3 executing received event (t = 2328) from Node3
+Thread within node2 executing local event
+Thread within node2 executing local event
+Thread-2 executing received event (t = 2340) from Node3
+Thread within node2 executing local event
+Thread within node2 executing local event
+Thread-1 executing received event (t = 2369) from Node3
+Thread within node2 executing local event
+Thread-1 within node2 sent event (t=2373) to Node4 [Virtual]
+Thread within node2 executing local event
+Thread within node2 executing local event
+Thread-3 within node2 sent event (t=2377) to Node3 [Virtual]
+Thread within node2 executing local event
+Thread-1 within node2 sent event (t=2379) to Node5 [Virtual]
+Thread-2 executing received event (t = 2397) from Node4
+Thread within node2 executing local event
+Thread-2 within node2 sent event (t=2401) to Node1 [Virtual]
+Thread-0 executing received event (t = 2402) from Node5
+Thread within node2 executing local event
+Thread within node2 executing local event
+Thread-1 within node2 sent event (t=2406) to Node1 [Virtual]
+Thread within node2 executing local event
+Thread-3 within node2 sent event (t=2408) to Node1 [Virtual]
+Thread-2 within node2 sent event (t=2410) to Node1 [Virtual]
+Thread within node2 executing local event
+Thread within node2 executing local event
+Thread-2 executing received event (t = 2432) from Node1
+Thread within node2 executing local event
+Thread-2 within node2 sent event (t=2436) to Node3 [Virtual]
+Thread within node2 executing local event
+Thread-0 within node2 sent event (t=2438) to Node1 [Virtual]
+Thread within node2 executing local event
+Thread-3 within node2 sent event (t=2440) to Node5 [Virtual]
+Thread within node2 executing local event
+Thread within node2 executing local event
+Thread-0 executing received event (t = 2481) from Node5
+Thread-1 executing received event (t = 2482) from Node3
+Thread within node2 executing local event
+Thread within node2 executing local event
+Thread within node2 executing local event
+Thread-1 executing received event (t = 2491) from Node5
+Thread within node2 executing local event
+Thread-3 executing received event (t = 2537) from Node4
+Thread within node2 executing local event
+Thread-1 within node2 sent event (t=2541) to Node4 [Virtual]
+Thread within node2 executing local event
+Thread-2 within node2 sent event (t=2543) to Node3 [Virtual]
+Thread within node2 executing local event
+Thread-0 within node2 sent event (t=2545) to Node1 [Virtual]
+Thread within node2 executing local event
+Thread-0 within node2 sent event (t=2547) to Node3 [Virtual]
+Thread within node2 executing local event
+Thread-3 within node2 sent event (t=2549) to Node5 [Virtual]
+Thread within node2 executing local event
+Thread-1 within node2 sent event (t=2551) to Node5 [Virtual]
+Thread within node2 executing local event
+Thread-3 within node2 sent event (t=2553) to Node4 [Virtual]
+Thread within node2 executing local event
+Thread-0 within node2 sent event (t=2555) to Node1 [Virtual]
+Thread-0 executing received event (t = 2589) from Node5
+Thread within node2 executing local event
+Thread-2 within node2 sent event (t=2593) to Node4 [Virtual]
+Thread-2 executing received event (t = 2631) from Node4
+Thread within node2 executing local event
+Thread-0 within node2 sent event (t=2635) to Node4 [Virtual]
+Thread-0 executing received event (t = 2627) from Node1
+Thread within node2 executing local event
+Thread within node2 executing local event
+Thread within node2 executing local event
+Thread-0 executing received event (t = 2674) from Node5
+Thread-1 executing received event (t = 2659) from Node4
+Thread within node2 executing local event
+Thread-0 within node2 sent event (t=2680) to Node3 [Virtual]
+Thread-3 executing received event (t = 2686) from Node3
+Thread within node2 executing local event
+Thread within node2 executing local event
+Thread-2 within node2 sent event (t=2692) to Node1 [Virtual]
+Thread within node2 executing local event
+Thread-2 within node2 sent event (t=2694) to Node3 [Virtual]
+Thread within node2 executing local event
+Thread-3 within node2 sent event (t=2696) to Node5 [Virtual]
+Thread within node2 executing local event
+Thread-1 within node2 sent event (t=2698) to Node4 [Virtual]
+Thread-1 executing received event (t = 2727) from Node3
+Thread-2 executing received event (t = 2742) from Node4
+Thread within node2 executing local event
+Thread-0 within node2 sent event (t=2746) to Node5 [Virtual]
+Thread-0 executing received event (t = 2745) from Node1
+Thread within node2 executing local event
+Thread-3 within node2 sent event (t=2750) to Node3 [Virtual]
+Thread within node2 executing local event
+Thread-3 executing received event (t = 2788) from Node4
+Thread-2 within node2 sent event (t=2752) to Node5 [Virtual]
+Thread within node2 executing local event
+Thread-0 within node2 sent event (t=2792) to Node4 [Virtual]
+Thread within node2 executing local event
+Thread-2 executing received event (t = 2808) from Node4
+Thread within node2 executing local event
+Thread within node2 executing local event
+Thread-1 within node2 sent event (t=2814) to Node3 [Virtual]
+Thread within node2 executing local event
+Thread-2 within node2 sent event (t=2816) to Node4 [Virtual]
+Thread within node2 executing local event
+Thread within node2 executing local event
+Thread within node2 executing local event
+Thread within node2 executing local event
+Thread-2 executing received event (t = 2831) from Node1
+Thread within node2 executing local event
+Thread-0 executing received event (t = 2882) from Node4
+Thread within node2 executing local event
+Thread within node2 executing local event
+Thread within node2 executing local event
+Thread within node2 executing local event
+Thread-1 executing received event (t = 2832) from Node3
+Thread-2 executing received event (t = 2920) from Node3
+Thread within node2 executing local event
+Thread-1 within node2 sent event (t=2924) to Node3 [Virtual]
+Thread within node2 executing local event
+Thread-1 within node2 sent event (t=2926) to Node5 [Virtual]
+Thread within node2 executing local event
+Thread within node2 executing local event
+Thread within node2 executing local event
+Thread-3 within node2 sent event (t=2932) to Node5 [Virtual]
+Thread within node2 executing local event
+Thread within node2 executing local event
+Thread-2 within node2 sent event (t=2936) to Node4 [Virtual]
+Thread within node2 executing local event
+Thread within node2 executing local event
+Thread-2 within node2 sent event (t=2940) to Node1 [Virtual]
+Thread within node2 executing local event
+Thread-1 executing received event (t = 2942) from Node1
+Thread within node2 executing local event
+Thread-3 executing received event (t = 2998) from Node5
+Thread within node2 executing local event
+Thread within node2 executing local event
+Thread within node2 executing local event
+Thread-2 within node2 sent event (t=3006) to Node5 [Virtual]
+Thread within node2 executing local event
+Thread within node2 executing local event
+Thread within node2 executing local event
+Thread-2 executing received event (t = 3072) from Node5
+Thread within node2 executing local event
+Thread-3 within node2 sent event (t=3076) to Node4 [Virtual]
+Thread within node2 executing local event
+Thread-2 within node2 sent event (t=3078) to Node1 [Virtual]
+Thread-1 executing received event (t = 3096) from Node4
+Thread-2 executing received event (t = 3080) from Node1
+Thread-3 executing received event (t = 3127) from Node5
+Thread within node2 executing local event
+Thread-1 executing received event (t = 3116) from Node4
+Thread within node2 executing local event
+Thread within node2 executing local event
+Thread-2 within node2 sent event (t=3137) to Node5 [Virtual]
+Thread-0 executing received event (t = 3157) from Node5
+Thread-1 executing received event (t = 3136) from Node4
+Thread-2 executing received event (t = 3144) from Node4
+Thread within node2 executing local event
+Thread-0 executing received event (t = 3152) from Node4
+Thread within node2 executing local event
+Thread within node2 executing local event
+Thread-3 executing received event (t = 3154) from Node3
+Thread within node2 executing local event
+Thread-1 executing received event (t = 3214) from Node4
+Thread within node2 executing local event
+Thread within node2 executing local event
+Thread-2 within node2 sent event (t=3220) to Node3 [Virtual]
+Thread within node2 executing local event
+Thread-3 within node2 sent event (t=3222) to Node4 [Virtual]
+Thread within node2 executing local event
+Thread-3 within node2 sent event (t=3224) to Node1 [Virtual]
+Thread-2 executing received event (t = 3323) from Node5
+Thread within node2 executing local event
+Thread-3 within node2 sent event (t=3327) to Node4 [Virtual]
+Thread-0 executing received event (t = 3307) from Node3
+Thread within node2 executing local event
+Thread-2 executing received event (t = 3369) from Node4
+Thread-3 within node2 sent event (t=3331) to Node3 [Virtual]
+Thread-3 executing received event (t = 3417) from Node4
+Thread within node2 executing local event
+Thread within node2 executing local event
+Thread-3 within node2 sent event (t=3423) to Node3 [Virtual]
+Thread-2 executing received event (t = 3435) from Node3
+Thread within node2 executing local event
+Thread-3 within node2 sent event (t=3439) to Node1 [Virtual]
+Thread within node2 executing local event
+Thread-1 executing received event (t = 3560) from Node5
+Thread-2 executing received event (t = 3592) from Node4
+Thread-3 executing received event (t = 3596) from Node4
+Thread-0 executing received event (t = 3612) from Node4
+Thread-1 executing received event (t = 3655) from Node5
+Thread-2 executing received event (t = 3636) from Node4
+Thread-3 executing received event (t = 3644) from Node4
+Thread-0 executing received event (t = 3735) from Node5
+Thread-1 executing received event (t = 3881) from Node5
+Thread-2 executing received event (t = 3916) from Node5
+Thread-3 executing received event (t = 3926) from Node5
+Thread-0 executing received event (t = 3941) from Node5
+
+=== Node 2 Statistics (Virtual Threads) ===
+Total events processed: 573
+Messages sent: 209
+Messages received: 173
+Execution time = 9770 ms
+Final Lamport time: 3943
+Counter 0 value: 140
+Counter 1 value: 143
+Counter 2 value: 148
+Counter 3 value: 142
