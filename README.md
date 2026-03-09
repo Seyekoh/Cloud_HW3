@@ -13,6 +13,7 @@ A distributed event monitoring system with 5 nodes communicating via sockets, us
 - Java 21+ (for virtual threads support)
 - Bash shell
 - Linux/Unix environment (Azure VM)
+  
 ## Project Structure
 
 .
@@ -35,6 +36,7 @@ A distributed event monitoring system with 5 nodes communicating via sockets, us
 - **ExecutorService (NodeExecutor.java)** - Thread pooling
 - **Padded Counter (NodePadded.java)** - Cache line alignment (64 bytes)
 - **Virtual Threads (NodeVirtual.java)** - Java 21+ lightweight threads
+  
 ## How to Run
 
 ```bash
@@ -68,6 +70,7 @@ java OptimizationRunner
 4 threads per node, 100 events per thread
 
 Random seed: 4225, 50% message probability
+
 ## Log Files
 
 Baseline: node{id}.log
@@ -75,14 +78,17 @@ Baseline: node{id}.log
 Padded Counter: node{id}-padded.log
 
 Virtual Threads: node{id}-virtual.log
+
 ## Sample Results
 
 Baseline Average: 608 events, 10834 ms, 56.1 events/sec
 Padded Average: 610 events, 10849 ms, 56.2 events/sec
 Virtual Average: 608 events, 9614 ms, 63.3 events/sec
+
 ## Key Findings
 
 Virtual threads show ~12% performance improvement over baseline.
+
 ## Troubleshooting
 
 # Port already in use
