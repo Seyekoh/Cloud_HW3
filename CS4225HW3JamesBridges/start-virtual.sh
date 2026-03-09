@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # Compile all Java files with release 21 for virtual threads support
 echo "Compiling Java files with Java 21+ support..."

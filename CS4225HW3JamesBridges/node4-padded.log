@@ -5,848 +5,807 @@ Node 4 connected to Node 1
 Node 4 connected to Node 2
 Node 4 connected to Node 3
 Node 4 connected to Node 5
-Thread-0 executing received event (padded) (t = 20) from Node5
+Thread-0 executing received event (padded) (t = 29) from Node5
 Thread-1 executing received event (padded) (t = 10) from Node1
-Thread-2 executing received event (padded) (t = 106) from Node3
+Thread-2 executing received event (padded) (t = 30) from Node3
 Thread-3 executing received event (padded) (t = 13) from Node1
-Thread-0 executing received event (padded) (t = 124) from Node3
-Thread-1 executing received event (padded) (t = 19) from Node1
-Thread-2 executing received event (padded) (t = 165) from Node3
-Thread-3 executing received event (padded) (t = 251) from Node1
-Thread-0 executing received event (padded) (t = 277) from Node5
-Thread-1 executing received event (padded) (t = 258) from Node3
+Thread-0 executing received event (padded) (t = 94) from Node5
+Thread-1 executing received event (padded) (t = 39) from Node3
+Thread-2 executing received event (padded) (t = 19) from Node1
+Thread-3 executing received event (padded) (t = 57) from Node3
+Thread-0 executing received event (padded) (t = 246) from Node1
+Thread-1 executing received event (padded) (t = 250) from Node1
+Thread-2 executing received event (padded) (t = 252) from Node1
 Node 4 starting 4 worder threads with PaddedCounter
+Thread-3 executing received event (padded) (t = 285) from Node5
 Thread within node4 executing local event (padded)
 Thread within node4 executing local event (padded)
 Thread within node4 executing local event (padded)
 Thread within node4 executing local event (padded)
-Thread-2 executing received event (padded) (t = 270) from Node3
-Thread-1 within node4 sent event (t=297) to Node1
-Thread-0 within node4 sent event (t=297) to Node5
+Thread-1 within node4 sent event (t=297) to Node5
 Thread-3 within node4 sent event (t=301) to Node1
-Thread-3 executing received event (padded) (t = 307) from Node1
+Thread-2 within node4 sent event (t=305) to Node3
+Thread-0 executing received event (padded) (t = 312) from Node5
 Thread within node4 executing local event (padded)
 Thread within node4 executing local event (padded)
+Thread-3 executing received event (padded) (t = 282) from Node2
 Thread within node4 executing local event (padded)
+Thread-3 within node4 sent event (t=332) to Node3
 Thread within node4 executing local event (padded)
-Thread-2 within node4 sent event (t=327) to Node3
-Thread-0 executing received event (padded) (t = 234) from Node2
+Thread-1 within node4 sent event (t=336) to Node2
+Thread-2 executing received event (padded) (t = 326) from Node1
 Thread within node4 executing local event (padded)
+Thread-0 within node4 sent event (t=344) to Node3
+Thread-0 executing received event (padded) (t = 344) from Node1
 Thread within node4 executing local event (padded)
-Thread-3 executing received event (padded) (t = 338) from Node1
+Thread-3 within node4 sent event (t=352) to Node2
 Thread within node4 executing local event (padded)
-Thread-1 executing received event (padded) (t = 242) from Node2
-Thread-2 executing received event (padded) (t = 352) from Node3
 Thread within node4 executing local event (padded)
-Thread-3 within node4 sent event (t=360) to Node5
-Thread-0 executing received event (padded) (t = 340) from Node1
+Thread-1 within node4 sent event (t=360) to Node5
 Thread within node4 executing local event (padded)
-Thread-2 within node4 sent event (t=368) to Node1
-Thread-2 executing received event (padded) (t = 370) from Node5
+Thread-1 within node4 sent event (t=364) to Node1
 Thread within node4 executing local event (padded)
 Thread within node4 executing local event (padded)
-Thread-1 within node4 sent event (t=382) to Node3
-Thread-1 executing received event (padded) (t = 375) from Node2
-Thread-2 executing received event (padded) (t = 380) from Node5
+Thread-0 within node4 sent event (t=372) to Node1
+Thread-3 executing received event (padded) (t = 390) from Node5
 Thread within node4 executing local event (padded)
-Thread-1 within node4 sent event (t=394) to Node2
 Thread within node4 executing local event (padded)
-Thread-1 executing received event (padded) (t = 388) from Node3
+Thread-1 within node4 sent event (t=402) to Node2
+Thread-2 executing received event (padded) (t = 389) from Node3
 Thread within node4 executing local event (padded)
-Thread-0 within node4 sent event (t=406) to Node2
-Thread-3 executing received event (padded) (t = 402) from Node2
+Thread-3 within node4 sent event (t=410) to Node5
+Thread-0 executing received event (padded) (t = 403) from Node3
 Thread within node4 executing local event (padded)
-Thread-1 executing received event (padded) (t = 377) from Node1
-Thread-2 executing received event (padded) (t = 416) from Node3
-Thread-3 executing received event (padded) (t = 422) from Node5
+Thread-3 within node4 sent event (t=418) to Node5
 Thread within node4 executing local event (padded)
-Thread-1 within node4 sent event (t=430) to Node5
+Thread-2 within node4 sent event (t=422) to Node3
 Thread within node4 executing local event (padded)
-Thread-3 within node4 sent event (t=434) to Node5
-Thread-2 executing received event (padded) (t = 447) from Node5
 Thread within node4 executing local event (padded)
-Thread-1 within node4 sent event (t=455) to Node5
 Thread within node4 executing local event (padded)
+Thread-0 within node4 sent event (t=434) to Node5
 Thread within node4 executing local event (padded)
+Thread-3 executing received event (padded) (t = 470) from Node1
 Thread within node4 executing local event (padded)
-Thread-0 within node4 sent event (t=467) to Node1
-Thread-3 executing received event (padded) (t = 471) from Node1
 Thread within node4 executing local event (padded)
-Thread-3 within node4 sent event (t=479) to Node1
+Thread-2 within node4 sent event (t=482) to Node1
 Thread within node4 executing local event (padded)
-Thread-1 within node4 sent event (t=483) to Node5
-Thread-2 executing received event (padded) (t = 497) from Node5
+Thread-0 within node4 sent event (t=486) to Node1
 Thread within node4 executing local event (padded)
-Thread-1 within node4 sent event (t=505) to Node1
+Thread-0 executing received event (padded) (t = 523) from Node2
+Thread-1 executing received event (padded) (t = 526) from Node3
 Thread within node4 executing local event (padded)
+Thread-1 within node4 sent event (t=535) to Node5
 Thread within node4 executing local event (padded)
-Thread-2 executing received event (padded) (t = 513) from Node3
-Thread-3 executing received event (padded) (t = 517) from Node5
 Thread within node4 executing local event (padded)
-Thread-0 within node4 sent event (t=525) to Node3
-Thread-1 executing received event (padded) (t = 516) from Node2
 Thread within node4 executing local event (padded)
-Thread-3 executing received event (padded) (t = 543) from Node3
 Thread within node4 executing local event (padded)
-Thread-0 within node4 sent event (t=551) to Node3
+Thread-3 executing received event (padded) (t = 578) from Node3
 Thread within node4 executing local event (padded)
+Thread-1 within node4 sent event (t=586) to Node3
 Thread within node4 executing local event (padded)
-Thread-3 within node4 sent event (t=559) to Node5
-Thread-3 executing received event (padded) (t = 535) from Node2
 Thread within node4 executing local event (padded)
-Thread-1 executing received event (padded) (t = 585) from Node2
-Thread-2 executing received event (padded) (t = 604) from Node5
 Thread within node4 executing local event (padded)
+Thread-1 within node4 sent event (t=598) to Node3
 Thread within node4 executing local event (padded)
-Thread-0 within node4 sent event (t=616) to Node3
 Thread within node4 executing local event (padded)
+Thread-0 within node4 sent event (t=606) to Node5
+Thread-2 executing received event (padded) (t = 583) from Node1
+Thread-3 executing received event (padded) (t = 642) from Node5
+Thread-0 executing received event (padded) (t = 643) from Node1
 Thread within node4 executing local event (padded)
-Thread-3 within node4 sent event (t=624) to Node3
-Thread-3 executing received event (padded) (t = 653) from Node5
+Thread-2 executing received event (padded) (t = 648) from Node2
 Thread within node4 executing local event (padded)
-Thread-1 within node4 sent event (t=661) to Node5
 Thread within node4 executing local event (padded)
-Thread-2 within node4 sent event (t=665) to Node1
+Thread-1 within node4 sent event (t=666) to Node1
 Thread within node4 executing local event (padded)
-Thread-3 executing received event (padded) (t = 681) from Node5
-Thread-0 executing received event (padded) (t = 599) from Node2
 Thread within node4 executing local event (padded)
 Thread within node4 executing local event (padded)
-Thread-0 within node4 sent event (t=697) to Node2
+Thread-0 within node4 sent event (t=678) to Node2
 Thread within node4 executing local event (padded)
-Thread-3 within node4 sent event (t=701) to Node2
-Thread-0 executing received event (padded) (t = 653) from Node3
+Thread-0 within node4 sent event (t=682) to Node5
 Thread within node4 executing local event (padded)
-Thread-2 executing received event (padded) (t = 696) from Node5
+Thread-3 within node4 sent event (t=686) to Node1
 Thread within node4 executing local event (padded)
-Thread-2 within node4 sent event (t=717) to Node5
+Thread-3 executing received event (padded) (t = 691) from Node3
 Thread within node4 executing local event (padded)
-Thread-1 executing received event (padded) (t = 720) from Node2
-Thread-2 executing received event (padded) (t = 726) from Node2
+Thread-1 executing received event (padded) (t = 725) from Node1
 Thread within node4 executing local event (padded)
-Thread-1 within node4 sent event (t=734) to Node3
+Thread-0 within node4 sent event (t=733) to Node2
 Thread within node4 executing local event (padded)
-Thread-3 within node4 sent event (t=738) to Node5
-Thread-1 executing received event (padded) (t = 746) from Node5
+Thread-1 within node4 sent event (t=737) to Node2
+Thread-0 executing received event (padded) (t = 741) from Node2
+Thread-1 executing received event (padded) (t = 703) from Node3
 Thread within node4 executing local event (padded)
-Thread-2 within node4 sent event (t=754) to Node2
+Thread-3 within node4 sent event (t=753) to Node1
 Thread within node4 executing local event (padded)
-Thread-3 within node4 sent event (t=758) to Node3
+Thread-0 executing received event (padded) (t = 733) from Node5
+Thread-1 executing received event (padded) (t = 749) from Node2
+Thread-2 executing received event (padded) (t = 772) from Node3
 Thread within node4 executing local event (padded)
+Thread-0 within node4 sent event (t=780) to Node3
+Thread-0 executing received event (padded) (t = 784) from Node3
 Thread within node4 executing local event (padded)
-Thread-1 within node4 sent event (t=766) to Node5
-Thread-2 executing received event (padded) (t = 760) from Node2
+Thread-3 within node4 sent event (t=792) to Node2
+Thread-2 executing received event (padded) (t = 806) from Node5
 Thread within node4 executing local event (padded)
-Thread-1 within node4 sent event (t=774) to Node1
 Thread within node4 executing local event (padded)
-Thread-1 executing received event (padded) (t = 815) from Node5
-Thread-2 executing received event (padded) (t = 804) from Node2
+Thread-3 within node4 sent event (t=818) to Node3
 Thread within node4 executing local event (padded)
-Thread-0 within node4 sent event (t=827) to Node3
+Thread-2 executing received event (padded) (t = 826) from Node5
 Thread within node4 executing local event (padded)
-Thread-1 executing received event (padded) (t = 808) from Node2
+Thread-0 within node4 sent event (t=834) to Node3
+Thread-0 executing received event (padded) (t = 856) from Node1
 Thread within node4 executing local event (padded)
+Thread-1 within node4 sent event (t=864) to Node2
 Thread within node4 executing local event (padded)
-Thread-1 within node4 sent event (t=843) to Node3
-Thread-0 executing received event (padded) (t = 856) from Node5
 Thread within node4 executing local event (padded)
+Thread-3 within node4 sent event (t=872) to Node3
 Thread within node4 executing local event (padded)
-Thread-3 executing received event (padded) (t = 864) from Node3
+Thread-1 executing received event (padded) (t = 872) from Node5
 Thread within node4 executing local event (padded)
 Thread within node4 executing local event (padded)
+Thread-1 within node4 sent event (t=888) to Node3
 Thread within node4 executing local event (padded)
 Thread within node4 executing local event (padded)
+Thread-0 within node4 sent event (t=896) to Node5
 Thread within node4 executing local event (padded)
-Thread-0 within node4 sent event (t=892) to Node5
 Thread within node4 executing local event (padded)
-Thread-3 within node4 sent event (t=896) to Node3
 Thread within node4 executing local event (padded)
-Thread-3 within node4 sent event (t=900) to Node5
 Thread within node4 executing local event (padded)
-Thread-3 within node4 sent event (t=904) to Node1
+Thread-2 executing received event (padded) (t = 884) from Node1
 Thread within node4 executing local event (padded)
-Thread-2 within node4 sent event (t=908) to Node2
+Thread-0 within node4 sent event (t=920) to Node5
+Thread-0 executing received event (padded) (t = 959) from Node2
 Thread within node4 executing local event (padded)
-Thread-1 within node4 sent event (t=912) to Node5
+Thread-3 within node4 sent event (t=967) to Node5
+Thread-2 executing received event (padded) (t = 955) from Node3
 Thread within node4 executing local event (padded)
-Thread-0 within node4 sent event (t=916) to Node2
-Thread-3 executing received event (padded) (t = 921) from Node2
+Thread-0 executing received event (padded) (t = 984) from Node1
 Thread within node4 executing local event (padded)
 Thread within node4 executing local event (padded)
+Thread-1 within node4 sent event (t=996) to Node1
 Thread within node4 executing local event (padded)
-Thread-3 within node4 sent event (t=937) to Node3
+Thread-0 executing received event (padded) (t = 1009) from Node3
 Thread within node4 executing local event (padded)
+Thread-3 within node4 sent event (t=1017) to Node2
 Thread within node4 executing local event (padded)
-Thread-1 within node4 sent event (t=945) to Node2
+Thread-3 executing received event (padded) (t = 1028) from Node2
 Thread within node4 executing local event (padded)
-Thread-1 within node4 sent event (t=949) to Node3
 Thread within node4 executing local event (padded)
-Thread-3 executing received event (padded) (t = 957) from Node2
+Thread-2 within node4 sent event (t=1040) to Node3
 Thread within node4 executing local event (padded)
+Thread-3 executing received event (padded) (t = 1055) from Node3
+Thread-0 executing received event (padded) (t = 1034) from Node2
 Thread within node4 executing local event (padded)
-Thread-2 within node4 sent event (t=965) to Node3
-Thread-2 executing received event (padded) (t = 986) from Node3
-Thread-3 executing received event (padded) (t = 990) from Node5
-Thread-0 executing received event (padded) (t = 960) from Node1
+Thread-0 within node4 sent event (t=1067) to Node3
+Thread-2 executing received event (padded) (t = 1076) from Node5
 Thread within node4 executing local event (padded)
+Thread-3 within node4 sent event (t=1084) to Node1
 Thread within node4 executing local event (padded)
-Thread-0 within node4 sent event (t=1006) to Node2
-Thread-3 executing received event (padded) (t = 1004) from Node3
-Thread-0 executing received event (padded) (t = 1010) from Node2
+Thread-3 within node4 sent event (t=1088) to Node2
+Thread-1 executing received event (padded) (t = 1102) from Node5
 Thread within node4 executing local event (padded)
 Thread within node4 executing local event (padded)
 Thread within node4 executing local event (padded)
-Thread-1 within node4 sent event (t=1022) to Node1
-Thread-2 within node4 sent event (t=1026) to Node3
+Thread-1 executing received event (padded) (t = 1088) from Node1
+Thread-2 executing received event (padded) (t = 1096) from Node3
 Thread within node4 executing local event (padded)
-Thread-1 within node4 sent event (t=1030) to Node3
-Thread-1 executing received event (padded) (t = 1033) from Node5
-Thread-2 executing received event (padded) (t = 1026) from Node1
 Thread within node4 executing local event (padded)
-Thread-3 within node4 sent event (t=1045) to Node1
+Thread-1 executing received event (padded) (t = 1118) from Node2
 Thread within node4 executing local event (padded)
-Thread-0 within node4 sent event (t=1049) to Node3
 Thread within node4 executing local event (padded)
-Thread-3 within node4 sent event (t=1053) to Node1
-Thread-2 executing received event (padded) (t = 1062) from Node3
+Thread-0 within node4 sent event (t=1146) to Node1
 Thread within node4 executing local event (padded)
+Thread-3 within node4 sent event (t=1150) to Node3
 Thread within node4 executing local event (padded)
-Thread-2 within node4 sent event (t=1074) to Node1
+Thread-0 within node4 sent event (t=1154) to Node3
 Thread within node4 executing local event (padded)
-Thread-2 executing received event (padded) (t = 1081) from Node2
+Thread-2 within node4 sent event (t=1158) to Node3
 Thread within node4 executing local event (padded)
-Thread-0 within node4 sent event (t=1089) to Node3
+Thread-1 within node4 sent event (t=1162) to Node5
+Thread-0 executing received event (padded) (t = 1169) from Node3
+Thread-1 executing received event (padded) (t = 1156) from Node2
+Thread-2 executing received event (padded) (t = 1151) from Node1
 Thread within node4 executing local event (padded)
-Thread-0 within node4 sent event (t=1093) to Node3
-Thread-1 executing received event (padded) (t = 1096) from Node5
+Thread-0 executing received event (padded) (t = 1202) from Node5
 Thread within node4 executing local event (padded)
-Thread-3 executing received event (padded) (t = 1118) from Node3
-Thread-0 executing received event (padded) (t = 1111) from Node5
 Thread within node4 executing local event (padded)
+Thread-3 within node4 sent event (t=1214) to Node1
+Thread-3 executing received event (padded) (t = 1217) from Node5
 Thread within node4 executing local event (padded)
-Thread-3 executing received event (padded) (t = 1090) from Node1
+Thread-1 executing received event (padded) (t = 1229) from Node1
 Thread within node4 executing local event (padded)
-Thread-1 within node4 sent event (t=1142) to Node2
 Thread within node4 executing local event (padded)
+Thread-3 within node4 sent event (t=1241) to Node3
 Thread within node4 executing local event (padded)
-Thread-0 within node4 sent event (t=1150) to Node5
-Thread-3 executing received event (padded) (t = 1150) from Node2
+Thread-0 within node4 sent event (t=1245) to Node3
 Thread within node4 executing local event (padded)
-Thread-1 within node4 sent event (t=1158) to Node5
+Thread-1 within node4 sent event (t=1249) to Node3
+Thread-2 executing received event (padded) (t = 1268) from Node3
 Thread within node4 executing local event (padded)
 Thread within node4 executing local event (padded)
-Thread-3 executing received event (padded) (t = 1196) from Node3
-Thread-0 executing received event (padded) (t = 1167) from Node1
+Thread-1 within node4 sent event (t=1280) to Node2
+Thread-1 executing received event (padded) (t = 1259) from Node5
 Thread within node4 executing local event (padded)
-Thread-1 within node4 sent event (t=1208) to Node5
+Thread-1 within node4 sent event (t=1288) to Node1
+Thread-3 executing received event (padded) (t = 1274) from Node5
+Thread-0 executing received event (padded) (t = 1292) from Node2
 Thread within node4 executing local event (padded)
-Thread-3 within node4 sent event (t=1212) to Node3
+Thread-3 within node4 sent event (t=1300) to Node5
 Thread within node4 executing local event (padded)
-Thread-0 within node4 sent event (t=1216) to Node3
-Thread-0 executing received event (padded) (t = 1197) from Node2
+Thread-3 executing received event (padded) (t = 1291) from Node1
 Thread within node4 executing local event (padded)
 Thread within node4 executing local event (padded)
 Thread within node4 executing local event (padded)
-Thread-2 within node4 sent event (t=1232) to Node5
-Thread-0 executing received event (padded) (t = 1230) from Node1
 Thread within node4 executing local event (padded)
-Thread-2 within node4 sent event (t=1240) to Node3
-Thread-2 executing received event (padded) (t = 1260) from Node1
-Thread-3 executing received event (padded) (t = 1261) from Node1
+Thread-1 within node4 sent event (t=1324) to Node2
 Thread within node4 executing local event (padded)
-Thread-3 within node4 sent event (t=1272) to Node5
+Thread-1 executing received event (padded) (t = 1315) from Node5
+Thread-2 executing received event (padded) (t = 1345) from Node3
+Thread-3 executing received event (padded) (t = 1338) from Node1
 Thread within node4 executing local event (padded)
-Thread-3 within node4 sent event (t=1276) to Node2
+Thread-2 within node4 sent event (t=1357) to Node3
+Thread-1 executing received event (padded) (t = 1366) from Node5
 Thread within node4 executing local event (padded)
-Thread-3 within node4 sent event (t=1280) to Node5
 Thread within node4 executing local event (padded)
-Thread-1 within node4 sent event (t=1284) to Node2
+Thread-0 executing received event (padded) (t = 1340) from Node2
 Thread within node4 executing local event (padded)
-Thread-0 within node4 sent event (t=1288) to Node5
-Thread-1 executing received event (padded) (t = 1271) from Node3
-Thread-2 executing received event (padded) (t = 1317) from Node5
-Thread-3 executing received event (padded) (t = 1321) from Node2
-Thread-3 executing received event (padded) (t = 1316) from Node1
 Thread within node4 executing local event (padded)
-Thread-2 within node4 sent event (t=1333) to Node5
-Thread-2 executing received event (padded) (t = 1323) from Node2
+Thread-1 within node4 sent event (t=1390) to Node5
 Thread within node4 executing local event (padded)
-Thread-3 within node4 sent event (t=1341) to Node2
+Thread-0 within node4 sent event (t=1394) to Node2
 Thread within node4 executing local event (padded)
+Thread-1 within node4 sent event (t=1398) to Node2
+Thread-1 executing received event (padded) (t = 1407) from Node3
 Thread within node4 executing local event (padded)
+Thread-3 executing received event (padded) (t = 1425) from Node5
+Thread-0 within node4 sent event (t=1415) to Node5
 Thread within node4 executing local event (padded)
-Thread-0 within node4 sent event (t=1353) to Node5
-Thread-3 executing received event (padded) (t = 1341) from Node3
-Thread-0 executing received event (padded) (t = 1340) from Node1
+Thread-1 within node4 sent event (t=1433) to Node2
 Thread within node4 executing local event (padded)
+Thread-2 executing received event (padded) (t = 1444) from Node1
 Thread within node4 executing local event (padded)
-Thread-2 within node4 sent event (t=1369) to Node5
+Thread-2 within node4 sent event (t=1452) to Node1
 Thread within node4 executing local event (padded)
-Thread-0 within node4 sent event (t=1373) to Node2
+Thread-2 within node4 sent event (t=1456) to Node5
 Thread within node4 executing local event (padded)
-Thread-2 within node4 sent event (t=1377) to Node1
+Thread-0 within node4 sent event (t=1460) to Node2
+Thread-2 executing received event (padded) (t = 1472) from Node3
 Thread within node4 executing local event (padded)
+Thread-0 within node4 sent event (t=1480) to Node3
+Thread-0 executing received event (padded) (t = 1492) from Node3
+Thread-1 executing received event (padded) (t = 1476) from Node5
 Thread within node4 executing local event (padded)
-Thread-1 within node4 sent event (t=1385) to Node5
 Thread within node4 executing local event (padded)
-Thread-0 executing received event (padded) (t = 1397) from Node2
+Thread-3 within node4 sent event (t=1504) to Node5
 Thread within node4 executing local event (padded)
 Thread within node4 executing local event (padded)
-Thread-1 within node4 sent event (t=1405) to Node5
-Thread-2 within node4 sent event (t=1409) to Node3
-Thread-3 executing received event (padded) (t = 1403) from Node2
 Thread within node4 executing local event (padded)
-Thread-1 within node4 sent event (t=1417) to Node3
+Thread-3 within node4 sent event (t=1516) to Node2
+Thread-0 within node4 sent event (t=1520) to Node1
 Thread within node4 executing local event (padded)
-Thread-2 within node4 sent event (t=1421) to Node5
 Thread within node4 executing local event (padded)
+Thread-3 within node4 sent event (t=1528) to Node5
 Thread within node4 executing local event (padded)
-Thread-1 within node4 sent event (t=1429) to Node3
+Thread-2 executing received event (padded) (t = 1577) from Node3
 Thread within node4 executing local event (padded)
-Thread-0 within node4 sent event (t=1433) to Node5
-Thread-1 executing received event (padded) (t = 1458) from Node1
+Thread-0 within node4 sent event (t=1585) to Node5
 Thread within node4 executing local event (padded)
-Thread-3 executing received event (padded) (t = 1485) from Node2
-Thread-0 executing received event (padded) (t = 1444) from Node3
+Thread-0 within node4 sent event (t=1589) to Node3
 Thread within node4 executing local event (padded)
-Thread-3 within node4 sent event (t=1497) to Node1
-Thread-2 executing received event (padded) (t = 1505) from Node2
+Thread-0 within node4 sent event (t=1593) to Node3
 Thread within node4 executing local event (padded)
-Thread-2 within node4 sent event (t=1513) to Node2
-Thread-0 executing received event (padded) (t = 1503) from Node3
 Thread within node4 executing local event (padded)
-Thread-0 within node4 sent event (t=1521) to Node1
+Thread-0 executing received event (padded) (t = 1598) from Node1
+Thread-1 executing received event (padded) (t = 1599) from Node1
 Thread within node4 executing local event (padded)
-Thread-0 within node4 sent event (t=1525) to Node5
+Thread-1 within node4 sent event (t=1613) to Node5
+Thread-3 executing received event (padded) (t = 1630) from Node5
 Thread within node4 executing local event (padded)
+Thread-3 within node4 sent event (t=1638) to Node5
+Thread-1 executing received event (padded) (t = 1625) from Node1
 Thread within node4 executing local event (padded)
-Thread-3 within node4 sent event (t=1533) to Node5
 Thread within node4 executing local event (padded)
 Thread within node4 executing local event (padded)
+Thread-1 within node4 sent event (t=1654) to Node1
+Thread-1 executing received event (padded) (t = 1679) from Node5
+Thread-2 executing received event (padded) (t = 1673) from Node1
 Thread within node4 executing local event (padded)
-Thread-0 executing received event (padded) (t = 1579) from Node5
 Thread within node4 executing local event (padded)
-Thread-2 executing received event (padded) (t = 1560) from Node3
+Thread-2 within node4 sent event (t=1695) to Node1
+Thread-1 executing received event (padded) (t = 1703) from Node3
 Thread within node4 executing local event (padded)
-Thread-0 executing received event (padded) (t = 1572) from Node1
 Thread within node4 executing local event (padded)
 Thread within node4 executing local event (padded)
-Thread-1 within node4 sent event (t=1607) to Node3
-Thread-0 within node4 sent event (t=1607) to Node5
+Thread-1 executing received event (padded) (t = 1729) from Node5
+Thread-0 within node4 sent event (t=1719) to Node5
+Thread-2 executing received event (padded) (t = 1732) from Node2
 Thread within node4 executing local event (padded)
 Thread within node4 executing local event (padded)
+Thread-1 executing received event (padded) (t = 1753) from Node1
 Thread within node4 executing local event (padded)
-Thread-0 within node4 sent event (t=1619) to Node5
-Thread-2 executing received event (padded) (t = 1654) from Node1
+Thread-3 executing received event (padded) (t = 1771) from Node1
 Thread within node4 executing local event (padded)
-Thread-0 within node4 sent event (t=1662) to Node3
-Thread-0 executing received event (padded) (t = 1679) from Node2
 Thread within node4 executing local event (padded)
 Thread within node4 executing local event (padded)
-Thread-3 within node4 sent event (t=1691) to Node1
+Thread-0 within node4 sent event (t=1787) to Node1
 Thread within node4 executing local event (padded)
+Thread-1 within node4 sent event (t=1791) to Node3
+Thread-0 executing received event (padded) (t = 1817) from Node2
 Thread within node4 executing local event (padded)
+Thread-2 within node4 sent event (t=1825) to Node1
+Thread-2 executing received event (padded) (t = 1840) from Node1
 Thread within node4 executing local event (padded)
-Thread-1 within node4 sent event (t=1703) to Node5
+Thread-3 within node4 sent event (t=1848) to Node3
 Thread within node4 executing local event (padded)
-Thread-0 within node4 sent event (t=1707) to Node2
+Thread-1 executing received event (padded) (t = 1841) from Node1
 Thread within node4 executing local event (padded)
-Thread-2 within node4 sent event (t=1711) to Node2
+Thread-0 within node4 sent event (t=1860) to Node3
 Thread within node4 executing local event (padded)
-Thread-2 within node4 sent event (t=1715) to Node1
 Thread within node4 executing local event (padded)
+Thread-0 within node4 sent event (t=1868) to Node1
 Thread within node4 executing local event (padded)
-Thread-0 within node4 sent event (t=1719) to Node2
-Thread-3 within node4 sent event (t=1723) to Node1
-Thread-3 executing received event (padded) (t = 1726) from Node1
+Thread-3 within node4 sent event (t=1872) to Node1
+Thread-2 executing received event (padded) (t = 1864) from Node5
 Thread within node4 executing local event (padded)
-Thread-1 executing received event (padded) (t = 1731) from Node1
 Thread within node4 executing local event (padded)
-Thread-3 within node4 sent event (t=1742) to Node2
+Thread-1 executing received event (padded) (t = 1875) from Node3
+Thread-2 executing received event (padded) (t = 1876) from Node1
+Thread-3 executing received event (padded) (t = 1874) from Node5
+Thread-0 executing received event (padded) (t = 1878) from Node1
+Thread-1 executing received event (padded) (t = 1878) from Node3
+Thread-2 executing received event (padded) (t = 1881) from Node2
 Thread within node4 executing local event (padded)
-Thread-0 executing received event (padded) (t = 1746) from Node2
+Thread-1 within node4 sent event (t=1912) to Node1
 Thread within node4 executing local event (padded)
+Thread-1 within node4 sent event (t=1916) to Node3
 Thread within node4 executing local event (padded)
-Thread-0 within node4 sent event (t=1758) to Node1
-Thread-3 executing received event (padded) (t = 1777) from Node3
+Thread-3 within node4 sent event (t=1920) to Node2
 Thread within node4 executing local event (padded)
-Thread-1 executing received event (padded) (t = 1780) from Node3
-Thread-2 executing received event (padded) (t = 1778) from Node1
-Thread-3 executing received event (padded) (t = 1783) from Node3
-Thread-0 executing received event (padded) (t = 1779) from Node1
-Thread-1 executing received event (padded) (t = 1772) from Node5
+Thread-0 within node4 sent event (t=1924) to Node2
 Thread within node4 executing local event (padded)
+Thread-2 within node4 sent event (t=1928) to Node2
+Thread-0 executing received event (padded) (t = 1932) from Node2
+Thread-1 executing received event (padded) (t = 1957) from Node3
 Thread within node4 executing local event (padded)
-Thread-0 within node4 sent event (t=1813) to Node3
-Thread-0 executing received event (padded) (t = 1777) from Node5
-Thread-1 executing received event (padded) (t = 1828) from Node2
+Thread-3 within node4 sent event (t=1965) to Node2
 Thread within node4 executing local event (padded)
-Thread-3 within node4 sent event (t=1836) to Node3
 Thread within node4 executing local event (padded)
-Thread-0 within node4 sent event (t=1840) to Node5
+Thread-2 within node4 sent event (t=1973) to Node5
 Thread within node4 executing local event (padded)
-Thread-2 within node4 sent event (t=1844) to Node3
-Thread-1 executing received event (padded) (t = 1836) from Node1
-Thread-2 executing received event (padded) (t = 1838) from Node1
 Thread within node4 executing local event (padded)
-Thread-1 within node4 sent event (t=1856) to Node3
-Thread-0 executing received event (padded) (t = 1840) from Node2
+Thread-1 within node4 sent event (t=1981) to Node3
 Thread within node4 executing local event (padded)
 Thread within node4 executing local event (padded)
-Thread-3 within node4 sent event (t=1868) to Node5
-Thread-3 executing received event (padded) (t = 1888) from Node2
-Thread-0 executing received event (padded) (t = 1840) from Node1
-Thread-1 executing received event (padded) (t = 1890) from Node2
-Thread-2 executing received event (padded) (t = 1883) from Node5
+Thread-1 within node4 sent event (t=1989) to Node3
 Thread within node4 executing local event (padded)
-Thread-0 executing received event (padded) (t = 1892) from Node2
+Thread-3 within node4 sent event (t=1993) to Node5
 Thread within node4 executing local event (padded)
-Thread-2 executing received event (padded) (t = 1900) from Node2
+Thread-0 within node4 sent event (t=1997) to Node3
 Thread within node4 executing local event (padded)
+Thread-3 within node4 sent event (t=2001) to Node3
 Thread within node4 executing local event (padded)
-Thread-3 within node4 sent event (t=1928) to Node3
+Thread-1 within node4 sent event (t=2005) to Node5
 Thread within node4 executing local event (padded)
 Thread within node4 executing local event (padded)
-Thread-2 within node4 sent event (t=1936) to Node1
+Thread-2 within node4 sent event (t=2013) to Node5
 Thread within node4 executing local event (padded)
+Thread-0 executing received event (padded) (t = 2066) from Node3
 Thread within node4 executing local event (padded)
-Thread-0 within node4 sent event (t=1944) to Node1
 Thread within node4 executing local event (padded)
+Thread-3 within node4 sent event (t=2078) to Node5
 Thread within node4 executing local event (padded)
 Thread within node4 executing local event (padded)
-Thread-0 within node4 sent event (t=1956) to Node3
+Thread-1 within node4 sent event (t=2086) to Node3
 Thread within node4 executing local event (padded)
-Thread-3 within node4 sent event (t=1960) to Node1
 Thread within node4 executing local event (padded)
-Thread within node4 executing local event (padded)
-Thread-1 within node4 sent event (t=1968) to Node1
-Thread within node4 executing local event (padded)
-Thread-0 within node4 sent event (t=1972) to Node1
-Thread within node4 executing local event (padded)
-Thread-0 within node4 sent event (t=1976) to Node1
-Thread within node4 executing local event (padded)
-Thread-2 within node4 sent event (t=1980) to Node3
-Thread within node4 executing local event (padded)
-Thread-3 executing received event (padded) (t = 2045) from Node2
-Thread within node4 executing local event (padded)
-Thread-3 within node4 sent event (t=2053) to Node5
-Thread within node4 executing local event (padded)
-Thread within node4 executing local event (padded)
-Thread within node4 executing local event (padded)
-Thread within node4 executing local event (padded)
-Thread within node4 executing local event (padded)
-Thread-2 within node4 sent event (t=2073) to Node3
-Thread within node4 executing local event (padded)
-Thread-2 within node4 sent event (t=2077) to Node2
-Thread within node4 executing local event (padded)
-Thread-0 within node4 sent event (t=2081) to Node5
-Thread-0 executing received event (padded) (t = 2117) from Node5
-Thread-1 executing received event (padded) (t = 2138) from Node3
-Thread within node4 executing local event (padded)
-Thread-3 within node4 sent event (t=2146) to Node1
-Thread within node4 executing local event (padded)
-Thread-1 within node4 sent event (t=2150) to Node5
-Thread-0 executing received event (padded) (t = 2105) from Node2
-Thread within node4 executing local event (padded)
-Thread-2 executing received event (padded) (t = 2107) from Node2
+Thread-2 within node4 sent event (t=2094) to Node1
 Thread-3 executing received event (padded) (t = 2109) from Node2
+Thread-0 executing received event (padded) (t = 2111) from Node2
+Thread-1 executing received event (padded) (t = 2113) from Node2
 Thread within node4 executing local event (padded)
-Thread-1 executing received event (padded) (t = 2165) from Node5
-Thread-2 within node4 sent event (t=2170) to Node5
-Thread-2 executing received event (padded) (t = 2151) from Node1
 Thread within node4 executing local event (padded)
-Thread-1 within node4 sent event (t=2182) to Node2
+Thread-0 executing received event (padded) (t = 2158) from Node5
+Thread-1 executing received event (padded) (t = 2164) from Node2
+Thread-2 executing received event (padded) (t = 2168) from Node2
 Thread within node4 executing local event (padded)
-Thread-3 within node4 sent event (t=2186) to Node1
+Thread-0 executing received event (padded) (t = 2167) from Node3
+Thread-1 executing received event (padded) (t = 2173) from Node3
 Thread within node4 executing local event (padded)
-Thread-2 within node4 sent event (t=2190) to Node2
-Thread-2 executing received event (padded) (t = 2191) from Node1
 Thread within node4 executing local event (padded)
-Thread-0 within node4 sent event (t=2199) to Node5
+Thread-1 within node4 sent event (t=2192) to Node3
 Thread within node4 executing local event (padded)
-Thread-2 within node4 sent event (t=2203) to Node3
-Thread-1 executing received event (padded) (t = 2220) from Node5
 Thread within node4 executing local event (padded)
-Thread-0 within node4 sent event (t=2228) to Node2
+Thread-3 within node4 sent event (t=2200) to Node2
+Thread-2 executing received event (padded) (t = 2222) from Node3
 Thread within node4 executing local event (padded)
-Thread-3 within node4 sent event (t=2232) to Node5
+Thread-2 within node4 sent event (t=2230) to Node1
 Thread within node4 executing local event (padded)
+Thread-1 executing received event (padded) (t = 2228) from Node5
+Thread-2 executing received event (padded) (t = 2233) from Node5
+Thread-3 executing received event (padded) (t = 2249) from Node3
 Thread within node4 executing local event (padded)
-Thread-3 within node4 sent event (t=2240) to Node3
-Thread-2 executing received event (padded) (t = 2246) from Node3
-Thread-3 executing received event (padded) (t = 2217) from Node1
+Thread-2 within node4 sent event (t=2257) to Node5
 Thread within node4 executing local event (padded)
-Thread-1 within node4 sent event (t=2258) to Node3
 Thread within node4 executing local event (padded)
-Thread-2 within node4 sent event (t=2262) to Node1
-Thread-2 executing received event (padded) (t = 2279) from Node5
 Thread within node4 executing local event (padded)
-Thread-0 within node4 sent event (t=2287) to Node5
+Thread-0 executing received event (padded) (t = 2258) from Node3
 Thread within node4 executing local event (padded)
-Thread-1 executing received event (padded) (t = 2267) from Node1
-Thread-2 executing received event (padded) (t = 2276) from Node3
 Thread within node4 executing local event (padded)
-Thread-1 within node4 sent event (t=2303) to Node5
-Thread-0 executing received event (padded) (t = 2278) from Node1
-Thread-1 executing received event (padded) (t = 2285) from Node3
+Thread-3 within node4 sent event (t=2281) to Node3
 Thread within node4 executing local event (padded)
-Thread-2 within node4 sent event (t=2315) to Node3
+Thread-3 within node4 sent event (t=2285) to Node2
+Thread-0 executing received event (padded) (t = 2306) from Node5
+Thread-1 executing received event (padded) (t = 2335) from Node3
 Thread within node4 executing local event (padded)
+Thread-2 executing received event (padded) (t = 2331) from Node5
 Thread within node4 executing local event (padded)
-Thread-0 within node4 sent event (t=2323) to Node1
+Thread-0 within node4 sent event (t=2351) to Node1
 Thread within node4 executing local event (padded)
+Thread-1 within node4 sent event (t=2355) to Node5
+Thread-2 executing received event (padded) (t = 2354) from Node1
 Thread within node4 executing local event (padded)
-Thread-3 executing received event (padded) (t = 2328) from Node1
-Thread-0 executing received event (padded) (t = 2347) from Node5
-Thread-1 executing received event (padded) (t = 2357) from Node5
 Thread within node4 executing local event (padded)
 Thread within node4 executing local event (padded)
-Thread-2 within node4 sent event (t=2369) to Node3
-Thread-0 executing received event (padded) (t = 2378) from Node3
-Thread-1 executing received event (padded) (t = 2372) from Node5
+Thread-1 within node4 sent event (t=2371) to Node5
 Thread within node4 executing local event (padded)
-Thread-1 within node4 sent event (t=2390) to Node1
-Thread-3 executing received event (padded) (t = 2382) from Node5
+Thread-3 executing received event (padded) (t = 2371) from Node1
+Thread-0 executing received event (padded) (t = 2391) from Node5
 Thread within node4 executing local event (padded)
-Thread-1 executing received event (padded) (t = 2395) from Node1
-Thread-0 within node4 sent event (t=2398) to Node1
-Thread-2 executing received event (padded) (t = 2387) from Node5
-Thread-3 executing received event (padded) (t = 2397) from Node5
+Thread-1 within node4 sent event (t=2399) to Node2
 Thread within node4 executing local event (padded)
+Thread-2 within node4 sent event (t=2403) to Node5
+Thread-3 executing received event (padded) (t = 2391) from Node3
 Thread within node4 executing local event (padded)
-Thread-1 within node4 sent event (t=2418) to Node5
-Thread-2 executing received event (padded) (t = 2403) from Node1
+Thread-3 within node4 sent event (t=2411) to Node5
+Thread-1 executing received event (padded) (t = 2397) from Node3
+Thread-2 executing received event (padded) (t = 2445) from Node1
 Thread within node4 executing local event (padded)
 Thread within node4 executing local event (padded)
+Thread-1 within node4 sent event (t=2457) to Node3
+Thread-1 executing received event (padded) (t = 2448) from Node1
+Thread-2 executing received event (padded) (t = 2462) from Node2
 Thread within node4 executing local event (padded)
-Thread-2 within node4 sent event (t=2434) to Node2
-Thread-2 executing received event (padded) (t = 2428) from Node5
-Thread-3 executing received event (padded) (t = 2444) from Node2
-Thread-0 executing received event (padded) (t = 2428) from Node3
+Thread-2 within node4 sent event (t=2470) to Node5
 Thread within node4 executing local event (padded)
-Thread-1 within node4 sent event (t=2456) to Node1
-Thread-2 executing received event (padded) (t = 2470) from Node5
+Thread-1 executing received event (padded) (t = 2480) from Node5
 Thread within node4 executing local event (padded)
-Thread-3 within node4 sent event (t=2478) to Node1
+Thread-1 within node4 sent event (t=2488) to Node3
 Thread within node4 executing local event (padded)
+Thread-3 within node4 sent event (t=2492) to Node3
+Thread-0 executing received event (padded) (t = 2498) from Node3
 Thread within node4 executing local event (padded)
+Thread-0 within node4 sent event (t=2506) to Node1
 Thread within node4 executing local event (padded)
-Thread-3 executing received event (padded) (t = 2504) from Node2
-Thread-0 executing received event (padded) (t = 2497) from Node3
-Thread-1 executing received event (padded) (t = 2498) from Node1
 Thread within node4 executing local event (padded)
-Thread-0 within node4 sent event (t=2520) to Node2
+Thread-0 executing received event (padded) (t = 2511) from Node1
+Thread-1 executing received event (padded) (t = 2513) from Node3
+Thread-2 executing received event (padded) (t = 2531) from Node5
+Thread-3 executing received event (padded) (t = 2524) from Node1
 Thread within node4 executing local event (padded)
+Thread-3 within node4 sent event (t=2543) to Node5
 Thread within node4 executing local event (padded)
+Thread-2 executing received event (padded) (t = 2525) from Node2
 Thread within node4 executing local event (padded)
+Thread-0 within node4 sent event (t=2555) to Node2
+Thread-0 executing received event (padded) (t = 2568) from Node5
 Thread within node4 executing local event (padded)
-Thread-2 within node4 sent event (t=2536) to Node3
+Thread-1 within node4 sent event (t=2576) to Node1
 Thread within node4 executing local event (padded)
 Thread within node4 executing local event (padded)
 Thread within node4 executing local event (padded)
+Thread-2 within node4 sent event (t=2588) to Node2
 Thread within node4 executing local event (padded)
+Thread-2 executing received event (padded) (t = 2594) from Node2
 Thread within node4 executing local event (padded)
-Thread-3 within node4 sent event (t=2556) to Node1
+Thread-2 within node4 sent event (t=2602) to Node3
 Thread within node4 executing local event (padded)
-Thread-2 within node4 sent event (t=2560) to Node5
+Thread-3 within node4 sent event (t=2606) to Node3
 Thread within node4 executing local event (padded)
-Thread-1 within node4 sent event (t=2564) to Node2
-Thread-2 executing received event (padded) (t = 2582) from Node2
+Thread-1 within node4 sent event (t=2610) to Node1
 Thread within node4 executing local event (padded)
+Thread-3 executing received event (padded) (t = 2657) from Node2
 Thread within node4 executing local event (padded)
-Thread-0 within node4 sent event (t=2594) to Node1
+Thread-0 within node4 sent event (t=2665) to Node5
+Thread-1 executing received event (padded) (t = 2666) from Node1
 Thread within node4 executing local event (padded)
-Thread-2 within node4 sent event (t=2598) to Node2
+Thread-3 executing received event (padded) (t = 2659) from Node2
 Thread within node4 executing local event (padded)
-Thread-3 within node4 sent event (t=2602) to Node2
-Thread-3 executing received event (padded) (t = 2640) from Node5
-Thread-0 executing received event (padded) (t = 2612) from Node2
 Thread within node4 executing local event (padded)
-Thread-3 within node4 sent event (t=2652) to Node3
+Thread-1 within node4 sent event (t=2686) to Node3
 Thread within node4 executing local event (padded)
-Thread-3 executing received event (padded) (t = 2617) from Node1
+Thread-3 executing received event (padded) (t = 2706) from Node2
+Thread-0 executing received event (padded) (t = 2712) from Node2
 Thread within node4 executing local event (padded)
-Thread-1 executing received event (padded) (t = 2659) from Node2
 Thread within node4 executing local event (padded)
+Thread-0 within node4 sent event (t=2724) to Node1
+Thread-3 executing received event (padded) (t = 2726) from Node1
+Thread-0 executing received event (padded) (t = 2722) from Node2
 Thread within node4 executing local event (padded)
-Thread-2 within node4 sent event (t=2676) to Node2
 Thread within node4 executing local event (padded)
-Thread-1 executing received event (padded) (t = 2687) from Node2
-Thread-2 executing received event (padded) (t = 2693) from Node2
+Thread-1 within node4 sent event (t=2742) to Node1
 Thread within node4 executing local event (padded)
 Thread within node4 executing local event (padded)
-Thread-1 executing received event (padded) (t = 2695) from Node2
-Thread-3 within node4 sent event (t=2705) to Node5
 Thread within node4 executing local event (padded)
-Thread-1 within node4 sent event (t=2713) to Node2
-Thread-3 executing received event (padded) (t = 2701) from Node3
+Thread-2 executing received event (padded) (t = 2759) from Node2
+Thread-3 executing received event (padded) (t = 2793) from Node1
 Thread within node4 executing local event (padded)
-Thread-0 within node4 sent event (t=2721) to Node5
-Thread-1 executing received event (padded) (t = 2717) from Node2
+Thread-2 within node4 sent event (t=2801) to Node2
 Thread within node4 executing local event (padded)
-Thread-1 within node4 sent event (t=2729) to Node1
 Thread within node4 executing local event (padded)
-Thread-1 within node4 sent event (t=2733) to Node2
-Thread-0 executing received event (padded) (t = 2739) from Node2
 Thread within node4 executing local event (padded)
-Thread-2 executing received event (padded) (t = 2736) from Node5
 Thread within node4 executing local event (padded)
-Thread-2 within node4 sent event (t=2755) to Node2
+Thread-2 within node4 sent event (t=2817) to Node3
 Thread within node4 executing local event (padded)
-Thread-3 within node4 sent event (t=2759) to Node3
 Thread within node4 executing local event (padded)
-Thread-0 within node4 sent event (t=2763) to Node1
 Thread within node4 executing local event (padded)
-Thread-0 within node4 sent event (t=2767) to Node2
+Thread-0 executing received event (padded) (t = 2826) from Node3
 Thread within node4 executing local event (padded)
-Thread-0 within node4 sent event (t=2771) to Node5
-Thread-0 executing received event (padded) (t = 2768) from Node3
 Thread within node4 executing local event (padded)
+Thread-0 within node4 sent event (t=2841) to Node2
 Thread within node4 executing local event (padded)
-Thread-1 within node4 sent event (t=2783) to Node1
+Thread-2 within node4 sent event (t=2845) to Node1
+Thread-0 executing received event (padded) (t = 2852) from Node5
 Thread within node4 executing local event (padded)
+Thread-1 within node4 sent event (t=2860) to Node5
+Thread-2 executing received event (padded) (t = 2876) from Node3
+Thread-3 executing received event (padded) (t = 2857) from Node2
 Thread within node4 executing local event (padded)
+Thread-2 within node4 sent event (t=2888) to Node1
 Thread within node4 executing local event (padded)
-Thread-3 within node4 sent event (t=2795) to Node5
+Thread-2 within node4 sent event (t=2892) to Node2
 Thread within node4 executing local event (padded)
-Thread-2 within node4 sent event (t=2799) to Node1
 Thread within node4 executing local event (padded)
+Thread-0 within node4 sent event (t=2900) to Node3
 Thread within node4 executing local event (padded)
 Thread within node4 executing local event (padded)
+Thread-2 within node4 sent event (t=2908) to Node5
+Thread-2 executing received event (padded) (t = 2930) from Node3
 Thread within node4 executing local event (padded)
-Thread-0 within node4 sent event (t=2815) to Node2
-Thread-3 executing received event (padded) (t = 2886) from Node5
 Thread within node4 executing local event (padded)
-Thread-1 executing received event (padded) (t = 2890) from Node2
+Thread-2 within node4 sent event (t=2942) to Node2
+Thread-1 executing received event (padded) (t = 2941) from Node5
+Thread-2 executing received event (padded) (t = 2940) from Node1
 Thread within node4 executing local event (padded)
+Thread-2 within node4 sent event (t=2954) to Node5
+Thread-0 executing received event (padded) (t = 2956) from Node5
 Thread within node4 executing local event (padded)
+Thread-3 within node4 sent event (t=2964) to Node5
 Thread within node4 executing local event (padded)
 Thread within node4 executing local event (padded)
-Thread-1 within node4 sent event (t=2914) to Node1
-Thread-2 executing received event (padded) (t = 2826) from Node3
+Thread-1 within node4 sent event (t=2972) to Node5
+Thread-0 executing received event (padded) (t = 2965) from Node2
 Thread within node4 executing local event (padded)
-Thread-2 within node4 sent event (t=2922) to Node3
+Thread-1 within node4 sent event (t=2980) to Node1
 Thread within node4 executing local event (padded)
-Thread-0 within node4 sent event (t=2926) to Node5
+Thread-2 within node4 sent event (t=2984) to Node1
 Thread within node4 executing local event (padded)
-Thread-3 within node4 sent event (t=2930) to Node1
+Thread-2 within node4 sent event (t=2988) to Node2
 Thread within node4 executing local event (padded)
-Thread-3 executing received event (padded) (t = 2948) from Node1
 Thread within node4 executing local event (padded)
-Thread-2 within node4 sent event (t=2956) to Node1
+Thread-2 executing received event (padded) (t = 3014) from Node3
 Thread within node4 executing local event (padded)
-Thread-0 within node4 sent event (t=2960) to Node1
+Thread-3 within node4 sent event (t=3022) to Node1
 Thread within node4 executing local event (padded)
-Thread-2 within node4 sent event (t=2964) to Node1
-Thread-3 executing received event (padded) (t = 2974) from Node2
 Thread within node4 executing local event (padded)
-Thread-1 executing received event (padded) (t = 2973) from Node3
+Thread-3 within node4 sent event (t=3030) to Node1
+Thread-2 executing received event (padded) (t = 3059) from Node3
 Thread within node4 executing local event (padded)
-Thread-3 executing received event (padded) (t = 3009) from Node5
+Thread-3 within node4 sent event (t=3067) to Node2
 Thread within node4 executing local event (padded)
-Thread-2 within node4 sent event (t=3017) to Node1
-Thread-1 executing received event (padded) (t = 3012) from Node2
 Thread within node4 executing local event (padded)
-Thread-0 within node4 sent event (t=3025) to Node5
-Thread-3 executing received event (padded) (t = 3023) from Node1
-Thread-0 executing received event (padded) (t = 3045) from Node5
+Thread-2 executing received event (padded) (t = 3061) from Node5
+Thread-3 executing received event (padded) (t = 3080) from Node3
+Thread-0 executing received event (padded) (t = 3077) from Node2
 Thread within node4 executing local event (padded)
+Thread-1 within node4 sent event (t=3092) to Node5
+Thread-2 executing received event (padded) (t = 3102) from Node5
 Thread within node4 executing local event (padded)
-Thread-1 within node4 sent event (t=3057) to Node5
+Thread-0 within node4 sent event (t=3110) to Node5
 Thread within node4 executing local event (padded)
-Thread-1 within node4 sent event (t=3061) to Node2
+Thread-2 within node4 sent event (t=3114) to Node1
 Thread within node4 executing local event (padded)
-Thread-1 executing received event (padded) (t = 3082) from Node5
+Thread-2 executing received event (padded) (t = 3128) from Node1
+Thread-3 executing received event (padded) (t = 3142) from Node5
 Thread within node4 executing local event (padded)
-Thread-3 executing received event (padded) (t = 3069) from Node2
+Thread-1 executing received event (padded) (t = 3130) from Node1
 Thread within node4 executing local event (padded)
-Thread-2 within node4 sent event (t=3098) to Node1
+Thread-3 within node4 sent event (t=3158) to Node2
+Thread-3 executing received event (padded) (t = 3157) from Node5
 Thread within node4 executing local event (padded)
 Thread within node4 executing local event (padded)
-Thread-3 executing received event (padded) (t = 3102) from Node1
-Thread-3 within node4 sent event (t=3102) to Node2
+Thread-2 executing received event (padded) (t = 3165) from Node1
 Thread within node4 executing local event (padded)
-Thread-3 within node4 sent event (t=3114) to Node1
 Thread within node4 executing local event (padded)
-Thread-0 within node4 sent event (t=3118) to Node5
+Thread-3 within node4 sent event (t=3182) to Node1
 Thread within node4 executing local event (padded)
-Thread-1 within node4 sent event (t=3122) to Node5
-Thread-3 executing received event (padded) (t = 3158) from Node5
+Thread-2 within node4 sent event (t=3186) to Node3
+Thread-2 executing received event (padded) (t = 3192) from Node3
+Thread-3 executing received event (padded) (t = 3195) from Node3
+Thread-0 executing received event (padded) (t = 3189) from Node5
+Thread-1 executing received event (padded) (t = 3186) from Node1
+Thread-2 executing received event (padded) (t = 3178) from Node2
 Thread within node4 executing local event (padded)
-Thread-1 executing received event (padded) (t = 3053) from Node3
+Thread-2 within node4 sent event (t=3216) to Node5
+Thread-0 executing received event (padded) (t = 3229) from Node5
 Thread within node4 executing local event (padded)
-Thread-2 within node4 sent event (t=3174) to Node5
-Thread-3 executing received event (padded) (t = 3184) from Node5
+Thread-1 within node4 sent event (t=3237) to Node1
 Thread within node4 executing local event (padded)
+Thread-3 within node4 sent event (t=3241) to Node1
 Thread within node4 executing local event (padded)
+Thread-0 within node4 sent event (t=3245) to Node1
+Thread-0 executing received event (padded) (t = 3236) from Node3
 Thread within node4 executing local event (padded)
-Thread-3 within node4 sent event (t=3200) to Node2
+Thread-2 executing received event (padded) (t = 3273) from Node5
+Thread-3 executing received event (padded) (t = 3190) from Node2
+Thread-0 executing received event (padded) (t = 3194) from Node2
 Thread within node4 executing local event (padded)
 Thread within node4 executing local event (padded)
-Thread-1 executing received event (padded) (t = 3204) from Node3
+Thread-0 within node4 sent event (t=3293) to Node1
+Thread-3 executing received event (padded) (t = 3248) from Node3
 Thread within node4 executing local event (padded)
-Thread-3 executing received event (padded) (t = 3223) from Node1
-Thread-0 executing received event (padded) (t = 3228) from Node2
-Thread-1 executing received event (padded) (t = 3227) from Node1
 Thread within node4 executing local event (padded)
-Thread-2 within node4 sent event (t=3240) to Node2
 Thread within node4 executing local event (padded)
-Thread-3 within node4 sent event (t=3244) to Node1
 Thread within node4 executing local event (padded)
-Thread-1 within node4 sent event (t=3248) to Node3
+Thread-1 within node4 sent event (t=3313) to Node5
 Thread within node4 executing local event (padded)
-Thread-0 within node4 sent event (t=3252) to Node5
+Thread-1 within node4 sent event (t=3317) to Node2
+Thread-1 executing received event (padded) (t = 3329) from Node3
+Thread-2 executing received event (padded) (t = 3335) from Node3
 Thread within node4 executing local event (padded)
-Thread-3 within node4 sent event (t=3256) to Node5
-Thread-3 executing received event (padded) (t = 3247) from Node1
-Thread-0 executing received event (padded) (t = 3267) from Node5
 Thread within node4 executing local event (padded)
-Thread-3 within node4 sent event (t=3275) to Node2
 Thread within node4 executing local event (padded)
-Thread-2 within node4 sent event (t=3279) to Node3
+Thread-2 within node4 sent event (t=3351) to Node1
+Thread-2 executing received event (padded) (t = 3347) from Node3
 Thread within node4 executing local event (padded)
-Thread-3 within node4 sent event (t=3283) to Node5
+Thread-3 within node4 sent event (t=3359) to Node1
 Thread within node4 executing local event (padded)
-Thread-1 executing received event (padded) (t = 3291) from Node2
 Thread within node4 executing local event (padded)
-Thread-1 within node4 sent event (t=3299) to Node5
-Thread-3 executing received event (padded) (t = 3342) from Node2
+Thread-3 within node4 sent event (t=3367) to Node1
+Thread-2 executing received event (padded) (t = 3371) from Node2
 Thread within node4 executing local event (padded)
+Thread-0 executing received event (padded) (t = 3373) from Node2
 Thread within node4 executing local event (padded)
-Thread-2 within node4 sent event (t=3354) to Node3
 Thread within node4 executing local event (padded)
-Thread-3 within node4 sent event (t=3358) to Node1
+Thread-3 executing received event (padded) (t = 3386) from Node1
 Thread within node4 executing local event (padded)
-Thread-0 executing received event (padded) (t = 3361) from Node1
 Thread within node4 executing local event (padded)
-Thread-2 executing received event (padded) (t = 3362) from Node1
+Thread-3 within node4 sent event (t=3403) to Node2
+Thread-2 executing received event (padded) (t = 3409) from Node2
+Thread-3 executing received event (padded) (t = 3411) from Node2
+Thread-0 executing received event (padded) (t = 3429) from Node5
 Thread within node4 executing local event (padded)
-Thread-0 executing received event (padded) (t = 3385) from Node5
+Thread-1 within node4 sent event (t=3437) to Node2
+Thread-2 executing received event (padded) (t = 3434) from Node5
 Thread within node4 executing local event (padded)
 Thread within node4 executing local event (padded)
 Thread within node4 executing local event (padded)
 Thread within node4 executing local event (padded)
+Thread-0 within node4 sent event (t=3457) to Node1
 Thread within node4 executing local event (padded)
-Thread-0 within node4 sent event (t=3409) to Node1
-Thread-2 executing received event (padded) (t = 3410) from Node5
-Thread-3 executing received event (padded) (t = 3415) from Node5
+Thread-0 within node4 sent event (t=3461) to Node2
+Thread-0 executing received event (padded) (t = 3459) from Node1
+Thread-1 executing received event (padded) (t = 3476) from Node5
+Thread-2 executing received event (padded) (t = 3473) from Node2
 Thread within node4 executing local event (padded)
-Thread-1 executing received event (padded) (t = 3421) from Node1
+Thread-2 within node4 sent event (t=3488) to Node3
+Thread-0 executing received event (padded) (t = 3494) from Node3
 Thread within node4 executing local event (padded)
+Thread-1 within node4 sent event (t=3502) to Node1
 Thread within node4 executing local event (padded)
+Thread-3 within node4 sent event (t=3506) to Node5
 Thread within node4 executing local event (padded)
-Thread-0 within node4 sent event (t=3439) to Node5
+Thread-0 within node4 sent event (t=3510) to Node5
 Thread within node4 executing local event (padded)
-Thread-1 within node4 sent event (t=3443) to Node5
+Thread-3 within node4 sent event (t=3514) to Node3
 Thread within node4 executing local event (padded)
-Thread-2 executing received event (padded) (t = 3406) from Node2
-Thread-3 within node4 sent event (t=3451) to Node1
+Thread-2 executing received event (padded) (t = 3505) from Node1
+Thread-3 executing received event (padded) (t = 3530) from Node3
 Thread within node4 executing local event (padded)
-Thread-3 within node4 sent event (t=3455) to Node2
+Thread-0 within node4 sent event (t=3538) to Node2
+Thread-1 executing received event (padded) (t = 3546) from Node2
+Thread-2 executing received event (padded) (t = 3506) from Node1
 Thread within node4 executing local event (padded)
-Thread-1 within node4 sent event (t=3459) to Node5
-Thread-2 executing received event (padded) (t = 3485) from Node5
 Thread within node4 executing local event (padded)
 Thread within node4 executing local event (padded)
-Thread-0 within node4 sent event (t=3497) to Node5
 Thread within node4 executing local event (padded)
 Thread within node4 executing local event (padded)
-Thread-3 executing received event (padded) (t = 3475) from Node2
-Thread-0 executing received event (padded) (t = 3532) from Node5
+Thread-2 within node4 sent event (t=3574) to Node1
+Thread-0 executing received event (padded) (t = 3581) from Node5
+Thread-1 executing received event (padded) (t = 3576) from Node1
 Thread within node4 executing local event (padded)
 Thread within node4 executing local event (padded)
-Thread-3 executing received event (padded) (t = 3501) from Node1
 Thread within node4 executing local event (padded)
 Thread within node4 executing local event (padded)
+Thread-2 within node4 sent event (t=3605) to Node5
 Thread within node4 executing local event (padded)
 Thread within node4 executing local event (padded)
-Thread-0 within node4 sent event (t=3556) to Node2
-Thread-3 within node4 sent event (t=3564) to Node1
 Thread within node4 executing local event (padded)
-Thread-0 within node4 sent event (t=3568) to Node5
 Thread within node4 executing local event (padded)
-Thread-3 within node4 sent event (t=3572) to Node1
+Thread-3 within node4 sent event (t=3621) to Node1
 Thread within node4 executing local event (padded)
-Thread-3 executing received event (padded) (t = 3575) from Node1
+Thread-0 within node4 sent event (t=3625) to Node2
 Thread within node4 executing local event (padded)
-Thread-1 executing received event (padded) (t = 3574) from Node2
 Thread within node4 executing local event (padded)
-Thread-2 within node4 sent event (t=3592) to Node3
 Thread within node4 executing local event (padded)
-Thread-1 within node4 sent event (t=3596) to Node1
 Thread within node4 executing local event (padded)
-Thread-3 within node4 sent event (t=3600) to Node3
-Thread-1 executing received event (padded) (t = 3582) from Node2
+Thread-2 within node4 sent event (t=3641) to Node5
 Thread within node4 executing local event (padded)
-Thread-0 within node4 sent event (t=3608) to Node3
+Thread-0 within node4 sent event (t=3645) to Node5
+Thread-0 executing received event (padded) (t = 3637) from Node1
 Thread within node4 executing local event (padded)
-Thread-0 executing received event (padded) (t = 3628) from Node2
+Thread-0 within node4 sent event (t=3653) to Node1
 Thread within node4 executing local event (padded)
-Thread-1 within node4 sent event (t=3636) to Node2
 Thread within node4 executing local event (padded)
 Thread within node4 executing local event (padded)
-Thread-2 within node4 sent event (t=3640) to Node2
-Thread-0 executing received event (padded) (t = 3644) from Node2
+Thread-1 within node4 sent event (t=3665) to Node5
 Thread within node4 executing local event (padded)
+Thread-3 within node4 sent event (t=3669) to Node5
 Thread within node4 executing local event (padded)
-Thread-3 within node4 sent event (t=3656) to Node3
-Thread-3 executing received event (padded) (t = 3662) from Node3
-Thread-0 executing received event (padded) (t = 3652) from Node2
+Thread-3 executing received event (padded) (t = 3672) from Node3
 Thread within node4 executing local event (padded)
+Thread-2 within node4 sent event (t=3681) to Node2
 Thread within node4 executing local event (padded)
-Thread-1 within node4 sent event (t=3678) to Node1
 Thread within node4 executing local event (padded)
 Thread within node4 executing local event (padded)
 Thread within node4 executing local event (padded)
+Thread-3 within node4 sent event (t=3697) to Node1
 Thread within node4 executing local event (padded)
-Thread-1 within node4 sent event (t=3694) to Node1
+Thread-2 within node4 sent event (t=3701) to Node2
 Thread within node4 executing local event (padded)
-Thread-3 within node4 sent event (t=3698) to Node2
-Thread-0 executing received event (padded) (t = 3685) from Node3
 Thread within node4 executing local event (padded)
+Thread-2 within node4 sent event (t=3709) to Node1
 Thread within node4 executing local event (padded)
-Thread-1 within node4 sent event (t=3710) to Node2
-Thread-3 executing received event (padded) (t = 3688) from Node3
+Thread-0 within node4 sent event (t=3713) to Node5
+Thread-1 executing received event (padded) (t = 3711) from Node3
 Thread within node4 executing local event (padded)
-Thread-2 within node4 sent event (t=3718) to Node3
+Thread-2 within node4 sent event (t=3721) to Node1
 Thread within node4 executing local event (padded)
-Thread-2 executing received event (padded) (t = 3707) from Node5
 Thread within node4 executing local event (padded)
-Thread-1 within node4 sent event (t=3730) to Node2
+Thread-3 within node4 sent event (t=3725) to Node5
 Thread within node4 executing local event (padded)
+Thread-1 within node4 sent event (t=3733) to Node3
 Thread within node4 executing local event (padded)
+Thread-0 within node4 sent event (t=3737) to Node1
 Thread within node4 executing local event (padded)
-Thread-3 executing received event (padded) (t = 3746) from Node2
+Thread-2 within node4 sent event (t=3741) to Node3
 Thread within node4 executing local event (padded)
-Thread-2 within node4 sent event (t=3754) to Node3
 Thread within node4 executing local event (padded)
-Thread-1 within node4 sent event (t=3758) to Node5
 Thread within node4 executing local event (padded)
+Thread-0 within node4 sent event (t=3753) to Node1
+Thread-3 executing received event (padded) (t = 3770) from Node2
 Thread within node4 executing local event (padded)
-Thread within node4 executing local event (padded)
-Thread-1 within node4 sent event (t=3770) to Node5
-Thread within node4 executing local event (padded)
-Thread-3 within node4 sent event (t=3774) to Node2
-Thread-2 executing received event (padded) (t = 3763) from Node3
+Thread-0 within node4 sent event (t=3778) to Node2
 Thread within node4 executing local event (padded)
 Thread-2 within node4 sent event (t=3782) to Node2
 Thread within node4 executing local event (padded)
-Thread-1 executing received event (padded) (t = 3788) from Node2
+Thread within node4 executing local event (padded)
+Thread-1 within node4 sent event (t=3790) to Node3
+Thread within node4 executing local event (padded)
+Thread-2 within node4 sent event (t=3794) to Node3
+Thread within node4 executing local event (padded)
+Thread-0 within node4 sent event (t=3798) to Node2
+Thread within node4 executing local event (padded)
+Thread-1 within node4 sent event (t=3802) to Node1
 Thread within node4 executing local event (padded)
 Thread within node4 executing local event (padded)
-Thread-0 executing received event (padded) (t = 3790) from Node2
 Thread within node4 executing local event (padded)
-Thread-3 within node4 sent event (t=3808) to Node5
-Thread-2 executing received event (padded) (t = 3798) from Node2
-Thread-3 executing received event (padded) (t = 3806) from Node2
-
-=== Node 4 Statistics (PaddedCounter) ===
-Total events processed: 608
-Messages sent: 225
-Messages received: 208
-Execution time = 10444 ms
-Final Lamport time: 3816
-PaddedCounter 0 value: 148
-PaddedCounter 1 value: 148
-PaddedCounter 2 value: 150
-PaddedCounter 3 value: 162
+Thread within node4 executing local event (padded)
+Thread-2 within node4 sent event (t=3818) to Node1
+Thread within node4 executing local event (padded)
+Thread-2 within node4 sent event (t=3822) to Node2
+Thread within node4 executing local event (padded)
+Thread-0 within node4 sent event (t=3826) to Node5
+Thread within node4 executing local event (padded)
+Thread-1 within node4 sent event (t=3830) to Node2
+Thread within node4 executing local event (padded)
+Thread within node4 executing local event (padded)
+Thread within node4 executing local event (padded)
+Thread within node4 executing local event (padded)
+Thread-0 within node4 sent event (t=3846) to Node3
+Thread within node4 executing local event (padded)
+Thread within node4 executing local event (padded)
+Thread within node4 executing local event (padded)
+Thread within node4 executing local event (padded)
+Thread within node4 executing local event (padded)
+Thread within node4 executing local event (padded)

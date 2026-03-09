@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # Compile all Java files firs
 echo "Compiling Java files..."

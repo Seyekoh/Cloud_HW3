@@ -5,837 +5,822 @@ Node 4 connected to Node 2
 Node 4 connected to Node 3
 Node 4 connected to Node 5
 Thread-0 executing received event (t = 20) from Node5
-Thread-1 executing received event (t = 10) from Node1
-Thread-2 executing received event (t = 62) from Node3
-Thread-3 executing received event (t = 86) from Node3
+Thread-1 executing received event (t = 62) from Node3
+Thread-2 executing received event (t = 10) from Node1
+Thread-3 executing received event (t = 98) from Node3
 Thread-0 executing received event (t = 13) from Node1
-Thread-1 executing received event (t = 19) from Node1
-Thread-2 executing received event (t = 258) from Node3
-Thread-3 executing received event (t = 254) from Node1
-Thread-0 executing received event (t = 264) from Node3
-Thread-1 executing received event (t = 272) from Node5
+Thread-1 executing received event (t = 262) from Node5
+Thread-2 executing received event (t = 251) from Node1
 Node 4 starting 4 worker threads with 100 events each
-Thread-2 executing received event (t = 258) from Node1
-Thread within node4 executing local event
-Thread within node4 executing local event
-Thread-1 executing received event (t = 276) from Node3
-Thread within node4 executing local event
-Thread within node4 executing local event
-Thread-3 executing received event (t = 285) from Node3
-Thread-0 within node4 sent event (t=284) to Node5
-Thread-3 within node4 sent event (t=296) to Node1
-Thread-1 within node4 sent event (t=292) to Node2
-Thread-2 within node4 sent event (t=304) to Node3
-Thread-1 executing received event (t = 264) from Node1
-Thread within node4 executing local event
-Thread within node4 executing local event
-Thread-2 within node4 sent event (t=316) to Node3
-Thread within node4 executing local event
-Thread-1 executing received event (t = 308) from Node2
-Thread within node4 executing local event
-Thread within node4 executing local event
-Thread-0 within node4 sent event (t=328) to Node2
-Thread within node4 executing local event
-Thread within node4 executing local event
-Thread-3 within node4 sent event (t=340) to Node5
-Thread within node4 executing local event
-Thread-3 within node4 sent event (t=344) to Node5
-Thread within node4 executing local event
-Thread within node4 executing local event
-Thread-2 within node4 sent event (t=352) to Node1
-Thread within node4 executing local event
-Thread-2 executing received event (t = 343) from Node3
-Thread-3 executing received event (t = 367) from Node1
-Thread within node4 executing local event
-Thread-1 executing received event (t = 348) from Node2
 Thread within node4 executing local event
 Thread within node4 executing local event
 Thread within node4 executing local event
 Thread within node4 executing local event
-Thread-1 within node4 sent event (t=395) to Node3
+Thread-3 executing received event (t = 263) from Node3
+Thread-1 within node4 sent event (t=282) to Node2
+Thread-3 within node4 sent event (t=278) to Node5
+Thread-0 within node4 sent event (t=274) to Node5
+Thread-2 within node4 sent event (t=286) to Node2
+Thread-0 executing received event (t = 255) from Node1
+Thread-1 executing received event (t = 294) from Node2
+Thread-2 executing received event (t = 324) from Node3
+Thread-3 executing received event (t = 298) from Node1
+Thread-0 executing received event (t = 302) from Node2
 Thread within node4 executing local event
-Thread-3 within node4 sent event (t=399) to Node5
+Thread within node4 executing local event
+Thread-1 within node4 sent event (t=344) to Node3
+Thread within node4 executing local event
+Thread-0 within node4 sent event (t=348) to Node2
+Thread within node4 executing local event
+Thread within node4 executing local event
+Thread-2 executing received event (t = 370) from Node5
+Thread within node4 executing local event
+Thread-3 within node4 sent event (t=378) to Node2
+Thread within node4 executing local event
+Thread-1 executing received event (t = 359) from Node1
+Thread within node4 executing local event
+Thread within node4 executing local event
+Thread-0 within node4 sent event (t=394) to Node1
+Thread within node4 executing local event
+Thread-1 executing received event (t = 392) from Node3
+Thread-2 executing received event (t = 399) from Node1
 Thread-3 executing received event (t = 401) from Node3
 Thread within node4 executing local event
-Thread-2 within node4 sent event (t=409) to Node5
-Thread-1 executing received event (t = 371) from Node1
+Thread-1 within node4 sent event (t=414) to Node1
+Thread-1 executing received event (t = 398) from Node5
 Thread within node4 executing local event
 Thread within node4 executing local event
-Thread-1 within node4 sent event (t=421) to Node5
-Thread-0 executing received event (t = 410) from Node3
-Thread-1 executing received event (t = 376) from Node1
 Thread within node4 executing local event
+Thread-2 within node4 sent event (t=430) to Node3
 Thread within node4 executing local event
+Thread-3 within node4 sent event (t=434) to Node5
 Thread within node4 executing local event
+Thread-1 within node4 sent event (t=438) to Node3
+Thread-3 executing received event (t = 463) from Node3
 Thread within node4 executing local event
-Thread-0 within node4 sent event (t=445) to Node1
+Thread-0 within node4 sent event (t=471) to Node5
 Thread within node4 executing local event
+Thread-2 within node4 sent event (t=475) to Node5
 Thread within node4 executing local event
-Thread-3 within node4 sent event (t=453) to Node3
-Thread-0 executing received event (t = 506) from Node5
+Thread-3 executing received event (t = 496) from Node5
 Thread within node4 executing local event
-Thread-2 within node4 sent event (t=514) to Node2
 Thread within node4 executing local event
-Thread-3 executing received event (t = 507) from Node1
-Thread-0 executing received event (t = 522) from Node2
+Thread-1 within node4 sent event (t=508) to Node1
+Thread-2 executing received event (t = 513) from Node3
+Thread-3 executing received event (t = 516) from Node5
+Thread-0 executing received event (t = 515) from Node2
 Thread within node4 executing local event
-Thread-2 executing received event (t = 526) from Node5
 Thread within node4 executing local event
-Thread-3 within node4 sent event (t=538) to Node3
-Thread-0 executing received event (t = 550) from Node3
+Thread-3 within node4 sent event (t=533) to Node3
 Thread within node4 executing local event
 Thread within node4 executing local event
 Thread within node4 executing local event
+Thread-2 executing received event (t = 523) from Node2
 Thread within node4 executing local event
-Thread-1 executing received event (t = 561) from Node2
 Thread within node4 executing local event
-Thread-0 within node4 sent event (t=578) to Node5
+Thread-1 executing received event (t = 577) from Node5
 Thread within node4 executing local event
-Thread-2 within node4 sent event (t=582) to Node3
+Thread-3 within node4 sent event (t=585) to Node3
+Thread-3 executing received event (t = 603) from Node3
 Thread within node4 executing local event
+Thread-1 executing received event (t = 624) from Node5
 Thread within node4 executing local event
+Thread-3 within node4 sent event (t=632) to Node3
 Thread within node4 executing local event
-Thread-1 within node4 sent event (t=594) to Node3
 Thread within node4 executing local event
+Thread-0 within node4 sent event (t=640) to Node5
+Thread-1 executing received event (t = 657) from Node1
+Thread-2 executing received event (t = 653) from Node3
 Thread within node4 executing local event
-Thread-0 within node4 sent event (t=602) to Node3
+Thread-0 executing received event (t = 596) from Node2
+Thread-2 within node4 sent event (t=669) to Node5
 Thread within node4 executing local event
-Thread-2 executing received event (t = 575) from Node2
+Thread-2 executing received event (t = 681) from Node1
 Thread within node4 executing local event
+Thread-1 within node4 sent event (t=689) to Node3
 Thread within node4 executing local event
-Thread-1 executing received event (t = 638) from Node5
+Thread-3 within node4 sent event (t=693) to Node3
+Thread-1 executing received event (t = 682) from Node1
+Thread-2 executing received event (t = 689) from Node5
+Thread-3 executing received event (t = 683) from Node1
 Thread within node4 executing local event
+Thread-1 executing received event (t = 705) from Node3
 Thread within node4 executing local event
-Thread-0 within node4 sent event (t=650) to Node1
+Thread-2 within node4 sent event (t=717) to Node1
 Thread within node4 executing local event
-Thread-1 within node4 sent event (t=654) to Node2
 Thread within node4 executing local event
-Thread-2 within node4 sent event (t=658) to Node2
-Thread-2 executing received event (t = 666) from Node1
-Thread-3 executing received event (t = 666) from Node2
-Thread-0 executing received event (t = 668) from Node3
+Thread-3 within node4 sent event (t=725) to Node1
+Thread-1 executing received event (t = 709) from Node5
+Thread-2 executing received event (t = 730) from Node1
 Thread within node4 executing local event
+Thread-1 within node4 sent event (t=738) to Node2
 Thread within node4 executing local event
 Thread within node4 executing local event
-Thread-1 within node4 sent event (t=686) to Node1
-Thread-3 within node4 sent event (t=690) to Node2
+Thread-0 within node4 sent event (t=742) to Node3
 Thread within node4 executing local event
-Thread-0 within node4 sent event (t=694) to Node3
-Thread-1 executing received event (t = 706) from Node1
-Thread-2 executing received event (t = 713) from Node5
-Thread-3 executing received event (t = 715) from Node3
-Thread-0 executing received event (t = 727) from Node2
+Thread-3 executing received event (t = 748) from Node2
 Thread within node4 executing local event
-Thread-2 within node4 sent event (t=735) to Node2
-Thread-2 executing received event (t = 728) from Node5
+Thread-1 executing received event (t = 724) from Node5
 Thread within node4 executing local event
-Thread-0 within node4 sent event (t=743) to Node2
+Thread-3 executing received event (t = 754) from Node2
+Thread-0 within node4 sent event (t=766) to Node3
 Thread within node4 executing local event
-Thread-1 executing received event (t = 751) from Node2
+Thread-2 within node4 sent event (t=774) to Node2
 Thread within node4 executing local event
-Thread-3 within node4 sent event (t=759) to Node3
+Thread-3 within node4 sent event (t=778) to Node2
+Thread-2 executing received event (t = 789) from Node3
 Thread within node4 executing local event
-Thread-2 within node4 sent event (t=763) to Node5
-Thread-0 executing received event (t = 738) from Node1
-Thread-1 executing received event (t = 768) from Node3
-Thread-2 executing received event (t = 788) from Node5
-Thread-3 executing received event (t = 793) from Node2
+Thread-0 executing received event (t = 746) from Node1
+Thread-1 executing received event (t = 798) from Node3
+Thread-2 executing received event (t = 749) from Node1
 Thread within node4 executing local event
-Thread-2 within node4 sent event (t=801) to Node5
 Thread within node4 executing local event
+Thread-0 within node4 sent event (t=817) to Node5
 Thread within node4 executing local event
+Thread-2 within node4 sent event (t=821) to Node1
 Thread within node4 executing local event
-Thread-3 within node4 sent event (t=813) to Node3
 Thread within node4 executing local event
 Thread within node4 executing local event
-Thread-3 within node4 sent event (t=821) to Node5
-Thread-2 executing received event (t = 848) from Node3
+Thread-0 within node4 sent event (t=833) to Node3
 Thread within node4 executing local event
+Thread-2 executing received event (t = 862) from Node3
 Thread within node4 executing local event
 Thread within node4 executing local event
+Thread-2 within node4 sent event (t=874) to Node3
 Thread within node4 executing local event
+Thread-2 executing received event (t = 862) from Node5
 Thread within node4 executing local event
+Thread-0 executing received event (t = 870) from Node1
 Thread within node4 executing local event
-Thread-2 within node4 sent event (t=872) to Node5
-Thread-0 within node4 sent event (t=876) to Node3
 Thread within node4 executing local event
-Thread-0 within node4 sent event (t=880) to Node5
 Thread within node4 executing local event
-Thread-0 within node4 sent event (t=884) to Node1
 Thread within node4 executing local event
-Thread-3 within node4 sent event (t=888) to Node2
-Thread-0 executing received event (t = 907) from Node5
 Thread within node4 executing local event
+Thread-2 within node4 sent event (t=910) to Node5
 Thread within node4 executing local event
-Thread-2 within node4 sent event (t=919) to Node2
+Thread-1 within node4 sent event (t=914) to Node3
 Thread within node4 executing local event
+Thread-1 within node4 sent event (t=918) to Node5
 Thread within node4 executing local event
-Thread-0 within node4 sent event (t=927) to Node1
+Thread-1 within node4 sent event (t=922) to Node1
 Thread within node4 executing local event
-Thread-0 within node4 sent event (t=931) to Node3
-Thread-2 executing received event (t = 929) from Node2
+Thread-3 within node4 sent event (t=926) to Node2
 Thread within node4 executing local event
+Thread-0 within node4 sent event (t=930) to Node5
 Thread within node4 executing local event
-Thread-3 within node4 sent event (t=943) to Node1
+Thread-2 within node4 sent event (t=934) to Node2
+Thread-0 executing received event (t = 950) from Node3
 Thread within node4 executing local event
 Thread within node4 executing local event
-Thread-0 within node4 sent event (t=951) to Node1
 Thread within node4 executing local event
-Thread-3 within node4 sent event (t=955) to Node2
+Thread-1 within node4 sent event (t=966) to Node3
+Thread-0 executing received event (t = 989) from Node2
 Thread within node4 executing local event
-Thread-0 within node4 sent event (t=959) to Node2
 Thread within node4 executing local event
+Thread-0 within node4 sent event (t=1001) to Node1
 Thread within node4 executing local event
-Thread-3 executing received event (t = 952) from Node3
-Thread-0 executing received event (t = 980) from Node5
+Thread-0 executing received event (t = 1003) from Node1
 Thread within node4 executing local event
-Thread-2 executing received event (t = 990) from Node1
 Thread within node4 executing local event
+Thread-0 within node4 sent event (t=1017) to Node2
 Thread within node4 executing local event
+Thread-1 within node4 sent event (t=1021) to Node2
 Thread within node4 executing local event
-Thread-2 within node4 sent event (t=1006) to Node1
 Thread within node4 executing local event
-Thread-2 within node4 sent event (t=1010) to Node3
-Thread-3 executing received event (t = 995) from Node5
 Thread within node4 executing local event
-Thread-3 within node4 sent event (t=1018) to Node1
-Thread-1 executing received event (t = 1016) from Node3
-Thread-2 executing received event (t = 1026) from Node3
+Thread-3 executing received event (t = 1039) from Node3
 Thread within node4 executing local event
-Thread-0 within node4 sent event (t=1034) to Node5
-Thread-0 executing received event (t = 1047) from Node2
+Thread-0 within node4 sent event (t=1047) to Node2
+Thread-1 executing received event (t = 1023) from Node1
+Thread-2 executing received event (t = 1092) from Node3
 Thread within node4 executing local event
-Thread-3 within node4 sent event (t=1055) to Node3
-Thread-2 executing received event (t = 1067) from Node3
-Thread-3 executing received event (t = 1064) from Node5
 Thread within node4 executing local event
 Thread within node4 executing local event
-Thread-2 within node4 sent event (t=1083) to Node1
-Thread-2 executing received event (t = 1081) from Node3
+Thread-2 within node4 sent event (t=1108) to Node3
 Thread within node4 executing local event
-Thread-0 executing received event (t = 1087) from Node1
-Thread-1 executing received event (t = 1107) from Node2
-Thread-2 executing received event (t = 1110) from Node3
+Thread-1 within node4 sent event (t=1112) to Node3
+Thread-3 executing received event (t = 1111) from Node5
 Thread within node4 executing local event
-Thread-2 within node4 sent event (t=1119) to Node3
+Thread-1 executing received event (t = 1127) from Node1
+Thread-2 executing received event (t = 1127) from Node3
+Thread-3 executing received event (t = 1133) from Node3
 Thread within node4 executing local event
-Thread-3 within node4 sent event (t=1123) to Node3
 Thread within node4 executing local event
-Thread-1 within node4 sent event (t=1127) to Node3
+Thread-0 within node4 sent event (t=1147) to Node1
 Thread within node4 executing local event
+Thread-0 within node4 sent event (t=1151) to Node3
 Thread within node4 executing local event
-Thread-0 executing received event (t = 1141) from Node1
-Thread-1 executing received event (t = 1144) from Node2
 Thread within node4 executing local event
 Thread within node4 executing local event
-Thread-3 within node4 sent event (t=1157) to Node5
-Thread-0 executing received event (t = 1206) from Node5
-Thread-1 executing received event (t = 1181) from Node3
+Thread-0 within node4 sent event (t=1163) to Node5
 Thread within node4 executing local event
 Thread within node4 executing local event
-Thread-0 within node4 sent event (t=1218) to Node1
+Thread-0 executing received event (t = 1186) from Node5
+Thread-1 executing received event (t = 1187) from Node1
 Thread within node4 executing local event
-Thread-1 executing received event (t = 1221) from Node5
+Thread-2 within node4 sent event (t=1198) to Node2
+Thread-3 executing received event (t = 1206) from Node2
 Thread within node4 executing local event
-Thread-1 within node4 sent event (t=1234) to Node5
 Thread within node4 executing local event
-Thread-3 within node4 sent event (t=1238) to Node3
+Thread-2 executing received event (t = 1219) from Node1
+Thread-3 executing received event (t = 1237) from Node3
 Thread within node4 executing local event
-Thread-2 within node4 sent event (t=1242) to Node3
+Thread-1 executing received event (t = 1240) from Node3
+Thread-2 executing received event (t = 1220) from Node1
 Thread within node4 executing local event
-Thread-2 within node4 sent event (t=1246) to Node3
 Thread within node4 executing local event
 Thread within node4 executing local event
-Thread-0 within node4 sent event (t=1254) to Node5
-Thread-0 executing received event (t = 1278) from Node3
+Thread-1 within node4 sent event (t=1265) to Node1
 Thread within node4 executing local event
-Thread-2 executing received event (t = 1259) from Node2
-Thread-3 within node4 sent event (t=1286) to Node3
+Thread-0 within node4 sent event (t=1269) to Node2
 Thread within node4 executing local event
-Thread-0 executing received event (t = 1289) from Node5
-Thread-1 executing received event (t = 1295) from Node3
 Thread within node4 executing local event
-Thread-1 within node4 sent event (t=1306) to Node2
+Thread-0 within node4 sent event (t=1277) to Node5
 Thread within node4 executing local event
-Thread-0 within node4 sent event (t=1310) to Node5
+Thread-1 within node4 sent event (t=1281) to Node3
+Thread-2 executing received event (t = 1307) from Node2
+Thread-3 executing received event (t = 1309) from Node2
 Thread within node4 executing local event
-Thread-1 within node4 sent event (t=1314) to Node2
-Thread-1 executing received event (t = 1318) from Node2
 Thread within node4 executing local event
-Thread-3 executing received event (t = 1301) from Node3
+Thread-2 within node4 sent event (t=1323) to Node3
 Thread within node4 executing local event
-Thread-3 within node4 sent event (t=1334) to Node1
+Thread-2 executing received event (t = 1331) from Node1
 Thread within node4 executing local event
-Thread-3 within node4 sent event (t=1338) to Node5
 Thread within node4 executing local event
-Thread-0 within node4 sent event (t=1342) to Node2
-Thread-3 executing received event (t = 1349) from Node3
-Thread-0 executing received event (t = 1348) from Node1
+Thread-1 within node4 sent event (t=1347) to Node5
+Thread-2 executing received event (t = 1363) from Node5
 Thread within node4 executing local event
+Thread-0 within node4 sent event (t=1371) to Node2
 Thread within node4 executing local event
-Thread-1 within node4 sent event (t=1365) to Node5
+Thread-0 within node4 sent event (t=1375) to Node2
 Thread within node4 executing local event
-Thread-2 within node4 sent event (t=1369) to Node5
-Thread-0 executing received event (t = 1403) from Node5
+Thread-1 within node4 sent event (t=1379) to Node3
 Thread within node4 executing local event
+Thread-3 within node4 sent event (t=1383) to Node5
 Thread within node4 executing local event
-Thread-0 within node4 sent event (t=1411) to Node5
-Thread-2 within node4 sent event (t=1415) to Node2
+Thread-0 within node4 sent event (t=1387) to Node2
+Thread-0 executing received event (t = 1401) from Node3
 Thread within node4 executing local event
-Thread-0 executing received event (t = 1419) from Node2
-Thread-1 within node4 sent event (t=1419) to Node1
 Thread within node4 executing local event
+Thread-3 within node4 sent event (t=1413) to Node1
 Thread within node4 executing local event
+Thread-3 within node4 sent event (t=1417) to Node5
+Thread-0 executing received event (t = 1402) from Node2
+Thread-1 executing received event (t = 1456) from Node3
 Thread within node4 executing local event
-Thread-0 executing received event (t = 1426) from Node2
-Thread-1 executing received event (t = 1361) from Node3
 Thread within node4 executing local event
-Thread-2 within node4 sent event (t=1447) to Node5
 Thread within node4 executing local event
-Thread-0 within node4 sent event (t=1451) to Node1
 Thread within node4 executing local event
-Thread-1 within node4 sent event (t=1455) to Node3
+Thread-1 within node4 sent event (t=1476) to Node5
+Thread-2 executing received event (t = 1408) from Node2
 Thread within node4 executing local event
-Thread-2 executing received event (t = 1479) from Node3
-Thread-1 within node4 sent event (t=1459) to Node5
+Thread-3 within node4 sent event (t=1484) to Node5
 Thread within node4 executing local event
-Thread-3 within node4 sent event (t=1487) to Node5
+Thread-0 within node4 sent event (t=1488) to Node5
 Thread within node4 executing local event
+Thread-1 within node4 sent event (t=1492) to Node2
+Thread-2 executing received event (t = 1471) from Node1
 Thread within node4 executing local event
-Thread-2 within node4 sent event (t=1491) to Node5
-Thread-0 within node4 sent event (t=1495) to Node5
-Thread-2 executing received event (t = 1458) from Node1
 Thread within node4 executing local event
-Thread-3 within node4 sent event (t=1503) to Node3
-Thread-0 executing received event (t = 1547) from Node5
 Thread within node4 executing local event
-Thread-2 executing received event (t = 1546) from Node2
-Thread-2 executing received event (t = 1544) from Node2
+Thread-2 within node4 sent event (t=1508) to Node5
 Thread within node4 executing local event
-Thread-2 within node4 sent event (t=1567) to Node1
+Thread-3 executing received event (t = 1592) from Node3
 Thread within node4 executing local event
-Thread-2 within node4 sent event (t=1571) to Node5
+Thread-2 within node4 sent event (t=1600) to Node5
 Thread within node4 executing local event
+Thread-2 within node4 sent event (t=1604) to Node3
 Thread within node4 executing local event
-Thread-2 within node4 sent event (t=1579) to Node5
+Thread-0 within node4 sent event (t=1608) to Node3
 Thread within node4 executing local event
 Thread within node4 executing local event
-Thread-2 executing received event (t = 1593) from Node3
+Thread-1 executing received event (t = 1586) from Node2
+Thread-2 executing received event (t = 1615) from Node5
+Thread-3 executing received event (t = 1617) from Node3
+Thread-0 executing received event (t = 1622) from Node2
+Thread-1 executing received event (t = 1620) from Node5
+Thread-2 executing received event (t = 1620) from Node3
 Thread within node4 executing local event
+Thread-1 within node4 sent event (t=1644) to Node5
+Thread-0 executing received event (t = 1594) from Node1
+Thread-1 executing received event (t = 1596) from Node1
+Thread-2 executing received event (t = 1595) from Node1
 Thread within node4 executing local event
+Thread-0 executing received event (t = 1674) from Node5
 Thread within node4 executing local event
-Thread-1 within node4 sent event (t=1609) to Node2
-Thread-2 executing received event (t = 1631) from Node3
 Thread within node4 executing local event
-Thread-0 within node4 sent event (t=1639) to Node3
 Thread within node4 executing local event
-Thread-3 within node4 sent event (t=1643) to Node1
+Thread-0 executing received event (t = 1711) from Node1
+Thread-1 executing received event (t = 1722) from Node5
 Thread within node4 executing local event
+Thread-2 within node4 sent event (t=1730) to Node3
+Thread-3 executing received event (t = 1736) from Node3
 Thread within node4 executing local event
-Thread-3 executing received event (t = 1646) from Node1
+Thread-0 within node4 sent event (t=1744) to Node3
 Thread within node4 executing local event
-Thread-3 within node4 sent event (t=1659) to Node2
-Thread-1 executing received event (t = 1660) from Node3
+Thread-2 within node4 sent event (t=1748) to Node5
 Thread within node4 executing local event
-Thread-3 executing received event (t = 1689) from Node1
+Thread-3 executing received event (t = 1738) from Node1
 Thread within node4 executing local event
 Thread within node4 executing local event
-Thread-1 within node4 sent event (t=1697) to Node3
-Thread-2 executing received event (t = 1693) from Node2
 Thread within node4 executing local event
+Thread-0 within node4 sent event (t=1768) to Node2
 Thread within node4 executing local event
-Thread-1 within node4 sent event (t=1713) to Node5
-Thread-1 executing received event (t = 1712) from Node3
 Thread within node4 executing local event
+Thread-3 within node4 sent event (t=1776) to Node1
 Thread within node4 executing local event
-Thread-3 within node4 sent event (t=1725) to Node2
+Thread-2 within node4 sent event (t=1780) to Node3
+Thread-2 executing received event (t = 1768) from Node3
+Thread-3 executing received event (t = 1776) from Node2
+Thread-0 executing received event (t = 1821) from Node1
+Thread-1 executing received event (t = 1837) from Node1
 Thread within node4 executing local event
-Thread-2 within node4 sent event (t=1729) to Node1
-Thread-1 executing received event (t = 1743) from Node5
 Thread within node4 executing local event
+Thread-2 within node4 sent event (t=1849) to Node3
 Thread within node4 executing local event
-Thread-2 within node4 sent event (t=1755) to Node1
-Thread-0 executing received event (t = 1755) from Node1
+Thread-1 executing received event (t = 1858) from Node5
 Thread within node4 executing local event
+Thread-3 within node4 sent event (t=1866) to Node1
+Thread-3 executing received event (t = 1863) from Node5
+Thread-0 executing received event (t = 1868) from Node5
+Thread-1 executing received event (t = 1874) from Node2
 Thread within node4 executing local event
-Thread-2 within node4 sent event (t=1767) to Node2
+Thread-2 within node4 sent event (t=1882) to Node5
+Thread-3 executing received event (t = 1873) from Node1
 Thread within node4 executing local event
-Thread-1 within node4 sent event (t=1771) to Node2
-Thread-0 executing received event (t = 1778) from Node5
-Thread-1 executing received event (t = 1777) from Node2
+Thread-1 executing received event (t = 1864) from Node3
+Thread-2 executing received event (t = 1867) from Node3
+Thread-3 executing received event (t = 1870) from Node3
 Thread within node4 executing local event
-Thread-0 within node4 sent event (t=1790) to Node2
+Thread-1 within node4 sent event (t=1906) to Node1
 Thread within node4 executing local event
-Thread-3 within node4 sent event (t=1794) to Node2
+Thread-3 within node4 sent event (t=1910) to Node2
 Thread within node4 executing local event
+Thread-0 within node4 sent event (t=1914) to Node1
 Thread within node4 executing local event
+Thread-1 within node4 sent event (t=1918) to Node3
+Thread-0 executing received event (t = 1922) from Node5
 Thread within node4 executing local event
-Thread-0 within node4 sent event (t=1806) to Node5
-Thread-3 executing received event (t = 1811) from Node2
+Thread-0 within node4 sent event (t=1930) to Node2
 Thread within node4 executing local event
-Thread-3 within node4 sent event (t=1819) to Node1
+Thread-3 executing received event (t = 1932) from Node5
+Thread-0 executing received event (t = 1923) from Node1
 Thread within node4 executing local event
-Thread-1 within node4 sent event (t=1823) to Node3
+Thread-3 within node4 sent event (t=1946) to Node2
 Thread within node4 executing local event
+Thread-1 within node4 sent event (t=1950) to Node2
 Thread within node4 executing local event
-Thread-2 within node4 sent event (t=1831) to Node3
-Thread-0 executing received event (t = 1844) from Node3
+Thread-0 executing received event (t = 1956) from Node2
 Thread within node4 executing local event
-Thread-2 executing received event (t = 1842) from Node2
-Thread-3 executing received event (t = 1850) from Node3
-Thread-0 executing received event (t = 1826) from Node1
-Thread-1 executing received event (t = 1844) from Node2
+Thread-2 executing received event (t = 1958) from Node2
 Thread within node4 executing local event
+Thread-3 within node4 sent event (t=1972) to Node5
 Thread within node4 executing local event
-Thread-2 within node4 sent event (t=1876) to Node5
-Thread-0 executing received event (t = 1886) from Node5
-Thread-1 executing received event (t = 1891) from Node5
-Thread-2 executing received event (t = 1857) from Node1
+Thread-2 within node4 sent event (t=1976) to Node3
 Thread within node4 executing local event
-Thread-0 executing received event (t = 1896) from Node5
+Thread-2 executing received event (t = 1998) from Node2
 Thread within node4 executing local event
 Thread within node4 executing local event
+Thread-2 within node4 sent event (t=2010) to Node5
 Thread within node4 executing local event
-Thread-3 within node4 sent event (t=1919) to Node5
+Thread-3 within node4 sent event (t=2014) to Node3
 Thread within node4 executing local event
+Thread-2 within node4 sent event (t=2018) to Node3
 Thread within node4 executing local event
-Thread-0 within node4 sent event (t=1927) to Node3
+Thread-0 within node4 sent event (t=2022) to Node5
 Thread within node4 executing local event
 Thread within node4 executing local event
+Thread-1 within node4 sent event (t=2030) to Node5
+Thread-2 executing received event (t = 2078) from Node3
 Thread within node4 executing local event
-Thread-2 within node4 sent event (t=1935) to Node1
+Thread-0 executing received event (t = 2073) from Node1
 Thread within node4 executing local event
-Thread-1 within node4 sent event (t=1943) to Node1
-Thread-2 executing received event (t = 1969) from Node5
 Thread within node4 executing local event
-Thread-2 within node4 sent event (t=1977) to Node5
 Thread within node4 executing local event
-Thread-3 within node4 sent event (t=1981) to Node3
 Thread within node4 executing local event
-Thread-1 within node4 sent event (t=1985) to Node1
+Thread-0 within node4 sent event (t=2106) to Node3
 Thread within node4 executing local event
 Thread within node4 executing local event
-Thread-3 within node4 sent event (t=1993) to Node1
+Thread-3 within node4 sent event (t=2114) to Node1
+Thread-3 executing received event (t = 2100) from Node2
 Thread within node4 executing local event
-Thread-2 within node4 sent event (t=1997) to Node1
 Thread within node4 executing local event
-Thread-2 within node4 sent event (t=2001) to Node1
 Thread within node4 executing local event
-Thread-0 within node4 sent event (t=2005) to Node3
+Thread-3 executing received event (t = 2161) from Node3
 Thread within node4 executing local event
+Thread-2 within node4 sent event (t=2169) to Node3
+Thread-1 executing received event (t = 2160) from Node5
 Thread within node4 executing local event
-Thread-0 within node4 sent event (t=2013) to Node2
+Thread-0 within node4 sent event (t=2177) to Node1
+Thread-3 executing received event (t = 2175) from Node3
 Thread within node4 executing local event
+Thread-1 executing received event (t = 2183) from Node1
+Thread-3 within node4 sent event (t=2185) to Node3
 Thread within node4 executing local event
-Thread-3 within node4 sent event (t=2021) to Node2
-Thread-3 executing received event (t = 2071) from Node5
-Thread-0 executing received event (t = 2043) from Node2
-Thread-1 executing received event (t = 2045) from Node2
-Thread-2 executing received event (t = 2067) from Node1
+Thread-2 within node4 sent event (t=2193) to Node1
 Thread within node4 executing local event
-Thread-0 within node4 sent event (t=2091) to Node3
+Thread-2 within node4 sent event (t=2197) to Node1
+Thread-0 executing received event (t = 2202) from Node3
+Thread-1 executing received event (t = 2213) from Node5
+Thread-2 executing received event (t = 2208) from Node1
+Thread-3 executing received event (t = 2218) from Node5
 Thread within node4 executing local event
-Thread-1 within node4 sent event (t=2095) to Node2
-Thread-1 executing received event (t = 2047) from Node2
-Thread-2 executing received event (t = 2100) from Node3
-Thread-3 executing received event (t = 2109) from Node5
 Thread within node4 executing local event
+Thread-1 within node4 sent event (t=2233) to Node5
 Thread within node4 executing local event
-Thread-0 within node4 sent event (t=2121) to Node1
+Thread-3 executing received event (t = 2226) from Node3
 Thread within node4 executing local event
-Thread-3 within node4 sent event (t=2125) to Node5
+Thread-1 within node4 sent event (t=2245) to Node2
 Thread within node4 executing local event
 Thread within node4 executing local event
+Thread-2 within node4 sent event (t=2253) to Node3
+Thread-3 executing received event (t = 2221) from Node1
 Thread within node4 executing local event
-Thread-0 within node4 sent event (t=2137) to Node5
+Thread-0 within node4 sent event (t=2261) to Node2
 Thread within node4 executing local event
+Thread-3 within node4 sent event (t=2265) to Node5
+Thread-2 executing received event (t = 2278) from Node5
 Thread within node4 executing local event
+Thread-2 within node4 sent event (t=2286) to Node5
 Thread within node4 executing local event
-Thread-2 within node4 sent event (t=2149) to Node2
-Thread-1 executing received event (t = 2173) from Node3
-Thread-2 executing received event (t = 2179) from Node3
+Thread-1 executing received event (t = 2271) from Node2
 Thread within node4 executing local event
-Thread-1 within node4 sent event (t=2187) to Node2
+Thread-3 executing received event (t = 2289) from Node3
 Thread within node4 executing local event
-Thread-2 within node4 sent event (t=2191) to Node5
 Thread within node4 executing local event
+Thread-1 within node4 sent event (t=2310) to Node5
+Thread-2 executing received event (t = 2312) from Node1
 Thread within node4 executing local event
 Thread within node4 executing local event
-Thread-0 within node4 sent event (t=2203) to Node3
+Thread-3 within node4 sent event (t=2324) to Node2
+Thread-1 executing received event (t = 2349) from Node3
 Thread within node4 executing local event
+Thread-0 within node4 sent event (t=2357) to Node2
 Thread within node4 executing local event
-Thread-0 within node4 sent event (t=2211) to Node5
-Thread-2 executing received event (t = 2240) from Node3
+Thread-0 within node4 sent event (t=2361) to Node5
+Thread-0 executing received event (t = 2322) from Node1
 Thread within node4 executing local event
-Thread-2 within node4 sent event (t=2248) to Node1
+Thread-3 within node4 sent event (t=2369) to Node5
 Thread within node4 executing local event
-Thread-0 within node4 sent event (t=2252) to Node2
-Thread-1 executing received event (t = 2251) from Node1
 Thread within node4 executing local event
-Thread-3 executing received event (t = 2261) from Node5
+Thread-2 within node4 sent event (t=2377) to Node3
+Thread-0 executing received event (t = 2386) from Node3
+Thread-1 executing received event (t = 2416) from Node5
 Thread within node4 executing local event
-Thread-1 executing received event (t = 2260) from Node2
-Thread-2 executing received event (t = 2249) from Node3
+Thread-3 within node4 sent event (t=2424) to Node5
 Thread within node4 executing local event
 Thread within node4 executing local event
+Thread-3 within node4 sent event (t=2432) to Node3
 Thread within node4 executing local event
-Thread-2 within node4 sent event (t=2289) to Node3
-Thread-2 executing received event (t = 2281) from Node5
-Thread-3 executing received event (t = 2286) from Node5
-Thread-0 executing received event (t = 2298) from Node3
 Thread within node4 executing local event
+Thread-1 within node4 sent event (t=2440) to Node3
+Thread-3 executing received event (t = 2439) from Node5
 Thread within node4 executing local event
-Thread-2 within node4 sent event (t=2310) to Node2
-Thread-3 executing received event (t = 2304) from Node3
-Thread-0 executing received event (t = 2277) from Node1
+Thread-1 executing received event (t = 2465) from Node3
+Thread-2 executing received event (t = 2462) from Node1
 Thread within node4 executing local event
 Thread within node4 executing local event
 Thread within node4 executing local event
+Thread-1 within node4 sent event (t=2485) to Node3
+Thread-2 executing received event (t = 2482) from Node5
+Thread-3 executing received event (t = 2500) from Node3
+Thread-0 executing received event (t = 2489) from Node1
 Thread within node4 executing local event
-Thread-0 within node4 sent event (t=2334) to Node2
-Thread-1 executing received event (t = 2336) from Node5
-Thread-2 executing received event (t = 2333) from Node1
 Thread within node4 executing local event
-Thread-0 within node4 sent event (t=2348) to Node3
-Thread-0 executing received event (t = 2335) from Node1
+Thread-2 within node4 sent event (t=2516) to Node2
 Thread within node4 executing local event
-Thread-2 within node4 sent event (t=2356) to Node1
-Thread-2 executing received event (t = 2342) from Node2
-Thread-3 executing received event (t = 2364) from Node2
-Thread-0 executing received event (t = 2360) from Node1
 Thread within node4 executing local event
-Thread-1 within node4 sent event (t=2376) to Node1
-Thread-2 executing received event (t = 2379) from Node3
+Thread-1 within node4 sent event (t=2520) to Node1
 Thread within node4 executing local event
-Thread-3 within node4 sent event (t=2387) to Node3
-Thread-0 executing received event (t = 2380) from Node1
-Thread-1 executing received event (t = 2356) from Node5
 Thread within node4 executing local event
+Thread-0 within node4 sent event (t=2532) to Node2
+Thread-3 executing received event (t = 2536) from Node2
 Thread within node4 executing local event
+Thread-0 within node4 sent event (t=2544) to Node5
+Thread-1 executing received event (t = 2563) from Node5
 Thread within node4 executing local event
-Thread-3 within node4 sent event (t=2399) to Node3
-Thread-0 within node4 sent event (t=2407) to Node2
-Thread-1 executing received event (t = 2383) from Node1
+Thread-2 within node4 sent event (t=2571) to Node2
 Thread within node4 executing local event
-Thread-2 within node4 sent event (t=2415) to Node1
-Thread-3 executing received event (t = 2411) from Node5
+Thread-0 within node4 sent event (t=2575) to Node1
 Thread within node4 executing local event
-Thread-2 within node4 sent event (t=2423) to Node2
-Thread-1 executing received event (t = 2427) from Node2
-Thread-2 executing received event (t = 2420) from Node1
 Thread within node4 executing local event
-Thread-2 within node4 sent event (t=2439) to Node1
-Thread-0 executing received event (t = 2461) from Node5
 Thread within node4 executing local event
 Thread within node4 executing local event
+Thread-1 within node4 sent event (t=2591) to Node3
+Thread-0 executing received event (t = 2609) from Node1
 Thread within node4 executing local event
-Thread-1 within node4 sent event (t=2477) to Node2
-Thread-0 executing received event (t = 2499) from Node2
-Thread-1 executing received event (t = 2491) from Node1
 Thread within node4 executing local event
-Thread-3 executing received event (t = 2502) from Node3
 Thread within node4 executing local event
-Thread-1 executing received event (t = 2519) from Node5
 Thread within node4 executing local event
-Thread-0 within node4 sent event (t=2527) to Node3
+Thread-2 within node4 sent event (t=2629) to Node2
+Thread-1 executing received event (t = 2660) from Node3
+Thread-2 executing received event (t = 2673) from Node5
 Thread within node4 executing local event
+Thread-3 within node4 sent event (t=2681) to Node1
 Thread within node4 executing local event
+Thread-0 within node4 sent event (t=2685) to Node2
 Thread within node4 executing local event
+Thread-1 within node4 sent event (t=2689) to Node1
+Thread-2 executing received event (t = 2689) from Node2
 Thread within node4 executing local event
-Thread-3 executing received event (t = 2531) from Node2
 Thread within node4 executing local event
-Thread-3 within node4 sent event (t=2551) to Node2
+Thread-0 within node4 sent event (t=2701) to Node3
+Thread-1 executing received event (t = 2693) from Node1
 Thread within node4 executing local event
-Thread-2 within node4 sent event (t=2555) to Node1
-Thread-2 executing received event (t = 2557) from Node2
 Thread within node4 executing local event
-Thread-1 within node4 sent event (t=2565) to Node5
-Thread-0 executing received event (t = 2580) from Node5
+Thread-3 within node4 sent event (t=2713) to Node2
 Thread within node4 executing local event
+Thread-1 executing received event (t = 2727) from Node2
 Thread within node4 executing local event
-Thread-2 within node4 sent event (t=2592) to Node2
-Thread-3 executing received event (t = 2596) from Node2
-Thread-0 executing received event (t = 2600) from Node5
-Thread-1 executing received event (t = 2602) from Node2
 Thread within node4 executing local event
+Thread-3 within node4 sent event (t=2739) to Node3
 Thread within node4 executing local event
-Thread-3 within node4 sent event (t=2616) to Node3
-Thread-0 executing received event (t = 2604) from Node2
 Thread within node4 executing local event
 Thread within node4 executing local event
+Thread-3 executing received event (t = 2775) from Node2
 Thread within node4 executing local event
-Thread-0 within node4 sent event (t=2632) to Node1
-Thread-0 executing received event (t = 2632) from Node2
-Thread-1 executing received event (t = 2638) from Node2
 Thread within node4 executing local event
-Thread-2 within node4 sent event (t=2646) to Node1
+Thread-2 within node4 sent event (t=2787) to Node2
+Thread-2 executing received event (t = 2791) from Node2
+Thread-3 executing received event (t = 2770) from Node5
 Thread within node4 executing local event
-Thread-1 within node4 sent event (t=2650) to Node3
-Thread-0 executing received event (t = 2667) from Node5
+Thread-1 within node4 sent event (t=2803) to Node2
+Thread-1 executing received event (t = 2815) from Node5
 Thread within node4 executing local event
-Thread-2 executing received event (t = 2702) from Node5
-Thread-3 executing received event (t = 2683) from Node3
 Thread within node4 executing local event
-Thread-0 within node4 sent event (t=2714) to Node5
+Thread-1 within node4 sent event (t=2827) to Node1
+Thread-0 executing received event (t = 2809) from Node2
+Thread-1 executing received event (t = 2845) from Node2
 Thread within node4 executing local event
-Thread-2 within node4 sent event (t=2718) to Node1
+Thread-2 within node4 sent event (t=2853) to Node2
 Thread within node4 executing local event
 Thread within node4 executing local event
-Thread-3 within node4 sent event (t=2722) to Node1
-Thread-0 within node4 sent event (t=2726) to Node2
+Thread-0 within node4 sent event (t=2861) to Node3
 Thread within node4 executing local event
-Thread-1 executing received event (t = 2704) from Node3
-Thread-2 executing received event (t = 2730) from Node2
 Thread within node4 executing local event
-Thread-2 within node4 sent event (t=2742) to Node2
+Thread-3 within node4 sent event (t=2869) to Node5
 Thread within node4 executing local event
-Thread-1 within node4 sent event (t=2746) to Node3
+Thread-2 within node4 sent event (t=2873) to Node1
+Thread-0 executing received event (t = 2901) from Node1
 Thread within node4 executing local event
-Thread-3 within node4 sent event (t=2750) to Node1
 Thread within node4 executing local event
-Thread-3 within node4 sent event (t=2754) to Node2
+Thread-3 executing received event (t = 2914) from Node5
+Thread-0 executing received event (t = 2888) from Node2
 Thread within node4 executing local event
-Thread-3 within node4 sent event (t=2758) to Node5
 Thread within node4 executing local event
+Thread-0 within node4 sent event (t=2930) to Node5
 Thread within node4 executing local event
-Thread-2 within node4 sent event (t=2766) to Node1
-Thread-2 executing received event (t = 2803) from Node5
 Thread within node4 executing local event
+Thread-1 within node4 sent event (t=2938) to Node5
 Thread within node4 executing local event
+Thread-3 within node4 sent event (t=2942) to Node5
 Thread within node4 executing local event
-Thread-0 within node4 sent event (t=2819) to Node5
-Thread-2 executing received event (t = 2790) from Node2
-Thread-3 executing received event (t = 2810) from Node1
 Thread within node4 executing local event
+Thread-1 within node4 sent event (t=2950) to Node1
+Thread-0 executing received event (t = 2993) from Node1
 Thread within node4 executing local event
+Thread-2 executing received event (t = 2999) from Node2
 Thread within node4 executing local event
 Thread within node4 executing local event
+Thread-3 within node4 sent event (t=3013) to Node2
 Thread within node4 executing local event
-Thread-2 within node4 sent event (t=2847) to Node2
-Thread-1 executing received event (t = 2858) from Node1
+Thread-2 within node4 sent event (t=3017) to Node3
 Thread within node4 executing local event
+Thread-1 within node4 sent event (t=3021) to Node1
 Thread within node4 executing local event
+Thread-1 within node4 sent event (t=3025) to Node2
 Thread within node4 executing local event
+Thread-1 within node4 sent event (t=3029) to Node5
 Thread within node4 executing local event
-Thread-2 executing received event (t = 2867) from Node1
-Thread-3 executing received event (t = 2836) from Node3
+Thread-2 executing received event (t = 3074) from Node5
 Thread within node4 executing local event
-Thread-1 executing received event (t = 2874) from Node1
-Thread-2 executing received event (t = 2899) from Node5
+Thread-3 within node4 sent event (t=3082) to Node1
 Thread within node4 executing local event
+Thread-1 executing received event (t = 3084) from Node1
+Thread-2 executing received event (t = 3066) from Node3
 Thread within node4 executing local event
+Thread-2 within node4 sent event (t=3098) to Node5
 Thread within node4 executing local event
-Thread-0 within node4 sent event (t=2915) to Node1
-Thread-2 executing received event (t = 2879) from Node2
-Thread-3 executing received event (t = 2888) from Node3
-Thread-0 executing received event (t = 2932) from Node5
+Thread-1 within node4 sent event (t=3102) to Node1
 Thread within node4 executing local event
-Thread-3 within node4 sent event (t=2940) to Node1
+Thread-2 executing received event (t = 3103) from Node3
 Thread within node4 executing local event
-Thread-2 within node4 sent event (t=2944) to Node1
-Thread-3 executing received event (t = 2943) from Node2
 Thread within node4 executing local event
-Thread-1 within node4 sent event (t=2952) to Node1
+Thread-1 executing received event (t = 3138) from Node5
+Thread-2 executing received event (t = 3105) from Node1
 Thread within node4 executing local event
+Thread-0 executing received event (t = 3106) from Node1
+Thread-1 executing received event (t = 3111) from Node2
 Thread within node4 executing local event
-Thread-0 within node4 sent event (t=2960) to Node1
-Thread-3 executing received event (t = 2999) from Node1
+Thread-3 executing received event (t = 3143) from Node5
 Thread within node4 executing local event
-Thread-2 within node4 sent event (t=3007) to Node1
 Thread within node4 executing local event
-Thread-1 within node4 sent event (t=3011) to Node5
+Thread-1 within node4 sent event (t=3174) to Node1
 Thread within node4 executing local event
-Thread-3 executing received event (t = 3032) from Node5
-Thread-0 executing received event (t = 3031) from Node1
+Thread-3 within node4 sent event (t=3178) to Node3
+Thread-3 executing received event (t = 3177) from Node1
+Thread-0 executing received event (t = 3153) from Node5
+Thread-1 executing received event (t = 3180) from Node2
 Thread within node4 executing local event
+Thread-0 within node4 sent event (t=3194) to Node1
+Thread-3 executing received event (t = 3195) from Node1
+Thread-0 executing received event (t = 3178) from Node5
 Thread within node4 executing local event
-Thread-1 within node4 sent event (t=3048) to Node1
+Thread-3 within node4 sent event (t=3207) to Node2
+Thread-2 executing received event (t = 3219) from Node3
 Thread within node4 executing local event
+Thread-2 within node4 sent event (t=3227) to Node1
 Thread within node4 executing local event
-Thread-2 within node4 sent event (t=3056) to Node5
+Thread-1 within node4 sent event (t=3231) to Node1
 Thread within node4 executing local event
+Thread-2 executing received event (t = 3233) from Node2
 Thread within node4 executing local event
-Thread-2 within node4 sent event (t=3064) to Node1
+Thread-0 within node4 sent event (t=3243) to Node1
+Thread-0 executing received event (t = 3282) from Node1
 Thread within node4 executing local event
+Thread-1 within node4 sent event (t=3290) to Node1
 Thread within node4 executing local event
-Thread-0 within node4 sent event (t=3068) to Node2
+Thread-3 within node4 sent event (t=3294) to Node5
 Thread within node4 executing local event
-Thread-2 executing received event (t = 3100) from Node1
-Thread-0 within node4 sent event (t=3076) to Node3
+Thread-0 executing received event (t = 3292) from Node1
 Thread within node4 executing local event
-Thread-1 within node4 sent event (t=3108) to Node5
-Thread-0 executing received event (t = 3096) from Node3
 Thread within node4 executing local event
+Thread-1 within node4 sent event (t=3310) to Node5
 Thread within node4 executing local event
-Thread-3 executing received event (t = 3105) from Node3
-Thread-0 executing received event (t = 3134) from Node5
+Thread-1 within node4 sent event (t=3314) to Node2
 Thread within node4 executing local event
-Thread-0 within node4 sent event (t=3142) to Node5
+Thread-1 executing received event (t = 3335) from Node3
 Thread within node4 executing local event
-Thread-3 within node4 sent event (t=3146) to Node3
 Thread within node4 executing local event
-Thread-3 within node4 sent event (t=3150) to Node2
-Thread-0 executing received event (t = 3125) from Node1
-Thread-1 executing received event (t = 3154) from Node2
-Thread-2 executing received event (t = 3177) from Node5
 Thread within node4 executing local event
 Thread within node4 executing local event
-Thread-1 executing received event (t = 3187) from Node5
+Thread-1 within node4 sent event (t=3355) to Node3
 Thread within node4 executing local event
-Thread-2 within node4 sent event (t=3197) to Node3
-Thread-3 executing received event (t = 3174) from Node2
+Thread-2 within node4 sent event (t=3359) to Node1
 Thread within node4 executing local event
-Thread-1 executing received event (t = 3180) from Node1
-Thread-2 executing received event (t = 3202) from Node5
+Thread-2 within node4 sent event (t=3363) to Node3
+Thread-0 executing received event (t = 3369) from Node3
 Thread within node4 executing local event
+Thread-3 within node4 sent event (t=3377) to Node5
+Thread-2 executing received event (t = 3387) from Node5
+Thread-3 executing received event (t = 3407) from Node5
 Thread within node4 executing local event
-Thread-1 executing received event (t = 3230) from Node3
-Thread-2 executing received event (t = 3248) from Node5
+Thread-3 within node4 sent event (t=3415) to Node2
 Thread within node4 executing local event
-Thread-0 executing received event (t = 3253) from Node5
-Thread-1 executing received event (t = 3196) from Node2
+Thread-2 executing received event (t = 3390) from Node3
 Thread within node4 executing local event
-Thread-2 within node4 sent event (t=3268) to Node5
-Thread-3 executing received event (t = 3283) from Node5
+Thread-3 within node4 sent event (t=3427) to Node2
 Thread within node4 executing local event
+Thread-1 executing received event (t = 3427) from Node5
 Thread within node4 executing local event
-Thread-2 executing received event (t = 3242) from Node2
-Thread-3 executing received event (t = 3251) from Node3
-Thread-0 executing received event (t = 3313) from Node5
+Thread-0 within node4 sent event (t=3439) to Node2
 Thread within node4 executing local event
+Thread-0 executing received event (t = 3449) from Node2
+Thread-1 executing received event (t = 3465) from Node5
 Thread within node4 executing local event
-Thread-1 within node4 sent event (t=3325) to Node5
 Thread within node4 executing local event
+Thread-0 executing received event (t = 3453) from Node2
+Thread-1 executing received event (t = 3458) from Node3
 Thread within node4 executing local event
+Thread-2 within node4 sent event (t=3489) to Node2
 Thread within node4 executing local event
+Thread-1 within node4 sent event (t=3493) to Node1
+Thread-0 executing received event (t = 3493) from Node2
 Thread within node4 executing local event
-Thread-1 within node4 sent event (t=3341) to Node1
 Thread within node4 executing local event
+Thread-1 within node4 sent event (t=3505) to Node5
 Thread within node4 executing local event
+Thread-2 within node4 sent event (t=3509) to Node5
 Thread within node4 executing local event
+Thread-1 executing received event (t = 3523) from Node2
+Thread-3 within node4 sent event (t=3513) to Node5
 Thread within node4 executing local event
 Thread within node4 executing local event
-Thread-2 within node4 sent event (t=3361) to Node5
 Thread within node4 executing local event
+Thread-1 within node4 sent event (t=3539) to Node5
 Thread within node4 executing local event
 Thread within node4 executing local event
-Thread-3 executing received event (t = 3417) from Node5
-Thread-0 executing received event (t = 3358) from Node1
-Thread-1 executing received event (t = 3424) from Node1
+Thread-0 within node4 sent event (t=3547) to Node5
+Thread-3 executing received event (t = 3566) from Node5
+Thread-0 executing received event (t = 3555) from Node1
 Thread within node4 executing local event
 Thread within node4 executing local event
-Thread-1 within node4 sent event (t=3437) to Node5
 Thread within node4 executing local event
+Thread-1 within node4 sent event (t=3586) to Node1
 Thread within node4 executing local event
+Thread-1 executing received event (t = 3593) from Node3
+Thread-2 executing received event (t = 3588) from Node1
 Thread within node4 executing local event
 Thread within node4 executing local event
-Thread-2 within node4 sent event (t=3453) to Node5
-Thread-1 within node4 sent event (t=3449) to Node5
 Thread within node4 executing local event
+Thread-2 within node4 sent event (t=3613) to Node5
 Thread within node4 executing local event
+Thread-3 executing received event (t = 3603) from Node2
 Thread within node4 executing local event
-Thread-0 within node4 sent event (t=3465) to Node1
 Thread within node4 executing local event
+Thread-1 within node4 sent event (t=3629) to Node5
 Thread within node4 executing local event
-Thread-1 executing received event (t = 3453) from Node2
-Thread-2 executing received event (t = 3497) from Node1
-Thread-3 executing received event (t = 3493) from Node5
+Thread-3 within node4 sent event (t=3633) to Node3
 Thread within node4 executing local event
-Thread-0 within node4 sent event (t=3509) to Node5
+Thread-3 within node4 sent event (t=3637) to Node5
+Thread-0 executing received event (t = 3639) from Node3
+Thread-1 executing received event (t = 3649) from Node5
 Thread within node4 executing local event
-Thread-2 executing received event (t = 3465) from Node2
-Thread-3 executing received event (t = 3523) from Node5
 Thread within node4 executing local event
-Thread-1 executing received event (t = 3548) from Node5
+Thread-1 within node4 sent event (t=3661) to Node5
 Thread within node4 executing local event
-Thread-3 within node4 sent event (t=3556) to Node5
 Thread within node4 executing local event
-Thread-0 executing received event (t = 3473) from Node2
+Thread-0 within node4 sent event (t=3669) to Node5
 Thread within node4 executing local event
+Thread-1 within node4 sent event (t=3673) to Node1
+Thread-3 executing received event (t = 3654) from Node2
 Thread within node4 executing local event
+Thread-3 within node4 sent event (t=3681) to Node2
 Thread within node4 executing local event
-Thread-1 within node4 sent event (t=3572) to Node2
+Thread-2 within node4 sent event (t=3685) to Node5
 Thread within node4 executing local event
-Thread-1 within node4 sent event (t=3580) to Node1
+Thread-0 within node4 sent event (t=3689) to Node5
 Thread within node4 executing local event
-Thread-1 within node4 sent event (t=3584) to Node5
-Thread-2 executing received event (t = 3610) from Node2
 Thread within node4 executing local event
-Thread-0 within node4 sent event (t=3618) to Node1
+Thread-1 executing received event (t = 3676) from Node1
 Thread within node4 executing local event
+Thread-3 executing received event (t = 3660) from Node3
 Thread within node4 executing local event
-Thread-3 within node4 sent event (t=3622) to Node5
-Thread-2 executing received event (t = 3618) from Node2
+Thread-1 executing received event (t = 3716) from Node5
 Thread within node4 executing local event
 Thread within node4 executing local event
-Thread-1 within node4 sent event (t=3638) to Node1
 Thread within node4 executing local event
-Thread-3 within node4 sent event (t=3642) to Node3
-Thread-2 executing received event (t = 3659) from Node1
 Thread within node4 executing local event
-Thread-1 within node4 sent event (t=3667) to Node3
+Thread-0 within node4 sent event (t=3732) to Node2
+Thread-2 executing received event (t = 3690) from Node3
 Thread within node4 executing local event
-Thread-1 executing received event (t = 3673) from Node3
 Thread within node4 executing local event
+Thread-3 within node4 sent event (t=3748) to Node5
+Thread-1 executing received event (t = 3742) from Node2
 Thread within node4 executing local event
-Thread-0 within node4 sent event (t=3681) to Node2
-Thread-3 within node4 sent event (t=3685) to Node2
+Thread-0 within node4 sent event (t=3756) to Node1
 Thread within node4 executing local event
 Thread within node4 executing local event
-Thread-1 within node4 sent event (t=3693) to Node3
+Thread-2 within node4 sent event (t=3760) to Node5
 Thread within node4 executing local event
-Thread-3 within node4 sent event (t=3697) to Node3
+Thread-1 within node4 sent event (t=3768) to Node3
 Thread within node4 executing local event
-Thread-1 within node4 sent event (t=3701) to Node2
+Thread-3 within node4 sent event (t=3772) to Node1
+Thread-3 executing received event (t = 3773) from Node5
 Thread within node4 executing local event
-Thread-0 within node4 sent event (t=3705) to Node1
+Thread-0 within node4 sent event (t=3781) to Node3
 Thread within node4 executing local event
+Thread-2 within node4 sent event (t=3785) to Node3
+Thread-2 executing received event (t = 3754) from Node2
 Thread within node4 executing local event
-Thread-3 executing received event (t = 3720) from Node2
-Thread-0 executing received event (t = 3732) from Node5
 Thread within node4 executing local event
-Thread-0 within node4 sent event (t=3740) to Node1
+Thread-3 within node4 sent event (t=3797) to Node2
 Thread within node4 executing local event
-Thread-3 within node4 sent event (t=3744) to Node2
-Thread-3 executing received event (t = 3748) from Node2
+Thread-1 within node4 sent event (t=3801) to Node2
 Thread within node4 executing local event
 Thread within node4 executing local event
-Thread-1 within node4 sent event (t=3760) to Node2
+Thread-3 within node4 sent event (t=3809) to Node3
 Thread within node4 executing local event
-Thread-3 executing received event (t = 3766) from Node2
+Thread-2 within node4 sent event (t=3813) to Node3
 Thread within node4 executing local event
+Thread-1 within node4 sent event (t=3817) to Node2
 Thread within node4 executing local event
-Thread-2 executing received event (t = 3768) from Node2
-Thread-1 within node4 sent event (t=3778) to Node1
+Thread-3 within node4 sent event (t=3821) to Node1
 Thread within node4 executing local event
 Thread within node4 executing local event
 Thread within node4 executing local event
-Thread-2 executing received event (t = 3776) from Node2
 Thread within node4 executing local event
+Thread-3 within node4 sent event (t=3837) to Node1
 Thread within node4 executing local event
-Thread-1 within node4 sent event (t=3806) to Node3
+Thread-2 within node4 sent event (t=3841) to Node2
+Thread-0 executing received event (t = 3845) from Node2
 Thread within node4 executing local event
-Thread-0 within node4 sent event (t=3810) to Node5
 Thread within node4 executing local event
-Thread-3 executing received event (t = 3784) from Node2
+Thread-3 within node4 sent event (t=3857) to Node2
 Thread within node4 executing local event
-Thread-0 within node4 sent event (t=3822) to Node1
 Thread within node4 executing local event
-Thread-1 within node4 sent event (t=3826) to Node5
 Thread within node4 executing local event
-Thread-1 within node4 sent event (t=3830) to Node5
 Thread within node4 executing local event
-Thread-1 within node4 sent event (t=3834) to Node1
+Thread-3 within node4 sent event (t=3873) to Node3
 Thread within node4 executing local event
-Thread-1 within node4 sent event (t=3838) to Node1
+Thread within node4 executing local event
+Thread within node4 executing local event
+Thread within node4 executing local event
+Thread within node4 executing local event
+Thread within node4 executing local event
+Thread within node4 executing local event
+Thread-3 within node4 sent event (t=3901) to Node5
+Thread within node4 executing local event
+Thread-3 executing received event (t = 3877) from Node2
+Thread-0 executing received event (t = 3885) from Node2
 
 === Node 4 Statistics ===
-Total events processed: 609
-Messages sent: 214
-Messages reeived: 209
-Execution time = 10622 ms
-Final Lamport time: 3838
-Counter 0 value: 152
-Counter 1 value: 153
-Counter 2 value: 158
-Counter 3 value: 146
+Total events processed: 601
+Messages sent: 207
+Messages reeived: 201
+Execution time = 10412 ms
+Final Lamport time: 3913
+Counter 0 value: 146
+Counter 1 value: 154
+Counter 2 value: 152
+Counter 3 value: 149

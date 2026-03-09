@@ -5,11 +5,9 @@ public class OptimizationRunner {
 	private static final int[] THREAD_COUNTS = {2, 4, 8, 16};
 	private static final int[] EVENT_COUNTS = {100, 500, 1000};
 	private static final String[] OPTIMIZATIONS = {
-		"baseline",
-		"executor",
-		"padded_counter",
-		"virtual_threads",
-		"combined"
+		"baseline",		
+		"padded",
+		"virtual"
 	};
 
 	public static void main(String[] args) throws Exception {
@@ -19,7 +17,7 @@ public class OptimizationRunner {
 		for (String opt : OPTIMIZATIONS) {
 			for (int threads : THREAD_COUNTS) {
 				for (int events : EVENT_COUNTS) {
-					System.out.println("\n=== Runnint: " + opt + " with " + threads + " threads, " + events + " events ===");
+					System.out.println("\n=== Running: " + opt + " with " + threads + " threads, " + events + " events ===");
 
 					// Run the experiment
 					List<Metrics> metrics = runExperiment(opt, threads, events);
@@ -37,13 +35,11 @@ public class OptimizationRunner {
 
 	private static List<Metrics> runExperiment(String optimization, int numThreads, int numEvents) throws Exception {
 		// Kill any existing processes
-		Runtime.getRuntime().exec("./stop.sh").waitFor();
+		Runtime.getRuntime().exec(new String[]{"bash", "./stop.sh"}).waitFor();
 		Thread.sleep(2000);
 
-		Runtime.getRuntime().exec("javac *.java").waitFor();
-
 		// Start nodes with modified code
-		ProcessBuilder pb = new ProcessBuilder("./run-" + optimization + ".sh");
+		ProcessBuilder pb = new ProcessBuilder("bash", "./run-" + optimization + ".sh");
 		Process process = pb.start();
 
 		// Wait for completion

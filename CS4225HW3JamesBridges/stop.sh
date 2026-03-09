@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 echo "Stopping all Java Node processes..."
 pkill -f "java Node"
