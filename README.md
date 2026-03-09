@@ -58,6 +58,7 @@ tail -f node*-virtual.log
 
 # Stop all nodes
 ./stop.sh
+```
 
 # Run automated experiments
 java OptimizationRunner
