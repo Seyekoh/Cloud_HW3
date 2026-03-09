@@ -10,6 +10,7 @@ public class Node {
 	private final LamportClock clock;
 	private final List<Counter> counters;
 	private final List<Socket> connections = new ArrayList<>();
+	private final List<Thread> workerThreads = new ArrayList<>();
 
 	private ServerSocket serverSocket;
 
@@ -43,17 +44,11 @@ public class Node {
 			serverSocket = new ServerSocket(port);
 			System.out.println("Node " + nodeId + " listening on port " + port);
 
-			// Start thread to accept connections from other nodes
-			Thread acceptThread = new Thread(this::acceptConnections);
-			acceptThread.start();
+			// Create and start worker threads
+			startWorkerThreads();
 
-			// Connect to other nodes
-			connectToOtherNodes();
-
-			// TODO: Start even processor threads
-
-			// Keep main thread alive
-			Thread.currentThread().join();
+			// Accept connections from other nodes
+			acceptConnections();
 
 		} catch (Exception e) {
 			System.err.println("Node " + nodeId + " error: " + e.getMessage());
@@ -61,19 +56,39 @@ public class Node {
 		}
 	}
 
+	private void startWorkerThreads() {
+		System.out.println("Node " + nodeId + " starting " + numThreads + " worker threads");
+
+		for (int i = 0; i < numThreads; i++) {
+			final int threadId = i;
+			Thread thread = new Thread(() -> {
+				// Simple logging to verify thread is running
+				System.out.println("Thread-" + threadId + " within node" + nodeId + " started");
+
+				while (true) {
+					try {
+						Thread.sleep(1000);
+						// Just log periodically to show it's alive
+						System.out.println("Thread-" + threadId + " within node" + nodeId + " is alive");
+					} catch (InterruptedException e) {
+						break;
+					}
+				}
+			});
+
+			thread.setName("Node" + nodeId + "-worker-" + i);
+			workerThreads.add(thread);
+			thread.start();
+		}
+
+		System.out.println("Node " + nodeId + " all worker threads started");
+	}
+
 	private void acceptConnections() {
 		while (true) {
 			try {
 				Socket clientSocket = serverSocket.accept();
-				synchronized(connections) {
-					connections.add(clientSocket);
-				}
 				System.out.println("Node " + nodeId + " accepted connection from " + clientSocket.getInetAddress() + ":" + clientSocket.getPort());
-
-				// Start a thread to handle messages from this connection
-				Thread handlerThread = new Thread(() -> handleClientMessages(clientSocket));
-				handlerThread.start();
-
 			} catch (Exception e) {
 				System.err.println("Node " + nodeId + " accept error: " + e.getMessage());
 			}
