@@ -22,7 +22,7 @@ public class NodePadded extends Node {
 
 	@Override
 	protected void startWorkerThreads() {
-		System.out.println("Node " + nodeId + " starting " + numThreads + " worder threads with PaddedCounter");
+		System.out.println("Node " + nodeId + " starting " + numThreads + " worker threads with PaddedCounter");
 
 		for (int i = 0; i < numThreads; i++) {
 			final int threadId = i;

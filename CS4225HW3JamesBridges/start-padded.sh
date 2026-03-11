@@ -9,7 +9,7 @@ rm -f node*-padded.log
 
 # Start all 5 nodes with PaddedCounter
 for id in {1..5}; do
-	echo "Starting Node $is with PaddedCounter..."
+	echo "Starting Node $id with PaddedCounter..."
 	java NodePadded $id > "node${id}-padded.log" 2>&1 &
 
 	# Small delay to ensure nodes start in order

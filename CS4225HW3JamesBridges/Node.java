@@ -83,7 +83,7 @@ public class Node {
 			System.out.println("\n=== Node " + nodeId + " Statistics ===");
 			System.out.println("Total events processed: " + totalEvents.get());
 			System.out.println("Messages sent: " + messagesSent.get());
-			System.out.println("Messages reeived: " + messagesReceived.get());
+			System.out.println("Messages received: " + messagesReceived.get());
 			System.out.println("Execution time = " + executionTime + " ms");
 			System.out.println("Final Lamport time: " + clock.getTime());
 

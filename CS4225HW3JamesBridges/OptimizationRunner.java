@@ -6,6 +6,7 @@ public class OptimizationRunner {
 	private static final int[] EVENT_COUNTS = {100, 500, 1000};
 	private static final String[] OPTIMIZATIONS = {
 		"baseline",		
+		"executor",
 		"padded",
 		"virtual"
 	};
@@ -23,7 +24,15 @@ public class OptimizationRunner {
 					List<Metrics> metrics = runExperiment(opt, threads, events);
 					allMetrics.addAll(metrics);
 
+					// Quick summary
+					double avgThroughput = metrics.stream()
+						.mapToDouble(Metrics::getThroughput)
+						.average()
+						.orElse(0);
+					System.out.println("<<< " + opt + " complete. Avg throughput: " + String.format("%.2f", avgThroughput) + " events/sec");
+
 					// Wait between runs
+					System.out.println("Waiting 5 seconds before next run...");
 					Thread.sleep(5000);
 				}
 			}
@@ -55,13 +64,33 @@ public class OptimizationRunner {
 		List<Metrics> metrics = new ArrayList<>();
 
 		for (int nodeId = 1; nodeId <= 5; nodeId++) {
-			File logFile = new File("node" + nodeId + ".log");
-			if (!logFile.exists()) continue;
+			// Determine log file name based on optimization
+			String logFileName = "node" + nodeId;
+
+			switch (optimization) {
+				case "executor":
+					logFileName += "-executor.log";
+					break;
+				case "padded":
+					logFileName += "-padded.log";
+					break;
+				case "virtual":
+					logFileName += "-padded.log";
+					break;
+				default:
+					logFileName += ".log";
+					break;
+			}
+
+			File logFile = new File(logFileName);
+			if (!logFile.exists()) {
+				System.err.println("Warning: Log file not found: " + logFileName);
+				continue;
+			}
 
 			try (BufferedReader reader = new BufferedReader(new FileReader(logFile))) {
 				String line;
-				long startTime = 0;
-				long endTime = 0;
+				long executionTime = 0;
 				long totalEvents = 0;
 				int msgSent = 0;
 				int msgReceived = 0;
@@ -69,30 +98,40 @@ public class OptimizationRunner {
 				List<Long> counterValues = new ArrayList<>();
 
 				while ((line = reader.readLine()) != null) {
-					if (line.contains("Execution time=")) {
+					if (line.contains("Execution time =")) {
 						String[] parts = line.split("=");
-						endTime = Long.parseLong(parts[1].trim().replace("ms", "").trim());
+						String timeStr = parts[1].trim().replace("ms", "").trim();
+						executionTime = Long.parseLong(timeStr);
 					} else if (line.contains("Total events processed:")) {
-						totalEvents = Long.parseLong(line.split(":")[1].trim());
-					} else if (line.contains("Messages sent:")) {
-						msgSent = Integer.parseInt(line.split(":")[1].trim());
-					} else if (line.contains("Messages received:")) {
-						msgReceived = Integer.parseInt(line.split(":")[1].trim());
-					} else if (line.contains("Final Lamport time:")) {
-						finalLamport = Integer.parseInt(line.split(":")[1].trim());
-					} else if (line.contains("Counter")) {
 						String[] parts = line.split(":");
-						counterValues.add(Long.parseLong(parts[1].trim()));
+						totalEvents = Long.parseLong(parts[1].trim());
+					} else if (line.contains("Messages sent:")) {
+						String[] parts = line.split(":");
+						msgSent = Integer.parseInt(parts[1].trim());
+					} else if (line.contains("Messages received:")) {
+						String[] parts = line.split(":");
+						msgReceived = Integer.parseInt(parts[1].trim());
+					} else if (line.contains("Final Lamport time:")) {
+						String[] parts = line.split(":");
+						finalLamport = Integer.parseInt(parts[1].trim());
+					} else if (line.contains("Counter") || line.contains("PaddedCounter")) {
+						String[] parts = line.split(":");
+						if (parts.length >= 2) {
+							counterValues.add(Long.parseLong(parts[1].trim()));
+						}
 					}
 				}
 
-				startTime = System.currentTimeMillis() - endTime;
+				long currentTime = System.currentTimeMillis(); 
+				long calculatedStartTime = currentTime - executionTime;
 
 				metrics.add(new Metrics(
-						String.valueOf(nodeId), optimization, startTime, 
-						System.currentTimeMillis(), totalEvents, msgSent,
+						String.valueOf(nodeId), optimization, calculatedStartTime, 
+						currentTime, totalEvents, msgSent,
 						msgReceived, finalLamport, counterValues
 				));
+
+				System.out.println("Parsed node " + nodeId + ": execTime = " + executionTime + "ms, events = " + totalEvents);
 			}
 		}
 
