@@ -75,7 +75,7 @@ public class OptimizationRunner {
 					logFileName += "-padded.log";
 					break;
 				case "virtual":
-					logFileName += "-padded.log";
+					logFileName += "-virtual.log";
 					break;
 				default:
 					logFileName += ".log";
